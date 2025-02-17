@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF124</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T10:47:26.4949941+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_MEASURE(1.8)" agencyID="IT1" version="1.8" isFinal="true">
+        <common:Name xml:lang="it">Misure statistiche di diffusione dei dati</common:Name>
+        <common:Name xml:lang="en">Statistical measures for data dissemination</common:Name>
+        <common:Description xml:lang="it">OS: operatore statistico</common:Description>
+        <common:Description xml:lang="en">OS: statistical operator</common:Description>
+        <structure:Code id="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).1">
+          <common:Name xml:lang="it">valori percentuali</common:Name>
+          <common:Name xml:lang="en">percentage values</common:Name>
+        </structure:Code>
+        <structure:Code id="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).2">
+          <common:Name xml:lang="it">differenze congiunturali in punti percentuali</common:Name>
+          <common:Name xml:lang="en">absolute change on the previous period</common:Name>
+        </structure:Code>
+        <structure:Code id="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).3">
+          <common:Name xml:lang="it">differenze tendenziali in punti percentuali</common:Name>
+          <common:Name xml:lang="en">absolute change on the same period of the previous year</common:Name>
+        </structure:Code>
+        <structure:Code id="4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).4">
+          <common:Name xml:lang="it">numero indice</common:Name>
+          <common:Name xml:lang="en">index number</common:Name>
+        </structure:Code>
+        <structure:Code id="5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).5">
+          <common:Name xml:lang="it">indici concatenati</common:Name>
+          <common:Name xml:lang="en">chain index</common:Name>
+        </structure:Code>
+        <structure:Code id="6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).6">
+          <common:Name xml:lang="it">variazioni percentuali congiunturali</common:Name>
+          <common:Name xml:lang="en">percentage changes on the previous period</common:Name>
+        </structure:Code>
+        <structure:Code id="7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).7">
+          <common:Name xml:lang="it">variazioni percentuali tendenziali</common:Name>
+          <common:Name xml:lang="en">percentage changes on the same period of the previous year</common:Name>
+        </structure:Code>
+        <structure:Code id="8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).8">
+          <common:Name xml:lang="it">variazioni percentuali medie annue</common:Name>
+          <common:Name xml:lang="en">annual average rate of change</common:Name>
+        </structure:Code>
+        <structure:Code id="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).9">
+          <common:Name xml:lang="it">valori assoluti</common:Name>
+          <common:Name xml:lang="en">absolute values</common:Name>
+        </structure:Code>
+        <structure:Code id="10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).10">
+          <common:Name xml:lang="it">valori per cento</common:Name>
+          <common:Name xml:lang="en">per hundred values</common:Name>
+        </structure:Code>
+        <structure:Code id="11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).11">
+          <common:Name xml:lang="it">valori per mille</common:Name>
+          <common:Name xml:lang="en">per thousand values</common:Name>
+        </structure:Code>
+        <structure:Code id="12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).12">
+          <common:Name xml:lang="it">valori per centomila</common:Name>
+          <common:Name xml:lang="en">per hundred thousand values</common:Name>
+        </structure:Code>
+        <structure:Code id="13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).13">
+          <common:Name xml:lang="it">valori per diecimila</common:Name>
+          <common:Name xml:lang="en">per ten thousand values</common:Name>
+        </structure:Code>
+        <structure:Code id="14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).14">
+          <common:Name xml:lang="it">valori per unità del collettivo del denominatore</common:Name>
+          <common:Name xml:lang="en">per unit values of the denominator of the collective</common:Name>
+        </structure:Code>
+        <structure:Code id="15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).15">
+          <common:Name xml:lang="it">valori medi</common:Name>
+          <common:Name xml:lang="en">average values</common:Name>
+        </structure:Code>
+        <structure:Code id="16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).16">
+          <common:Name xml:lang="it">indice di gini</common:Name>
+          <common:Name xml:lang="en">gini concentration index</common:Name>
+        </structure:Code>
+        <structure:Code id="17" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).17">
+          <common:Name xml:lang="it">rapporto interdecilico</common:Name>
+          <common:Name xml:lang="en">s80/s20 quintile share ratio</common:Name>
+        </structure:Code>
+        <structure:Code id="18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).18">
+          <common:Name xml:lang="it">periodo singolo</common:Name>
+          <common:Name xml:lang="en">single period</common:Name>
+        </structure:Code>
+        <structure:Code id="19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).19">
+          <common:Name xml:lang="it">periodo cumulato</common:Name>
+          <common:Name xml:lang="en">cumulative period</common:Name>
+        </structure:Code>
+        <structure:Code id="20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).20">
+          <common:Name xml:lang="it">per 100 persone con le stesse caratteristiche</common:Name>
+          <common:Name xml:lang="en">per 100 people with the same characteristics</common:Name>
+        </structure:Code>
+        <structure:Code id="21" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).21">
+          <common:Name xml:lang="it">saldo</common:Name>
+          <common:Name xml:lang="en">balance</common:Name>
+        </structure:Code>
+        <structure:Code id="22" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).22">
+          <common:Name xml:lang="it">frequenza di risposta</common:Name>
+          <common:Name xml:lang="en">frequency of reply</common:Name>
+        </structure:Code>
+        <structure:Code id="23" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).23">
+          <common:Name xml:lang="it">medie annue</common:Name>
+          <common:Name xml:lang="en">annual average</common:Name>
+        </structure:Code>
+        <structure:Code id="24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).24">
+          <common:Name xml:lang="it">pesi</common:Name>
+          <common:Name xml:lang="en">weights</common:Name>
+        </structure:Code>
+        <structure:Code id="25" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).25">
+          <common:Name xml:lang="it">valore</common:Name>
+          <common:Name xml:lang="en">value</common:Name>
+        </structure:Code>
+        <structure:Code id="26" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).26">
+          <common:Name xml:lang="it">massa netta</common:Name>
+          <common:Name xml:lang="en">net weight</common:Name>
+        </structure:Code>
+        <structure:Code id="27" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).27">
+          <common:Name xml:lang="it">per famiglie con le stesse caratteristiche</common:Name>
+          <common:Name xml:lang="en">per household with same characteristics</common:Name>
+        </structure:Code>
+        <structure:Code id="28" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).28">
+          <common:Name xml:lang="it">per 100 famiglie appartenenti allo stesso quinto di reddito equivalente</common:Name>
+          <common:Name xml:lang="en">per 100 households who belong to the same fifth of equivalent household income</common:Name>
+        </structure:Code>
+        <structure:Code id="29" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).29">
+          <common:Name xml:lang="it">percentuale sul totale delle imposte e contributi sociali</common:Name>
+          <common:Name xml:lang="en">in percent of total revenue from taxes and social contributions</common:Name>
+        </structure:Code>
+        <structure:Code id="30" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).30">
+          <common:Name xml:lang="it">percentuale sul PIL</common:Name>
+          <common:Name xml:lang="en">in percent of GDP</common:Name>
+        </structure:Code>
+        <structure:Code id="ratio" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).ratio">
+          <common:Name xml:lang="it">rapporto, tasso, quoziente</common:Name>
+          <common:Name xml:lang="en">ratio, rate</common:Name>
+        </structure:Code>
+        <structure:Code id="perc_cond" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).perc_cond">
+          <common:Name xml:lang="it">per 100 unità con le stesse caratteristiche</common:Name>
+          <common:Name xml:lang="en">per 100 units with the same characteristics</common:Name>
+        </structure:Code>
+        <structure:Code id="tot_var" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).tot_var">
+          <common:Name xml:lang="it">totale di variabile (somma dei valori della variabile rispetto alle unità della popolazione di riferimento)</common:Name>
+          <common:Name xml:lang="en">sum of the observed values on the reference units</common:Name>
+        </structure:Code>
+        <structure:Code id="PER100M_INHAB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).PER100M_INHAB">
+          <common:Name xml:lang="it">valori per 100.000 abitanti</common:Name>
+          <common:Name xml:lang="en">per 100,000 population</common:Name>
+        </structure:Code>
+        <structure:Code id="DIF_PER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_MEASURE(1.8).DIF_PER">
+          <common:Name xml:lang="it">differenza tra percentuali</common:Name>
+          <common:Name xml:lang="en">differenze tra percentuali</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

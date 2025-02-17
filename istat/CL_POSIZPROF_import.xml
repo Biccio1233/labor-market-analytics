@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF67</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T09:55:49.234354+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_POSIZPROF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_POSIZPROF(1.9)" agencyID="IT1" version="1.9" isFinal="true">
+        <common:Name xml:lang="it">Posizione professionale</common:Name>
+        <common:Name xml:lang="en">Professional status</common:Name>
+        <structure:Code id="Z" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).Z">
+          <common:Name xml:lang="it">non applicabile</common:Name>
+          <common:Name xml:lang="en">not applicable</common:Name>
+        </structure:Code>
+        <structure:Code id="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).3">
+          <common:Name xml:lang="it">dipendenti a tempo indeterminato</common:Name>
+          <common:Name xml:lang="en">employees on a regular basis</common:Name>
+        </structure:Code>
+        <structure:Code id="13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).13">
+          <common:Name xml:lang="it">borsa di studio, borsa di lavoro</common:Name>
+          <common:Name xml:lang="en">scholarship or  work experience grant</common:Name>
+        </structure:Code>
+        <structure:Code id="7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).7">
+          <common:Name xml:lang="it">autonomi</common:Name>
+          <common:Name xml:lang="en">self-employed workers</common:Name>
+        </structure:Code>
+        <structure:Code id="8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).8">
+          <common:Name xml:lang="it">non ha preferenze</common:Name>
+          <common:Name xml:lang="en">no preferences</common:Name>
+        </structure:Code>
+        <structure:Code id="6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).6">
+          <common:Name xml:lang="it">borsisti o assegnisti di ricerca</common:Name>
+          <common:Name xml:lang="en">scholarship owners</common:Name>
+        </structure:Code>
+        <structure:Code id="11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).11">
+          <common:Name xml:lang="it">non lavorano</common:Name>
+          <common:Name xml:lang="en">not working persons</common:Name>
+        </structure:Code>
+        <structure:Code id="4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).4">
+          <common:Name xml:lang="it">dipendenti a tempo determinato</common:Name>
+          <common:Name xml:lang="en">employees on a temporary basis</common:Name>
+        </structure:Code>
+        <structure:Code id="15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).15">
+          <common:Name xml:lang="it">corso di formazione professionale o di aggiornamento retribuito</common:Name>
+          <common:Name xml:lang="en">paid vocational training or upgrade</common:Name>
+        </structure:Code>
+        <structure:Code id="NAP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).NAP">
+          <common:Name xml:lang="it">non applicabile</common:Name>
+          <common:Name xml:lang="en">not applicable</common:Name>
+        </structure:Code>
+        <structure:Code id="5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).5">
+          <common:Name xml:lang="it">co.co.co o prestatori d'opera occasionale</common:Name>
+          <common:Name xml:lang="en">occasional services workers</common:Name>
+        </structure:Code>
+        <structure:Code id="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).2">
+          <common:Name xml:lang="it">indipendenti</common:Name>
+          <common:Name xml:lang="en">self-employed</common:Name>
+        </structure:Code>
+        <structure:Code id="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).1">
+          <common:Name xml:lang="it">dipendenti</common:Name>
+          <common:Name xml:lang="en">employees</common:Name>
+        </structure:Code>
+        <structure:Code id="10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).10">
+          <common:Name xml:lang="it">non borsisti o assegnisti di ricerca</common:Name>
+          <common:Name xml:lang="en">not scholarship owners</common:Name>
+        </structure:Code>
+        <structure:Code id="12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).12">
+          <common:Name xml:lang="it">lavoro dipendente a tempo determinato o senza contratto</common:Name>
+          <common:Name xml:lang="en">fixed-term employment or with no contract</common:Name>
+        </structure:Code>
+        <structure:Code id="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).9">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+        <structure:Code id="14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_POSIZPROF(1.9).14">
+          <common:Name xml:lang="it">stage, tirocinio, praticantato (incluso servizio civile volontario)</common:Name>
+          <common:Name xml:lang="en">stage, internship or training practice</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

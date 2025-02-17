@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF68</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T09:55:49.8739552+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_SEXISTAT1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_SEXISTAT1(2.0)" agencyID="IT1" version="2.0" isFinal="true">
+        <common:Name xml:lang="it">Sesso</common:Name>
+        <common:Name xml:lang="en">Gender</common:Name>
+        <structure:Code id="T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).T">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+        <structure:Code id="F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).F">
+          <common:Name xml:lang="it">femmine</common:Name>
+          <common:Name xml:lang="en">females</common:Name>
+        </structure:Code>
+        <structure:Code id="M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).M">
+          <common:Name xml:lang="it">maschi</common:Name>
+          <common:Name xml:lang="en">males</common:Name>
+        </structure:Code>
+        <structure:Code id="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).1">
+          <common:Name xml:lang="it">maschi</common:Name>
+          <common:Name xml:lang="en">males</common:Name>
+        </structure:Code>
+        <structure:Code id="NRP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).NRP">
+          <common:Name xml:lang="it">non indicato</common:Name>
+          <common:Name xml:lang="en">no responce</common:Name>
+        </structure:Code>
+        <structure:Code id="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).3">
+          <common:Name xml:lang="it">non indicato</common:Name>
+          <common:Name xml:lang="en">n.a.</common:Name>
+        </structure:Code>
+        <structure:Code id="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).9">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+        <structure:Code id="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SEXISTAT1(2.0).2">
+          <common:Name xml:lang="it">femmine</common:Name>
+          <common:Name xml:lang="en">females</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF356</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-14T16:58:04.3594863+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_GENITORI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_GENITORI(1.0)" agencyID="IT1" version="1.0" isFinal="true">
+        <common:Name xml:lang="it">Genitori</common:Name>
+        <common:Name xml:lang="en">Parents</common:Name>
+        <structure:Code id="BITP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).BITP">
+          <common:Name xml:lang="it">genitori entrambi italiani</common:Name>
+          <common:Name xml:lang="en">both italian parents</common:Name>
+        </structure:Code>
+        <structure:Code id="ITMFF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).ITMFF">
+          <common:Name xml:lang="it">madre italiana e padre straniero</common:Name>
+          <common:Name xml:lang="en">Italian mother and foreign father</common:Name>
+        </structure:Code>
+        <structure:Code id="ITFFM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).ITFFM">
+          <common:Name xml:lang="it">padre italiano e madre straniera</common:Name>
+          <common:Name xml:lang="en">Italian father and foreign mother</common:Name>
+        </structure:Code>
+        <structure:Code id="BFP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).BFP">
+          <common:Name xml:lang="it">genitori entrambi stranieri</common:Name>
+          <common:Name xml:lang="en">both foreign parents</common:Name>
+        </structure:Code>
+        <structure:Code id="ATFM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).ATFM">
+          <common:Name xml:lang="it">almeno madre straniera</common:Name>
+          <common:Name xml:lang="en">at least foreign mother</common:Name>
+        </structure:Code>
+        <structure:Code id="ALFF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).ALFF">
+          <common:Name xml:lang="it">almeno padre straniero</common:Name>
+          <common:Name xml:lang="en">at least foreign father</common:Name>
+        </structure:Code>
+        <structure:Code id="ALOFP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).ALOFP">
+          <common:Name xml:lang="it">almeno un genitore straniero</common:Name>
+          <common:Name xml:lang="en">at least one foreign parent</common:Name>
+        </structure:Code>
+        <structure:Code id="ALL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_GENITORI(1.0).ALL">
+          <common:Name xml:lang="it">tutte le voci</common:Name>
+          <common:Name xml:lang="en">all items</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

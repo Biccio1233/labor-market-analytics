@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF343</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-14T16:01:30.323925+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_AGGREG_FAMIGLIE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_AGGREG_FAMIGLIE(1.2)" agencyID="IT1" version="1.2" isFinal="true">
+        <common:Name xml:lang="it">Famiglie</common:Name>
+        <common:Name xml:lang="en">Households</common:Name>
+        <common:Description xml:lang="it">DS: dato statistico di diffusione</common:Description>
+        <common:Description xml:lang="en">DS: output statistical data</common:Description>
+        <structure:Code id="DISUG_CONSUMI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).DISUG_CONSUMI">
+          <common:Name xml:lang="it">omogeneità nella distribuzione dei consumi</common:Name>
+          <common:Name xml:lang="en">consumption distribution homogeneity</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_COMPORT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_COMPORT">
+          <common:Name xml:lang="it">famiglie per comportamento di spesa</common:Name>
+          <common:Name xml:lang="en">households purchasing behaviour</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_LUOGHI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_LUOGHI">
+          <common:Name xml:lang="it">famiglie per luogo di acquisto</common:Name>
+          <common:Name xml:lang="en">households purchasing place</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_POVASS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_POVASS">
+          <common:Name xml:lang="it">famiglie in povertà assoluta</common:Name>
+          <common:Name xml:lang="en">households in absolute poverty</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_POVREL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_POVREL">
+          <common:Name xml:lang="it">famiglie in povertà relativa</common:Name>
+          <common:Name xml:lang="en">households in relative poverty</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_ABB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_ABB">
+          <common:Name xml:lang="it">famiglie con spesa per abbigliamento e calzature</common:Name>
+          <common:Name xml:lang="en">households with expenditures for clothing and footwear</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_ABITAZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_ABITAZ">
+          <common:Name xml:lang="it">famiglie con spesa per utenze e servizi dell'abitazione</common:Name>
+          <common:Name xml:lang="en">households with expenditures for housing services</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_BENDUR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_BENDUR">
+          <common:Name xml:lang="it">famiglie con spesa per acquisto di beni durevoli</common:Name>
+          <common:Name xml:lang="en">households with expenditures for durable goods</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_GIORN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_GIORN">
+          <common:Name xml:lang="it">famiglie con spesa per acquisto di giornali e libri</common:Name>
+          <common:Name xml:lang="en">households with expenditures for newspaper and books</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_PASTI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_PASTI">
+          <common:Name xml:lang="it">famiglie con spesa per pasti e consumazioni</common:Name>
+          <common:Name xml:lang="en">households with expenditures for catering services</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_SANIT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_SANIT">
+          <common:Name xml:lang="it">famiglie con spesa per servizi sanitari</common:Name>
+          <common:Name xml:lang="en">households with expenditures for health services</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_TRASPRIV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_TRASPRIV">
+          <common:Name xml:lang="it">famiglie con spesa per mezzi di trasporto privati</common:Name>
+          <common:Name xml:lang="en">households with expenditures for private transport</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPEFF_TRASPUBB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPEFF_TRASPUBB">
+          <common:Name xml:lang="it">famiglie con spesa per mezzi di trasporto pubblici</common:Name>
+          <common:Name xml:lang="en">households with expenditures for public transport</common:Name>
+        </structure:Code>
+        <structure:Code id="INCID_POVASS_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INCID_POVASS_FAM">
+          <common:Name xml:lang="it">incidenza di povertà assoluta familiare</common:Name>
+          <common:Name xml:lang="en">household absolute poverty incidence</common:Name>
+        </structure:Code>
+        <structure:Code id="INCID_POVASS_INDIV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INCID_POVASS_INDIV">
+          <common:Name xml:lang="it">incidenza di povertà assoluta individuale</common:Name>
+          <common:Name xml:lang="en">individual absolute poverty incidence</common:Name>
+        </structure:Code>
+        <structure:Code id="INCID_POVREL_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INCID_POVREL_FAM">
+          <common:Name xml:lang="it">incidenza di povertà relativa familiare</common:Name>
+          <common:Name xml:lang="en">household relative poverty incidence</common:Name>
+        </structure:Code>
+        <structure:Code id="INCID_POVREL_INDIV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INCID_POVREL_INDIV">
+          <common:Name xml:lang="it">incidenza di povertà relativa individuale</common:Name>
+          <common:Name xml:lang="en">individual relative poverty incidence</common:Name>
+        </structure:Code>
+        <structure:Code id="INDIV_POVASS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INDIV_POVASS">
+          <common:Name xml:lang="it">individui in povertà assoluta</common:Name>
+          <common:Name xml:lang="en">individuals in absolute poverty</common:Name>
+        </structure:Code>
+        <structure:Code id="INDIV_POVREL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INDIV_POVREL">
+          <common:Name xml:lang="it">individui in povertà relativa</common:Name>
+          <common:Name xml:lang="en">individuals in relative poverty</common:Name>
+        </structure:Code>
+        <structure:Code id="INTENS_POVASS_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INTENS_POVASS_FAM">
+          <common:Name xml:lang="it">intensità di povertà assoluta familiare</common:Name>
+          <common:Name xml:lang="en">household absolute poverty intensity</common:Name>
+        </structure:Code>
+        <structure:Code id="INTENS_POVREL_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).INTENS_POVREL_FAM">
+          <common:Name xml:lang="it">intensità di povertà relativa familiare</common:Name>
+          <common:Name xml:lang="en">household relative poverty intensity</common:Name>
+        </structure:Code>
+        <structure:Code id="SOGLIA_POVASS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SOGLIA_POVASS">
+          <common:Name xml:lang="it">soglia mensile di povertà assoluta</common:Name>
+          <common:Name xml:lang="en">absolute poverty threshold</common:Name>
+        </structure:Code>
+        <structure:Code id="SOGLIA_POVREL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SOGLIA_POVREL">
+          <common:Name xml:lang="it">soglia mensile di povertà relativa</common:Name>
+          <common:Name xml:lang="en">relative poverty threshold</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_ABB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_ABB">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per abbigliamento e calzature</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on clothing and footwear</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_ABITAZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_ABITAZ">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per utenze e servizi dell’abitazione</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on housing services</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_BENDUR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_BENDUR">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per beni durevoli</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on durable goods</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_FAM">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per alcune voci di spesa</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on some items</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_GIORN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_GIORN">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per giornali e libri</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on newspaper and books</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_PASTI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_PASTI">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per consumazioni fuori casa</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on catering services</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_SANIT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_SANIT">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per beni e servizi sanitari</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on health services</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_TRASPRIV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_TRASPRIV">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per mezzi di trasporto privati</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on private transport</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_EFF_TRASPUBB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_EFF_TRASPUBB">
+          <common:Name xml:lang="it">famiglie che hanno effettuato la spesa per mezzi di trasporto pubblici</common:Name>
+          <common:Name xml:lang="en">households reporting expenditures on public transport</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_MEDIA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_MEDIA">
+          <common:Name xml:lang="it">spesa media mensile familiare</common:Name>
+          <common:Name xml:lang="en">average monthly household expenditure</common:Name>
+        </structure:Code>
+        <structure:Code id="SPESA_QUINTO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).SPESA_QUINTO">
+          <common:Name xml:lang="it">quinto di spesa della famiglia</common:Name>
+          <common:Name xml:lang="en">household expenditure quintile</common:Name>
+        </structure:Code>
+        <structure:Code id="ABITAZ_AFFOLL_MED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).ABITAZ_AFFOLL_MED">
+          <common:Name xml:lang="it">indice di affollamento medio rispetto ai metri quadri</common:Name>
+          <common:Name xml:lang="en">crowding index with respect to square meter</common:Name>
+        </structure:Code>
+        <structure:Code id="ABITAZ_PROBLEMI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).ABITAZ_PROBLEMI">
+          <common:Name xml:lang="it">problemi nell'abitazione delle famiglie</common:Name>
+          <common:Name xml:lang="en">households per problems with the accomodation</common:Name>
+        </structure:Code>
+        <structure:Code id="ABITAZ_SPESA_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).ABITAZ_SPESA_M">
+          <common:Name xml:lang="it">spesa media mensile per abitazione</common:Name>
+          <common:Name xml:lang="en">housing average monthly expenditures</common:Name>
+        </structure:Code>
+        <structure:Code id="ABITAZ_SPESA_REDD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).ABITAZ_SPESA_REDD">
+          <common:Name xml:lang="it">rapporto spesa media mensile su reddito medio mensile per abitazione</common:Name>
+          <common:Name xml:lang="en">housing expenditures/income</common:Name>
+        </structure:Code>
+        <structure:Code id="DISUG_REDDNET_GINI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).DISUG_REDDNET_GINI">
+          <common:Name xml:lang="it">omogeneità nella distribuzione del reddito netto familiare</common:Name>
+          <common:Name xml:lang="en">net family income distribution homogeneity</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_ARR_SPESA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_ARR_SPESA">
+          <common:Name xml:lang="it">famiglie che dichiarano di avere arretrati per alcune voci di spesa</common:Name>
+          <common:Name xml:lang="en">households who have arrears on selected items</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_FONTE_REDD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_FONTE_REDD">
+          <common:Name xml:lang="it">famiglie per fonte principale di reddito</common:Name>
+          <common:Name xml:lang="en">household per main income source</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_GIUD_CARICO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_GIUD_CARICO">
+          <common:Name xml:lang="it">famiglie che giudicano pesante il carico delle spese</common:Name>
+          <common:Name xml:lang="en">households who believe some expenditures are a burden</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_GIUD_FINEMESE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_GIUD_FINEMESE">
+          <common:Name xml:lang="it">famiglie per giudizio sul reddito minimo per arrivare a fine mese senza difficoltà</common:Name>
+          <common:Name xml:lang="en">household per minimun income needed to make ends meet</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_GIUD_PERCEP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_GIUD_PERCEP">
+          <common:Name xml:lang="it">famiglie per giudizio sulla condizione economica percepita</common:Name>
+          <common:Name xml:lang="en">households per economic situation perceived</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_GIUD_RISEC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_GIUD_RISEC">
+          <common:Name xml:lang="it">famiglie per giudizio sulle risorse economiche complessive della famiglia negli ultimi 12 mesi</common:Name>
+          <common:Name xml:lang="en">household assessment on their overall economic resources in the last 12 months</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_GIUD_SITEC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_GIUD_SITEC">
+          <common:Name xml:lang="it">famiglie per giudizio sulla loro situazione economica rispetto all'anno precedente</common:Name>
+          <common:Name xml:lang="en">household assessment on their overall economic situation compared to previous year</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_NO_BENDUR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_NO_BENDUR">
+          <common:Name xml:lang="it">famiglie che dichiarano di non potersi permettere alcuni beni durevoli</common:Name>
+          <common:Name xml:lang="en">household who cannot afford some durable goods</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_NO_SOLDI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_NO_SOLDI">
+          <common:Name xml:lang="it">famiglie che dichiarano in alcuni periodi dell'anno di non avere soldi per voci di spesa</common:Name>
+          <common:Name xml:lang="en">households who do not have enough money for selected items</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_RISP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_RISP">
+          <common:Name xml:lang="it">famiglie che non riescono a risparmiare</common:Name>
+          <common:Name xml:lang="en">households who are not able to save</common:Name>
+        </structure:Code>
+        <structure:Code id="REDD_MEDIANO_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).REDD_MEDIANO_FAM">
+          <common:Name xml:lang="it">reddito mediano annuale delle famiglie</common:Name>
+          <common:Name xml:lang="en">annual median households income</common:Name>
+        </structure:Code>
+        <structure:Code id="REDD_MEDIO_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).REDD_MEDIO_FAM">
+          <common:Name xml:lang="it">reddito medio annuale delle famiglie</common:Name>
+          <common:Name xml:lang="en">annual average households income</common:Name>
+        </structure:Code>
+        <structure:Code id="REDD_QUINTO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).REDD_QUINTO">
+          <common:Name xml:lang="it">famiglie per quinto di reddito equivalente</common:Name>
+          <common:Name xml:lang="en">households per fifth of equivalent household income</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_SPESE_IMPR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_SPESE_IMPR">
+          <common:Name xml:lang="it">famiglie che non riescono a far fronte a spese impreviste</common:Name>
+          <common:Name xml:lang="en">household who are not able to face unexpected expenses</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_NO_FINE_MESE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_NO_FINE_MESE">
+          <common:Name xml:lang="it">famiglie che arrivano a fine mese con difficoltà o grande difficoltà</common:Name>
+          <common:Name xml:lang="en">households that make ends meet with great difficulty or with difficulty</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_NO_PERMETTERSI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_NO_PERMETTERSI">
+          <common:Name xml:lang="it">famiglie che non possono permettersi alcune voci di spesa</common:Name>
+          <common:Name xml:lang="en">households who do not afford to pay selected items</common:Name>
+        </structure:Code>
+        <structure:Code id="ZONA_RES_PROBLEMI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).ZONA_RES_PROBLEMI">
+          <common:Name xml:lang="it">presenza di problemi nella zona di residenza delle famiglie</common:Name>
+          <common:Name xml:lang="en">problems in the dwelling place</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_TITOLO_GODIM_ABITAZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_TITOLO_GODIM_ABITAZ">
+          <common:Name xml:lang="it">titolo di godimento dell'abitazione</common:Name>
+          <common:Name xml:lang="en">tenure status</common:Name>
+        </structure:Code>
+        <structure:Code id="REDD_QUINTO_STESSO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).REDD_QUINTO_STESSO">
+          <common:Name xml:lang="it">famiglie per quinto di reddito equivalente</common:Name>
+          <common:Name xml:lang="en">households per fifth of equivalent household income</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_PROBL_ZONA_RES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_PROBL_ZONA_RES">
+          <common:Name xml:lang="it">famiglie con problemi nella zona di residenza</common:Name>
+          <common:Name xml:lang="en">households with problems in the dwelling place</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_TITOLO_ABITAZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_TITOLO_ABITAZ">
+          <common:Name xml:lang="it">famiglie per titolo di godimento dell'abitazione</common:Name>
+          <common:Name xml:lang="en">households per tenure status</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM_PROBL_ABITAZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AGGREG_FAMIGLIE(1.2).FAM_PROBL_ABITAZ">
+          <common:Name xml:lang="it">famiglie con problemi nell'abitazione</common:Name>
+          <common:Name xml:lang="en">households with problems with the accomodation</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

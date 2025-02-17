@@ -1,0 +1,16 @@
+requests==2.32.3
+pandas==2.2.3
+psycopg2-binary==2.9.9
+tqdm==4.67.1
+eurostat==1.1.1
+# Si noti che il modulo 'eurostat' è in minuscolo, come pubblico su PyPI
+
+# Per SQLAlchemy, usiamo la versione 2.0.19
+SQLAlchemy==2.0.19
+
+# Dipendenze per Superset customizzato
+apache-superset
+redis>=4.5.1
+flask-caching>=1.10.1
+flask-redis>=0.4.0
+redis-py>=4.5.1

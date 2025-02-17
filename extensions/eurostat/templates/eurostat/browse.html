@@ -1,0 +1,76 @@
+{% extends "appbuilder/base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li><a href="{{ url_for('.list') }}">Home</a></li>
+                {% for item in breadcrumb %}
+                <li {% if loop.last %}class="active"{% endif %}>
+                    {% if not loop.last %}
+                    <a href="{{ url_for('.browse', category_path=item.path) }}">{{ item.title }}</a>
+                    {% else %}
+                    {{ item.title }}
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ol>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Browse Eurostat Categories</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        {% for category in categories %}
+                        {% if category.code %}
+                            <!-- Dataset -->
+                            <div class="list-group-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h4 class="list-group-item-heading">{{ category.title }}</h4>
+                                        <p class="list-group-item-text text-muted">Code: {{ category.code }}</p>
+                                    </div>
+                                    <div class="col-md-4 text-right">
+                                        <a href="{{ url_for('EurostatDatasetManager.download', dataset_code=category.code) }}" 
+                                           class="btn btn-success">
+                                            <i class="fa fa-download"></i> Download Dataset
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        {% else %}
+                            <!-- Subcategory -->
+                            <a href="{{ url_for('.browse', category_path=current_path + '/' + category.title) }}" 
+                               class="list-group-item">
+                                <h4 class="list-group-item-heading">{{ category.title }}</h4>
+                                <p class="list-group-item-text">
+                                    <i class="fa fa-folder-o"></i> Click to browse
+                                </p>
+                            </a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.breadcrumb {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.list-group-item {
+    border-left: 3px solid transparent;
+}
+.list-group-item:hover {
+    border-left-color: #337ab7;
+    background-color: #f5f5f5;
+}
+</style>
+{% endblock %}

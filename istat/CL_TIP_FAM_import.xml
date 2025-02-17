@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF337</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-14T16:00:26.7538133+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_TIP_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_TIP_FAM(2.2)" agencyID="IT1" version="2.2" isFinal="true">
+        <common:Name xml:lang="it">Tipologia della famiglia</common:Name>
+        <common:Name xml:lang="en">Type of private household</common:Name>
+        <structure:Code id="WELD_HH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).WELD_HH">
+          <common:Name xml:lang="it">famiglie con anziani</common:Name>
+          <common:Name xml:lang="en">households with elderly</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1_MINCH_PR45_54" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1_MINCH_PR45_54">
+          <common:Name xml:lang="it">almeno un figlio minore e p.r. con 45-54 anni</common:Name>
+          <common:Name xml:lang="en">at least one minor child and r.p. 45-54</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_HH_ATL_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_HH_ATL_1">
+          <common:Name xml:lang="it">famiglie con almeno uno straniero residente</common:Name>
+          <common:Name xml:lang="en">private households with at least one foreign member</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_WH_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_WH_C">
+          <common:Name xml:lang="it">coppie senza figli</common:Name>
+          <common:Name xml:lang="en">couple families without children</common:Name>
+        </structure:Code>
+        <structure:Code id="1FHH_W_ORS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1FHH_W_ORS">
+          <common:Name xml:lang="it">con altre persone residenti</common:Name>
+          <common:Name xml:lang="en">one-family households with other resident persons</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1MIN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1MIN">
+          <common:Name xml:lang="it">famiglie con almeno un minorenne</common:Name>
+          <common:Name xml:lang="en">households in which there is at least one child  aged 0-17</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_NFHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_NFHH">
+          <common:Name xml:lang="it">famiglie senza nuclei</common:Name>
+          <common:Name xml:lang="en">non-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_GE65" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_GE65">
+          <common:Name xml:lang="it">persona sola 65 anni o più</common:Name>
+          <common:Name xml:lang="en">single member 65 and over</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_ATL_1MINCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_ATL_1MINCH">
+          <common:Name xml:lang="it">coppia con almeno un figlio minore</common:Name>
+          <common:Name xml:lang="en">couple with at least one children</common:Name>
+        </structure:Code>
+        <structure:Code id="IT_HH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).IT_HH">
+          <common:Name xml:lang="it">famiglie con almeno un italiano residente</common:Name>
+          <common:Name xml:lang="en">private households with at least one italian member</common:Name>
+        </structure:Code>
+        <structure:Code id="1ELD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1ELD">
+          <common:Name xml:lang="it">1 anziano</common:Name>
+          <common:Name xml:lang="en">1 elderly</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_LONEM_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_LONEM_1">
+          <common:Name xml:lang="it">madre con figli</common:Name>
+          <common:Name xml:lang="en">lone mother households</common:Name>
+        </structure:Code>
+        <structure:Code id="1MINCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1MINCH">
+          <common:Name xml:lang="it">1 figlio minore</common:Name>
+          <common:Name xml:lang="en">1 minor child</common:Name>
+        </structure:Code>
+        <structure:Code id="1FHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1FHH">
+          <common:Name xml:lang="it">famiglie con un solo nucleo</common:Name>
+          <common:Name xml:lang="en">one-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="LONEM_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).LONEM_1">
+          <common:Name xml:lang="it">madre con figli</common:Name>
+          <common:Name xml:lang="en">lone mother households</common:Name>
+        </structure:Code>
+        <structure:Code id="NO_MINCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).NO_MINCH">
+          <common:Name xml:lang="it">famiglie senza figli minori</common:Name>
+          <common:Name xml:lang="en">households without minor child</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_W2C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_W2C">
+          <common:Name xml:lang="it">coppia con 2 figli</common:Name>
+          <common:Name xml:lang="en">couple with 2 children</common:Name>
+        </structure:Code>
+        <structure:Code id="SNGP_ADULTS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SNGP_ADULTS">
+          <common:Name xml:lang="it">monogenitore con figli adulti</common:Name>
+          <common:Name xml:lang="en">single parent with adult sons</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_W_C_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_W_C_1">
+          <common:Name xml:lang="it">coppie con figli</common:Name>
+          <common:Name xml:lang="en">couple families with children</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PRUN34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PRUN34">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento fino a 34 anni</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person until 34</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1MINCH_PRUN34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1MINCH_PRUN34">
+          <common:Name xml:lang="it">almeno un figlio minore e p.r. fino a 34 anni</common:Name>
+          <common:Name xml:lang="en">at least one minor child and r.p.  until 34</common:Name>
+        </structure:Code>
+        <structure:Code id="OTHER1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OTHER1">
+          <common:Name xml:lang="it">altre tipologie</common:Name>
+          <common:Name xml:lang="en">other typologies</common:Name>
+        </structure:Code>
+        <structure:Code id="1FHH_WH_ORS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1FHH_WH_ORS">
+          <common:Name xml:lang="it">famiglie con un solo nucleo senza altre persone residenti</common:Name>
+          <common:Name xml:lang="en">one-family households without other resident persons</common:Name>
+        </structure:Code>
+        <structure:Code id="OR_F3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OR_F3">
+          <common:Name xml:lang="it">Famiglie per presenza di figli minori</common:Name>
+          <common:Name xml:lang="en">Private households by presence of minor children</common:Name>
+        </structure:Code>
+        <structure:Code id="3MINCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).3MINCH">
+          <common:Name xml:lang="it">3 figli minori o più</common:Name>
+          <common:Name xml:lang="en">3 or more minor children</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PRUN64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PRUN64">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento fino a 64 anni</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person until 64</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_MULTPHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_MULTPHH">
+          <common:Name xml:lang="it">famiglie senza nuclei non unipersonali</common:Name>
+          <common:Name xml:lang="en">multiperson non-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="MULTIPHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).MULTIPHH">
+          <common:Name xml:lang="it">famiglie non unipersonali</common:Name>
+          <common:Name xml:lang="en">multiperson households</common:Name>
+        </structure:Code>
+        <structure:Code id="OR_F1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OR_F1">
+          <common:Name xml:lang="it">Famiglie per presenza di componenti stranieri</common:Name>
+          <common:Name xml:lang="en">Private households by presence of  foreign  members</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1_MINCH_PR16_34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1_MINCH_PR16_34">
+          <common:Name xml:lang="it">almeno un figlio minore e p.r. 16-34 anni</common:Name>
+          <common:Name xml:lang="en">at least one minor child and r.p. 16-34</common:Name>
+        </structure:Code>
+        <structure:Code id="SNGP_ATL_1MINCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SNGP_ATL_1MINCH">
+          <common:Name xml:lang="it">monogenitore con almeno un figlio minore</common:Name>
+          <common:Name xml:lang="en">single parent with at least one children</common:Name>
+        </structure:Code>
+        <structure:Code id="LONEM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).LONEM">
+          <common:Name xml:lang="it">monogenitore madre</common:Name>
+          <common:Name xml:lang="en">lone mother households</common:Name>
+        </structure:Code>
+        <structure:Code id="OTHER3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OTHER3">
+          <common:Name xml:lang="it">altre tipologie</common:Name>
+          <common:Name xml:lang="en">other typologies</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PR18_64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PR18_64">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento 18-64 anni</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person 18-64</common:Name>
+        </structure:Code>
+        <structure:Code id="LONEF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).LONEF">
+          <common:Name xml:lang="it">monogenitore padre</common:Name>
+          <common:Name xml:lang="en">lone father households</common:Name>
+        </structure:Code>
+        <structure:Code id="WMINCH_HH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).WMINCH_HH">
+          <common:Name xml:lang="it">famiglie con figli minori</common:Name>
+          <common:Name xml:lang="en">households with minor children</common:Name>
+        </structure:Code>
+        <structure:Code id="OR_F4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OR_F4">
+          <common:Name xml:lang="it">Voci ad uso dell'indagine Condizioni di vita degli stranieri</common:Name>
+          <common:Name xml:lang="en">Items used by Foreign citizens life conditions</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PR16_34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PR16_34">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento 16-34 anni</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person 16-34</common:Name>
+        </structure:Code>
+        <structure:Code id="LONEF_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).LONEF_1">
+          <common:Name xml:lang="it">padre con figli</common:Name>
+          <common:Name xml:lang="en">lone father households</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_35_64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_35_64">
+          <common:Name xml:lang="it">persona sola 35-64 anni</common:Name>
+          <common:Name xml:lang="en">single member 35- 64</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1MINP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1MINP">
+          <common:Name xml:lang="it">famiglie con minori</common:Name>
+          <common:Name xml:lang="en">households in which there is at least one member aged 0-17</common:Name>
+        </structure:Code>
+        <structure:Code id="SNGP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SNGP">
+          <common:Name xml:lang="it">monogenitore</common:Name>
+          <common:Name xml:lang="en">single parent</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_COUPF_WH_C_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_COUPF_WH_C_1">
+          <common:Name xml:lang="it">coppie senza figli</common:Name>
+          <common:Name xml:lang="en">couple families without  children</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_LONEF_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_LONEF_1">
+          <common:Name xml:lang="it">padre con figli</common:Name>
+          <common:Name xml:lang="en">lone father households</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_1PHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_1PHH">
+          <common:Name xml:lang="it">famiglie senza nuclei unipersonali</common:Name>
+          <common:Name xml:lang="en">one-person non-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1_MINCH_PR35_44" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1_MINCH_PR35_44">
+          <common:Name xml:lang="it">almeno un figlio minore e p.r. con 35-44 anni</common:Name>
+          <common:Name xml:lang="en">at least one minor child and r.p. 35-44</common:Name>
+        </structure:Code>
+        <structure:Code id="GE2_FHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).GE2_FHH">
+          <common:Name xml:lang="it">famiglie con due o più nuclei</common:Name>
+          <common:Name xml:lang="en">two-or-more-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_18_64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_18_64">
+          <common:Name xml:lang="it">persona sola 18-64 anni</common:Name>
+          <common:Name xml:lang="en">single member 18- 64</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_UN34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_UN34">
+          <common:Name xml:lang="it">persona sola fino a 34 anni</common:Name>
+          <common:Name xml:lang="en">single member until 34</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1_MINCH_PRGE55" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1_MINCH_PRGE55">
+          <common:Name xml:lang="it">almeno un figlio minore e p.r. con 55 anni e più</common:Name>
+          <common:Name xml:lang="en">at least one minor child and r.p. 55 and over</common:Name>
+        </structure:Code>
+        <structure:Code id="OTHER_HH_GE2P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OTHER_HH_GE2P">
+          <common:Name xml:lang="it">altre famiglie pluricomponenti (famiglie senza nuclei con più persone, con un solo nucleo con altre persone residenti, con due o più nuclei)</common:Name>
+          <common:Name xml:lang="en">other households with two or more persons (multiperson non-family households, one-family households with other resident persons, two-or-more-family households)</common:Name>
+        </structure:Code>
+        <structure:Code id="OR_F2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OR_F2">
+          <common:Name xml:lang="it">Famiglie per presenza di anziani</common:Name>
+          <common:Name xml:lang="en">Private households by presence of elderly</common:Name>
+        </structure:Code>
+        <structure:Code id="NFHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).NFHH">
+          <common:Name xml:lang="it">famiglie senza nuclei</common:Name>
+          <common:Name xml:lang="en">non-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1_MINCH_PR18_34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1_MINCH_PR18_34">
+          <common:Name xml:lang="it">almeno un figlio minore e p.r. 18-34 anni</common:Name>
+          <common:Name xml:lang="en">at least one minor child and r.p. 18-34</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PR16_64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PR16_64">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento 16-64 anni</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person 16-64</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_GE2_FHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_GE2_FHH">
+          <common:Name xml:lang="it">famiglie con due o più nuclei</common:Name>
+          <common:Name xml:lang="en">two-or-more-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_W1C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_W1C">
+          <common:Name xml:lang="it">coppia con 1 figlio</common:Name>
+          <common:Name xml:lang="en">couple with one child</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_COUPF_WH_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_COUPF_WH_C">
+          <common:Name xml:lang="it">coppie senza figli</common:Name>
+          <common:Name xml:lang="en">couple families without  children</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PRGE65" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PRGE65">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento 65 anni o più</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person 65 and over</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_18_34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_18_34">
+          <common:Name xml:lang="it">persona sola 18-34 anni</common:Name>
+          <common:Name xml:lang="en">single member 18-34</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1ELD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1ELD">
+          <common:Name xml:lang="it">almeno un anziano</common:Name>
+          <common:Name xml:lang="en">at least one elderly</common:Name>
+        </structure:Code>
+        <structure:Code id="OR_F0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).OR_F0">
+          <common:Name xml:lang="it">Famiglie per presenza dei nuclei</common:Name>
+          <common:Name xml:lang="en">Private households by presence of family nuclei</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_UN64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_UN64">
+          <common:Name xml:lang="it">persona sola fino a 64 anni</common:Name>
+          <common:Name xml:lang="en">single member  until 64</common:Name>
+        </structure:Code>
+        <structure:Code id="WH_FR_HH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).WH_FR_HH">
+          <common:Name xml:lang="it">famiglie di soli italiani</common:Name>
+          <common:Name xml:lang="en">households with all national members</common:Name>
+        </structure:Code>
+        <structure:Code id="NO_MINP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).NO_MINP">
+          <common:Name xml:lang="it">famiglie senza minori</common:Name>
+          <common:Name xml:lang="en">households without members aged 0-17</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_COUPF_W_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_COUPF_W_C">
+          <common:Name xml:lang="it">coppie con figli</common:Name>
+          <common:Name xml:lang="en">couple families with  children</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_COUPF_W_C_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_COUPF_W_C_1">
+          <common:Name xml:lang="it">coppie con figli</common:Name>
+          <common:Name xml:lang="en">couple families with  children</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_16_34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_16_34">
+          <common:Name xml:lang="it">persona sola 16-34 anni</common:Name>
+          <common:Name xml:lang="en">single member 16-34</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_16_64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_16_64">
+          <common:Name xml:lang="it">persona sola 16-64 anni</common:Name>
+          <common:Name xml:lang="en">single member 16- 64</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_LONEF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_LONEF">
+          <common:Name xml:lang="it">padre con figli</common:Name>
+          <common:Name xml:lang="en">lone father households</common:Name>
+        </structure:Code>
+        <structure:Code id="2MINCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).2MINCH">
+          <common:Name xml:lang="it">2 figli minori</common:Name>
+          <common:Name xml:lang="en">2 minor children</common:Name>
+        </structure:Code>
+        <structure:Code id="1PHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1PHH">
+          <common:Name xml:lang="it">famiglie unipersonali</common:Name>
+          <common:Name xml:lang="en">one-person households</common:Name>
+        </structure:Code>
+        <structure:Code id="NO_ELD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).NO_ELD">
+          <common:Name xml:lang="it">famiglie senza anziani</common:Name>
+          <common:Name xml:lang="en">households without elderly</common:Name>
+        </structure:Code>
+        <structure:Code id="1PHHM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1PHHM">
+          <common:Name xml:lang="it">persona sola maschio</common:Name>
+          <common:Name xml:lang="en">male single member</common:Name>
+        </structure:Code>
+        <structure:Code id="1PHHF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).1PHHF">
+          <common:Name xml:lang="it">persona sola femmina</common:Name>
+          <common:Name xml:lang="en">female single member</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_W3GEC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_W3GEC">
+          <common:Name xml:lang="it">coppia con 3 e più figli</common:Name>
+          <common:Name xml:lang="en">couple with 3 or more children</common:Name>
+        </structure:Code>
+        <structure:Code id="NAT_FR_HH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).NAT_FR_HH">
+          <common:Name xml:lang="it">famiglie miste</common:Name>
+          <common:Name xml:lang="en">households with national and non national members</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_WH_C_1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_WH_C_1">
+          <common:Name xml:lang="it">coppie senza figli</common:Name>
+          <common:Name xml:lang="en">couple families without children</common:Name>
+        </structure:Code>
+        <structure:Code id="2GE_ELD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).2GE_ELD">
+          <common:Name xml:lang="it">2 anziani o più</common:Name>
+          <common:Name xml:lang="en">2 elderly or more</common:Name>
+        </structure:Code>
+        <structure:Code id="ALL_NNAT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ALL_NNAT">
+          <common:Name xml:lang="it">famiglie di soli stranieri</common:Name>
+          <common:Name xml:lang="en">households with all non national members</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_1FHH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_1FHH">
+          <common:Name xml:lang="it">famiglie con un solo nucleo</common:Name>
+          <common:Name xml:lang="en">one-family households</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1_MINCH_PR45_55" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1_MINCH_PR45_55">
+          <common:Name xml:lang="it">almeno un figlio minore e p.r. con 45-54 anni</common:Name>
+          <common:Name xml:lang="en">at least one minor child and r.p. 45-54</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_ADULTS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_ADULTS">
+          <common:Name xml:lang="it">coppia con figli adulti</common:Name>
+          <common:Name xml:lang="en">couple with adult sons</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_1FHH_W_ORS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_1FHH_W_ORS">
+          <common:Name xml:lang="it">famiglie con un solo nucleo con altre persone residenti</common:Name>
+          <common:Name xml:lang="en">one-family households with other resident persons</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PR35_64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PR35_64">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento 35-64 anni</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person 35-64</common:Name>
+        </structure:Code>
+        <structure:Code id="ONL_ELDGE65" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ONL_ELDGE65">
+          <common:Name xml:lang="it">famiglie di soli anziani di 65 anni e più</common:Name>
+          <common:Name xml:lang="en">households of only members 65 years and older</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_GE2P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).HH_GE2P">
+          <common:Name xml:lang="it">famiglie con due o più persone</common:Name>
+          <common:Name xml:lang="en">households with two or more persons</common:Name>
+        </structure:Code>
+        <structure:Code id="COUP_WH_C_PR18_34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUP_WH_C_PR18_34">
+          <common:Name xml:lang="it">coppia senza figli con persona di riferimento 18-34 anni</common:Name>
+          <common:Name xml:lang="en">couple without children with reference person 18-34</common:Name>
+        </structure:Code>
+        <structure:Code id="ATL_1MINCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).ATL_1MINCH">
+          <common:Name xml:lang="it">almeno un figlio minore</common:Name>
+          <common:Name xml:lang="en">at least one minor child</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_LONEM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_LONEM">
+          <common:Name xml:lang="it">madre con figli</common:Name>
+          <common:Name xml:lang="en">lone mother households</common:Name>
+        </structure:Code>
+        <structure:Code id="SMB_GE35" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).SMB_GE35">
+          <common:Name xml:lang="it">persona sola 35 anni o più</common:Name>
+          <common:Name xml:lang="en">single member 35 and over</common:Name>
+        </structure:Code>
+        <structure:Code id="HH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).HH">
+          <common:Name xml:lang="it">totale famiglie</common:Name>
+          <common:Name xml:lang="en">all private households</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_1FHH_WH_ORS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_1FHH_WH_ORS">
+          <common:Name xml:lang="it">famiglie con un solo nucleo senza altre persone residenti</common:Name>
+          <common:Name xml:lang="en">one-family households without other resident persons</common:Name>
+        </structure:Code>
+        <structure:Code id="FR_HH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).FR_HH">
+          <common:Name xml:lang="it">famiglie con almeno uno straniero residente</common:Name>
+          <common:Name xml:lang="en">private households with at least one foreign member</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_W_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIP_FAM(2.2).COUPF_W_C">
+          <common:Name xml:lang="it">coppie con figli</common:Name>
+          <common:Name xml:lang="en">couple families with children</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

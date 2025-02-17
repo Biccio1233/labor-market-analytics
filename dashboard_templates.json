@@ -1,0 +1,379 @@
+{
+  "templates": [
+    {
+      "name": "Mercato del Lavoro Overview",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Tasso di Occupazione",
+            "type": "big_number_total",
+            "position": {"x": 0, "y": 0, "w": 6, "h": 4},
+            "config": {
+              "metric": "tasso_occupazione",
+              "subheader": "Variazione Annuale",
+              "colorScheme": "supersetColors"
+            }
+          },
+          {
+            "title": "Trend Occupazione per Settore",
+            "type": "echarts_area",
+            "position": {"x": 6, "y": 0, "w": 18, "h": 8},
+            "config": {
+              "metrics": ["occupati_per_settore"],
+              "groupby": ["settore", "data"],
+              "stack": true,
+              "colorScheme": "supersetColors"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Analisi Territoriale",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Mappa Occupazione Regionale",
+            "type": "italy_map",
+            "position": {"x": 0, "y": 0, "w": 12, "h": 12},
+            "config": {
+              "metric": "tasso_occupazione",
+              "groupby": ["regione"],
+              "colorScheme": "blues"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trend Temporali",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Andamento Occupazione",
+            "type": "mixed_timeseries",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metrics": ["occupati_totali", "tasso_occupazione"],
+              "timeGrainSqla": "month",
+              "colorScheme": "lyft"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Analisi Settoriale",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Distribuzione per Settore",
+            "type": "pie",
+            "position": {"x": 0, "y": 0, "w": 8, "h": 8},
+            "config": {
+              "metric": "occupati_per_settore",
+              "groupby": ["settore"],
+              "colorScheme": "preset_sequential"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "KPI Dashboard",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Indicatori Chiave",
+            "type": "big_number",
+            "position": {"x": 0, "y": 0, "w": 6, "h": 4},
+            "config": {
+              "metrics": ["tasso_occupazione", "tasso_disoccupazione", "tasso_inattivita"],
+              "colorScheme": "google_sequential"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Analisi Demografica",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Occupazione per Età e Genere",
+            "type": "heatmap",
+            "position": {"x": 0, "y": 0, "w": 12, "h": 8},
+            "config": {
+              "metric": "occupati",
+              "xAxis": "fascia_eta",
+              "yAxis": "genere",
+              "colorScheme": "purple_blue"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Confronto Territoriale",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Benchmark Regioni",
+            "type": "bar",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metrics": ["tasso_occupazione"],
+              "groupby": ["regione"],
+              "colorScheme": "sequential_blue"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Analisi Contratti",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Tipologie Contrattuali",
+            "type": "sunburst",
+            "position": {"x": 0, "y": 0, "w": 12, "h": 12},
+            "config": {
+              "metric": "numero_contratti",
+              "groupby": ["tipo_contratto", "settore"],
+              "colorScheme": "sequential_yellow_orange_red"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Focus Giovani",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Occupazione Giovanile",
+            "type": "line",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metric": "tasso_occupazione_giovanile",
+              "groupby": ["regione", "data"],
+              "colorScheme": "categorical12"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Analisi Formazione",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Occupazione per Titolo di Studio",
+            "type": "treemap",
+            "position": {"x": 0, "y": 0, "w": 12, "h": 12},
+            "config": {
+              "metric": "occupati",
+              "groupby": ["titolo_studio", "settore"],
+              "colorScheme": "blue_green"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trend Stagionali",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Variazioni Stagionali",
+            "type": "calendar",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metric": "variazione_occupati",
+              "timeColumn": "data",
+              "colorScheme": "green"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gender Gap",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Divario di Genere",
+            "type": "paired_ttest",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metrics": ["retribuzione_media"],
+              "groupby": ["genere", "settore"],
+              "colorScheme": "pink_purple"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mobilità Lavorativa",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Flussi Interregionali",
+            "type": "sankey",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 12},
+            "config": {
+              "metric": "flusso_lavoratori",
+              "source": "regione_origine",
+              "target": "regione_destinazione",
+              "colorScheme": "blue_sequential"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Analisi Retributiva",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Distribuzione Salari",
+            "type": "box_plot",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metric": "retribuzione",
+              "groupby": ["settore", "qualifica"],
+              "colorScheme": "sequential_blue"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Previsioni Occupazionali",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Trend e Previsioni",
+            "type": "mixed_timeseries",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metrics": ["occupati_previsti"],
+              "timeGrainSqla": "month",
+              "forecastEnabled": true,
+              "colorScheme": "sequential_purple"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Competenze Richieste",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Skills più Richieste",
+            "type": "word_cloud",
+            "position": {"x": 0, "y": 0, "w": 12, "h": 8},
+            "config": {
+              "metric": "frequenza",
+              "series": "competenza",
+              "colorScheme": "categorical12"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Focus NEET",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Analisi NEET",
+            "type": "bubble",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metric": "percentuale_neet",
+              "size": "popolazione_giovani",
+              "groupby": ["regione"],
+              "colorScheme": "warm"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Efficacia Politiche Attive",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Impatto Interventi",
+            "type": "partition",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 12},
+            "config": {
+              "metric": "inserimenti_lavorativi",
+              "groupby": ["tipo_intervento", "regione"],
+              "colorScheme": "green_sequential"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Analisi Settoriale Avanzata",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Performance Settoriale",
+            "type": "radar",
+            "position": {"x": 0, "y": 0, "w": 12, "h": 12},
+            "config": {
+              "metrics": ["occupati", "retribuzione_media", "produttivita"],
+              "groupby": ["settore"],
+              "colorScheme": "preset_sequential"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Confronto Europeo",
+      "layout": {
+        "type": "grid",
+        "components": [
+          {
+            "title": "Benchmark EU",
+            "type": "mixed_timeseries",
+            "position": {"x": 0, "y": 0, "w": 24, "h": 8},
+            "config": {
+              "metrics": ["tasso_occupazione"],
+              "groupby": ["paese"],
+              "timeGrainSqla": "quarter",
+              "colorScheme": "europe"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

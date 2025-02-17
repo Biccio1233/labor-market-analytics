@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF62</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T09:50:51.9602319+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_TIPO_DATO_FOL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_TIPO_DATO_FOL(1.3)" agencyID="IT1" version="1.3" isFinal="true">
+        <common:Name xml:lang="it">Tipo dato FOL</common:Name>
+        <common:Name xml:lang="en">Data type FOL</common:Name>
+        <structure:Code id="FOR_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).FOR_Y25-64">
+          <common:Name xml:lang="it">forze di lavoro 25-64 anni (migliaia)</common:Name>
+          <common:Name xml:lang="en">labour force 25-64 years (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="UNEM_TI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UNEM_TI">
+          <common:Name xml:lang="it">incidenza delle persone in cerca di occupazione 15 anni e oltre sulla popolazione</common:Name>
+          <common:Name xml:lang="en">unemployment ratio 15 years and more</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_TOTAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).COUPF_TOTAL">
+          <common:Name xml:lang="it">coppie</common:Name>
+          <common:Name xml:lang="en">couple families</common:Name>
+        </structure:Code>
+        <structure:Code id="BTH_NO_EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).BTH_NO_EMP">
+          <common:Name xml:lang="it">entrambi i partner non occupati</common:Name>
+          <common:Name xml:lang="en">both not employed partners</common:Name>
+          <structure:Parent>
+            <Ref id="COUPF_TOTAL" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="EMP_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).EMP_Y25-64">
+          <common:Name xml:lang="it">occupati 25-64 anni (migliaia)</common:Name>
+          <common:Name xml:lang="en">employed persons 25-64 years  (thousands)</common:Name>
+          <structure:Parent>
+            <Ref id="FOR_Y25-64" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_1EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_1EMP">
+          <common:Name xml:lang="it">un solo partner occupato</common:Name>
+          <common:Name xml:lang="en">only one employed partner</common:Name>
+          <structure:Parent>
+            <Ref id="COUPF_TOTAL" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ACT_R_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).ACT_R_Y25-64">
+          <common:Name xml:lang="it">tasso di attività 25-64 anni</common:Name>
+          <common:Name xml:lang="en">activity rate 25-64 years</common:Name>
+        </structure:Code>
+        <structure:Code id="BTH_NEMP_ALT1R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).BTH_NEMP_ALT1R">
+          <common:Name xml:lang="it">entrambi i partner non occupati, con almeno una pensione da lavoro</common:Name>
+          <common:Name xml:lang="en">both not employed partners, at least one retired</common:Name>
+          <structure:Parent>
+            <Ref id="BTH_NO_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="EMP_R_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).EMP_R_Y25-64">
+          <common:Name xml:lang="it">tasso di occupazione 25-64 anni</common:Name>
+          <common:Name xml:lang="en">employment rate 25-64 years</common:Name>
+        </structure:Code>
+        <structure:Code id="UNEMP_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UNEMP_Y25-64">
+          <common:Name xml:lang="it">disoccupati 25-64 anni (migliaia)</common:Name>
+          <common:Name xml:lang="en">unemployed persons 25-64 years (thousands)</common:Name>
+          <structure:Parent>
+            <Ref id="FOR_Y25-64" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="INAC_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).INAC_Y25-64">
+          <common:Name xml:lang="it">inattivi 25-64 anni (migliaia)</common:Name>
+          <common:Name xml:lang="en">inactive persons 25-64 years (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="UNEM_R_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UNEM_R_Y25-64">
+          <common:Name xml:lang="it">tasso di disoccupazione 25-64 anni</common:Name>
+          <common:Name xml:lang="en">unemployment rate 25-64 years</common:Name>
+        </structure:Code>
+        <structure:Code id="C_1M_EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_1M_EMP">
+          <common:Name xml:lang="it">solo l'uomo occupato</common:Name>
+          <common:Name xml:lang="en">only employed man</common:Name>
+          <structure:Parent>
+            <Ref id="C_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_MEMP_WNR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MEMP_WNR">
+          <common:Name xml:lang="it">uomo occupato, donna senza pensione da lavoro</common:Name>
+          <common:Name xml:lang="en">man employed, woman not retired</common:Name>
+          <structure:Parent>
+            <Ref id="C_1M_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_MEMP_WNSK_NAVNR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MEMP_WNSK_NAVNR">
+          <common:Name xml:lang="it">uomo occupato, donna non cerca non disponibile (senza pensione da lavoro)</common:Name>
+          <common:Name xml:lang="en">man employed, woman not seeking employment and not available to work (not retired)</common:Name>
+          <structure:Parent>
+            <Ref id="C_MEMP_WNR" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_1M_FT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_1M_FT">
+          <common:Name xml:lang="it">solo l'uomo occupato full-time</common:Name>
+          <common:Name xml:lang="en">only man full-time employed</common:Name>
+          <structure:Parent>
+            <Ref id="C_1M_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_BTH_EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_BTH_EMP">
+          <common:Name xml:lang="it">entrambi i partner occupati</common:Name>
+          <common:Name xml:lang="en">both employed partners</common:Name>
+          <structure:Parent>
+            <Ref id="COUPF_TOTAL" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_MPT_WFT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MPT_WFT">
+          <common:Name xml:lang="it">uomo occupato part-time, donna occupata full-time</common:Name>
+          <common:Name xml:lang="en">man part-time employed, woman full-time employed</common:Name>
+          <structure:Parent>
+            <Ref id="C_BTH_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_MFT_WPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MFT_WPT">
+          <common:Name xml:lang="it">uomo occupato full-time, donna occupata part-time</common:Name>
+          <common:Name xml:lang="en">man full-time employed, woman part-time employed</common:Name>
+          <structure:Parent>
+            <Ref id="C_BTH_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_BTH_PT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_BTH_PT">
+          <common:Name xml:lang="it">entrambi i partner occupati part-time</common:Name>
+          <common:Name xml:lang="en">both part-time employed partners</common:Name>
+          <structure:Parent>
+            <Ref id="C_BTH_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_BTH_FT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_BTH_FT">
+          <common:Name xml:lang="it">entrambi i partner occupati full-time</common:Name>
+          <common:Name xml:lang="en">both full-time employed partners</common:Name>
+          <structure:Parent>
+            <Ref id="C_BTH_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_ATL_1LF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_ATL_1LF">
+          <common:Name xml:lang="it">famiglie con almeno un componente appartenente alle forze lavoro</common:Name>
+          <common:Name xml:lang="en">households with at least one person in the labour force</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_FLEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_FLEMP">
+          <common:Name xml:lang="it">famiglie con tutte le forze di lavoro occupate</common:Name>
+          <common:Name xml:lang="en">households where all active persons work</common:Name>
+          <structure:Parent>
+            <Ref id="HH_ATL_1LF" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NO_PART_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NO_PART_Y25-64">
+          <common:Name xml:lang="it">tasso di mancata partecipazione 25-64 anni</common:Name>
+          <common:Name xml:lang="en">non participation rate 25-64 years</common:Name>
+        </structure:Code>
+        <structure:Code id="UNEM_T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UNEM_T">
+          <common:Name xml:lang="it">incidenza delle persone in cerca di occupazione 15-24 anni sulla popolazione 15-24 anni</common:Name>
+          <common:Name xml:lang="en">unemployment ratio 15-24 years</common:Name>
+        </structure:Code>
+        <structure:Code id="C_MEMP_WNSK_NAV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MEMP_WNSK_NAV">
+          <common:Name xml:lang="it">uomo occupato, donna non cerca non disponibile</common:Name>
+          <common:Name xml:lang="en">man employed, woman not seeking employment and not available to work</common:Name>
+          <structure:Parent>
+            <Ref id="C_1M_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BTH_NEMP_NR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).BTH_NEMP_NR">
+          <common:Name xml:lang="it">entrambi i partner non occupati, senza pensioni da lavoro</common:Name>
+          <common:Name xml:lang="en">both not employed partners, no-one retired</common:Name>
+          <structure:Parent>
+            <Ref id="BTH_NO_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BTH_NEMP_NR_NUPA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).BTH_NEMP_NR_NUPA">
+          <common:Name xml:lang="it">entrambi i partner non occupati, senza pensioni da lavoro e nessuno dei due in cerca di lavoro o forza di lavoro potenziale</common:Name>
+          <common:Name xml:lang="en">both not employed partners, no-one retired or unemployed or potential additional labour force</common:Name>
+          <structure:Parent>
+            <Ref id="BTH_NEMP_NR" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BTH_NEMP_NR_ALT1UPA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).BTH_NEMP_NR_ALT1UPA">
+          <common:Name xml:lang="it">entrambi i partner non occupati, senza pensioni da lavoro e almeno uno in cerca di lavoro o forza di lavoro potenziale</common:Name>
+          <common:Name xml:lang="en">both not employed partners, no-one retired and at least one unemployed or potential additional labour force</common:Name>
+          <structure:Parent>
+            <Ref id="BTH_NEMP_NR" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ADD_Y25-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).ADD_Y25-64">
+          <common:Name xml:lang="it">forze lavoro potenziali 25-64 anni (migliaia)</common:Name>
+          <common:Name xml:lang="en">potential additional labour force 25-64 years (thousands)</common:Name>
+          <structure:Parent>
+            <Ref id="INAC_Y25-64" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_MEMP_WUN_PANR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MEMP_WUN_PANR">
+          <common:Name xml:lang="it">uomo occupato, donna in cerca di lavoro o forza di lavoro potenziale (senza pensione da lavoro)</common:Name>
+          <common:Name xml:lang="en">man employed, woman unemployed or potential additional labour force (not retired)</common:Name>
+          <structure:Parent>
+            <Ref id="C_MEMP_WNR" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="FOR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).FOR">
+          <common:Name xml:lang="it">forze di lavoro 15 anni e oltre (migliaia)</common:Name>
+          <common:Name xml:lang="en">labour force 15 years and more (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="NEET_I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NEET_I">
+          <common:Name xml:lang="it">incidenza dei giovani Neet di 15-34 anni (non occupati e non in istruzione)</common:Name>
+          <common:Name xml:lang="en">incidence of Neet aged 15-34 (young people not in employment, neither in education or training)</common:Name>
+        </structure:Code>
+        <structure:Code id="EMP_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).EMP_R">
+          <common:Name xml:lang="it">tasso di occupazione</common:Name>
+          <common:Name xml:lang="en">employment rate</common:Name>
+        </structure:Code>
+        <structure:Code id="ACT_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).ACT_R">
+          <common:Name xml:lang="it">tasso di attività</common:Name>
+          <common:Name xml:lang="en">activity rate</common:Name>
+        </structure:Code>
+        <structure:Code id="UNEM_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UNEM_R">
+          <common:Name xml:lang="it">tasso di disoccupazione</common:Name>
+          <common:Name xml:lang="en">unemployment rate</common:Name>
+        </structure:Code>
+        <structure:Code id="AVAIL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).AVAIL">
+          <common:Name xml:lang="it">persone che non cercano ma disponibili a lavorare 15-74 anni (in migliaia)</common:Name>
+          <common:Name xml:lang="en">persons available to work but not seeking 15-74 years (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).EMP">
+          <common:Name xml:lang="it">occupati 15 anni e oltre (migliaia)</common:Name>
+          <common:Name xml:lang="en">employed persons 15 years and more (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="ACT_AV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).ACT_AV">
+          <common:Name xml:lang="it">numero di ore settimanali effettivamente lavorate pro-capite</common:Name>
+          <common:Name xml:lang="en">average number of actual weekly hours</common:Name>
+        </structure:Code>
+        <structure:Code id="INAC_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).INAC_R">
+          <common:Name xml:lang="it">tasso di inattività</common:Name>
+          <common:Name xml:lang="en">inactivity rate</common:Name>
+        </structure:Code>
+        <structure:Code id="AVAIL_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).AVAIL_P">
+          <common:Name xml:lang="it">persone che non cercano ma disponibili 15-74 anni (su 100 forze lavoro 15-74 anni)</common:Name>
+          <common:Name xml:lang="en">persons available to work but not seeking  15-74 years (as a percentage of the total labour force 15-74 years)</common:Name>
+        </structure:Code>
+        <structure:Code id="UND_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UND_P">
+          <common:Name xml:lang="it">sottoccupati 15 anni e oltre (su 100 forze lavoro 15 anni e oltre)</common:Name>
+          <common:Name xml:lang="en">underemployed part-time workers 15 years and more (as a percentage of the total labour force 15 years and more)</common:Name>
+        </structure:Code>
+        <structure:Code id="POP_15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).POP_15">
+          <common:Name xml:lang="it">popolazione 15 anni e oltre (migliaia)</common:Name>
+          <common:Name xml:lang="en">population 15 years and over (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="HOUS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HOUS">
+          <common:Name xml:lang="it">numero di famiglie (in migliaia)</common:Name>
+          <common:Name xml:lang="en">number of household (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="ADD_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).ADD_P">
+          <common:Name xml:lang="it">forze lavoro potenziali 15-74 anni (su 100 forze lavoro 15-74 anni)</common:Name>
+          <common:Name xml:lang="en">potential additional labour force 15-74 years (as a percentage of the total labour force 15-74 years)</common:Name>
+        </structure:Code>
+        <structure:Code id="NO_PART_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NO_PART_R">
+          <common:Name xml:lang="it">tasso di mancata partecipazione 15-74 anni</common:Name>
+          <common:Name xml:lang="en">non-partecipation rate 15-74 years</common:Name>
+        </structure:Code>
+        <structure:Code id="INV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).INV">
+          <common:Name xml:lang="it">occupati con part time involontario 15 anni e oltre (in migliaia)</common:Name>
+          <common:Name xml:lang="en">involuntary part time 15 years and more (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="US_AV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).US_AV">
+          <common:Name xml:lang="it">numero di ore settimanali abitualmente lavorate pro-capite</common:Name>
+          <common:Name xml:lang="en">average number of usual weekly hours</common:Name>
+        </structure:Code>
+        <structure:Code id="NO_AVAIL_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NO_AVAIL_P">
+          <common:Name xml:lang="it">persone che cercano lavoro ma non immediatamente disponibili 15-74 anni (su 100 forze lavoro 15-74 anni)</common:Name>
+          <common:Name xml:lang="en">persons seeking work but not immediately available   (as a percentage of the total labour force)</common:Name>
+        </structure:Code>
+        <structure:Code id="ADD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).ADD">
+          <common:Name xml:lang="it">forze lavoro potenziali 15-74 anni (in migliaia)</common:Name>
+          <common:Name xml:lang="en">potential additional labour force 15-74 years (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="UND" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UND">
+          <common:Name xml:lang="it">sottoccupati 15 anni e oltre (in migliaia)</common:Name>
+          <common:Name xml:lang="en">underemployed part-time workers  15 years and more (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="NEET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NEET">
+          <common:Name xml:lang="it">giovani Neet di 15-34 anni (non occupati e non in istruzione)</common:Name>
+          <common:Name xml:lang="en">neet aged 15-34 (young people not in employment neither in education or training)</common:Name>
+        </structure:Code>
+        <structure:Code id="NO_PART" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NO_PART">
+          <common:Name xml:lang="it">sottoccupati 15 anni e oltre (su 100 occupati 15 anni e oltre)</common:Name>
+          <common:Name xml:lang="en">underemployed part-time workers 15 years and more (as a percentage of the total employed persons 15 years and more)</common:Name>
+        </structure:Code>
+        <structure:Code id="NO_AVAIL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NO_AVAIL">
+          <common:Name xml:lang="it">persone che cercano lavoro ma non immediatamente disponibili 15-74 anni (in migliaia)</common:Name>
+          <common:Name xml:lang="en">persons seeking work but not immediately available 15-74 anni (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="INV_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).INV_P">
+          <common:Name xml:lang="it">tasso di part time involontario 15 anni e oltre (su 100 occupati part-time 15 anni e oltre)</common:Name>
+          <common:Name xml:lang="en">involuntary part-time employment 15 years and more (as percentage of the total part-time employment 15 years and more)</common:Name>
+        </structure:Code>
+        <structure:Code id="INAC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).INAC">
+          <common:Name xml:lang="it">inattivi (migliaia)</common:Name>
+          <common:Name xml:lang="en">inactive persons (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="UNEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).UNEMP">
+          <common:Name xml:lang="it">persone in cerca di occupazione 15 anni e oltre (migliaia)</common:Name>
+          <common:Name xml:lang="en">unemployed persons 15 years and more (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="C_MEMP_WR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MEMP_WR">
+          <common:Name xml:lang="it">uomo occupato, donna con pensione da lavoro</common:Name>
+          <common:Name xml:lang="en">man employed, woman retired</common:Name>
+          <structure:Parent>
+            <Ref id="C_1M_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_1W_EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_1W_EMP">
+          <common:Name xml:lang="it">solo la donna occupata</common:Name>
+          <common:Name xml:lang="en">only employed woman</common:Name>
+          <structure:Parent>
+            <Ref id="C_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_WEMP_MNSK_NAV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_WEMP_MNSK_NAV">
+          <common:Name xml:lang="it">donna occupata, uomo non cerca non disponibile o di 75 anni o più</common:Name>
+          <common:Name xml:lang="en">woman employed, man not seeking employment and not available to work or 75 or over</common:Name>
+          <structure:Parent>
+            <Ref id="C_1W_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_WEMP_MR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_WEMP_MR">
+          <common:Name xml:lang="it">donna occupata, uomo con pensione da lavoro</common:Name>
+          <common:Name xml:lang="en">woman employed, man retired</common:Name>
+          <structure:Parent>
+            <Ref id="C_1W_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_1W_PT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_1W_PT">
+          <common:Name xml:lang="it">solo la donna occupata part-time</common:Name>
+          <common:Name xml:lang="en">only woman part-time employed</common:Name>
+          <structure:Parent>
+            <Ref id="C_1W_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_MEMP_WNSK_NAVR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_MEMP_WNSK_NAVR">
+          <common:Name xml:lang="it">uomo occupato, donna non cerca non disponibile (con pensione da lavoro)</common:Name>
+          <common:Name xml:lang="en">man employed, woman not seeking employment and not available to work (retired)</common:Name>
+          <structure:Parent>
+            <Ref id="C_MEMP_WNSK_NAV" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_WEMP_MNR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_WEMP_MNR">
+          <common:Name xml:lang="it">donna occupata, uomo senza pensione da lavoro</common:Name>
+          <common:Name xml:lang="en">woman employed, man not retired</common:Name>
+          <structure:Parent>
+            <Ref id="C_1W_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_WEMP_MUN_PANR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_WEMP_MUN_PANR">
+          <common:Name xml:lang="it">donna occupata, uomo in cerca di lavoro o forza di lavoro potenziale (senza pensione da lavoro)</common:Name>
+          <common:Name xml:lang="en">woman employed, man unemployed or potential additional labour force (not retired)</common:Name>
+          <structure:Parent>
+            <Ref id="C_WEMP_MNR" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_ATL_0LF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_ATL_0LF">
+          <common:Name xml:lang="it">famiglie senza componenti appartenenti alle forze lavoro (tutti inattivi)</common:Name>
+          <common:Name xml:lang="en">households without persons in the labour force (all inactive persons)</common:Name>
+        </structure:Code>
+        <structure:Code id="C_WEMP_MNSK_NAVNR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_WEMP_MNSK_NAVNR">
+          <common:Name xml:lang="it">donna occupata, uomo non cerca non disponibile (senza pensione da lavoro)</common:Name>
+          <common:Name xml:lang="en">woman employed, man not seeking employment and not available to work (not retired)</common:Name>
+          <structure:Parent>
+            <Ref id="C_WEMP_MNR" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_NOEMPFLU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_NOEMPFLU">
+          <common:Name xml:lang="it">famiglie con tutte le forze di lavoro disoccupate</common:Name>
+          <common:Name xml:lang="en">households where all active persons are unemployed</common:Name>
+          <structure:Parent>
+            <Ref id="HH_ATL_1LF" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="EAR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).EAR">
+          <common:Name xml:lang="it">giovani dai 18 ai 24 anni d'età che abbandonano prematuramente gli studi (in migliaia)</common:Name>
+          <common:Name xml:lang="en">early leavers from education and training - aged 18 to 24 (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_TOTAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_TOTAL">
+          <common:Name xml:lang="it">totale famiglie</common:Name>
+          <common:Name xml:lang="en">total households</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_NOEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_NOEMP">
+          <common:Name xml:lang="it">famiglie senza occupati</common:Name>
+          <common:Name xml:lang="en">jobless households</common:Name>
+          <structure:Parent>
+            <Ref id="HH_TOTAL" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="EART" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).EART">
+          <common:Name xml:lang="it">giovani dai 18 ai 24 anni d'età che abbandonano prematuramente gli studi</common:Name>
+          <common:Name xml:lang="en">early leavers from education and training - aged 18 to 24</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_YEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_YEMP">
+          <common:Name xml:lang="it">famiglie con almeno un occupato</common:Name>
+          <common:Name xml:lang="en">households with at least one employed person</common:Name>
+          <structure:Parent>
+            <Ref id="HH_TOTAL" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_1EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_1EMP">
+          <common:Name xml:lang="it">famiglie con 1 occupato</common:Name>
+          <common:Name xml:lang="en">households with 1 employed person</common:Name>
+          <structure:Parent>
+            <Ref id="HH_YEMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_1FEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_1FEMP">
+          <common:Name xml:lang="it">famiglie con 1 occupata femmina</common:Name>
+          <common:Name xml:lang="en">households with 1 female employed person</common:Name>
+          <structure:Parent>
+            <Ref id="HH_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_1MEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_1MEMP">
+          <common:Name xml:lang="it">famiglie con 1 occupato maschio</common:Name>
+          <common:Name xml:lang="en">households with 1 male employed person</common:Name>
+          <structure:Parent>
+            <Ref id="HH_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_1TEMPPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_1TEMPPT">
+          <common:Name xml:lang="it">famiglie con 1 occupato a termine/collaboratore part-time</common:Name>
+          <common:Name xml:lang="en">households with 1 part-time temporary employee or freelancer</common:Name>
+          <structure:Parent>
+            <Ref id="HH_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_1PEMPPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_1PEMPPT">
+          <common:Name xml:lang="it">famiglie con 1 occupato permanente/autonomo part-time</common:Name>
+          <common:Name xml:lang="en">households with 1 part-time permanent employee or self-employed person</common:Name>
+          <structure:Parent>
+            <Ref id="HH_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_2EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_2EMP">
+          <common:Name xml:lang="it">famiglie con 2 o più occupati</common:Name>
+          <common:Name xml:lang="en">households with 2 or more employed persons</common:Name>
+          <structure:Parent>
+            <Ref id="HH_YEMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_2PEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_2PEMP">
+          <common:Name xml:lang="it">famiglie con 2 o più occupati tutti permanenti/autonomi</common:Name>
+          <common:Name xml:lang="en">households with 2 or more employed persons, all permanent  employees or self-employed persons</common:Name>
+          <structure:Parent>
+            <Ref id="HH_2EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_2PTEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_2PTEMP">
+          <common:Name xml:lang="it">famiglie con 2 o più occupati sia permanenti/autonomi sia a termine/collaboratori</common:Name>
+          <common:Name xml:lang="en">households with 2 or more employed persons, both permanent  employees or self-employed persons and temporary employees or freelancers</common:Name>
+          <structure:Parent>
+            <Ref id="HH_2EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_2TEMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_2TEMP">
+          <common:Name xml:lang="it">famiglie con 2 o più occupati tutti a termine/collaboratori</common:Name>
+          <common:Name xml:lang="en">households with 2 or more employed persons, all temporary employees or freelancers</common:Name>
+          <structure:Parent>
+            <Ref id="HH_2EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HH_1PEMPFT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_1PEMPFT">
+          <common:Name xml:lang="it">famiglie con 1 occupato permanente/autonomo full-time</common:Name>
+          <common:Name xml:lang="en">households with 1 full-time permanent employee or self-employed person</common:Name>
+          <structure:Parent>
+            <Ref id="HH_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_1M_PT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_1M_PT">
+          <common:Name xml:lang="it">solo l'uomo occupato part-time</common:Name>
+          <common:Name xml:lang="en">only man part-time employed</common:Name>
+          <structure:Parent>
+            <Ref id="C_1M_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C_1W_FT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).C_1W_FT">
+          <common:Name xml:lang="it">solo la donna occupata full-time</common:Name>
+          <common:Name xml:lang="en">only woman full-time employed</common:Name>
+          <structure:Parent>
+            <Ref id="C_1W_EMP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NO_SK_NO_AVAIL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).NO_SK_NO_AVAIL">
+          <common:Name xml:lang="it">persone che non cercano lavoro e non disponibili 25-64 anni (migliaia)</common:Name>
+          <common:Name xml:lang="en">persons not seeking employment and not available to work 25-64 years (thousands)</common:Name>
+          <structure:Parent>
+            <Ref id="INAC_Y25-64" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).POP">
+          <common:Name xml:lang="it">popolazione 0 anni e più (in migliaia)</common:Name>
+          <common:Name xml:lang="en">population 0 years and high (thousands)</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_1TEMPFT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO_FOL(1.3).HH_1TEMPFT">
+          <common:Name xml:lang="it">famiglie con 1 occupato a termine/collaboratore full-time</common:Name>
+          <common:Name xml:lang="en">households with 1 full-time temporary employee or freelancer</common:Name>
+          <structure:Parent>
+            <Ref id="HH_1EMP" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

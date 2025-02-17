@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF134</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T11:44:55.1930514+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_RUOLO_FAM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_RUOLO_FAM(1.2)" agencyID="IT1" version="1.2" isFinal="true">
+        <common:Name xml:lang="it">Ruolo in famiglia</common:Name>
+        <common:Name xml:lang="en">Role in household</common:Name>
+        <structure:Code id="PA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).PA">
+          <common:Name xml:lang="it">genitore</common:Name>
+          <common:Name xml:lang="en">parent</common:Name>
+        </structure:Code>
+        <structure:Code id="SD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).SD">
+          <common:Name xml:lang="it">figlio/a</common:Name>
+          <common:Name xml:lang="en">son/daughter</common:Name>
+        </structure:Code>
+        <structure:Code id="PAC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).PAC">
+          <common:Name xml:lang="it">genitore in coppia</common:Name>
+          <common:Name xml:lang="en">parent in couple</common:Name>
+          <structure:Parent>
+            <Ref id="PA" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SPA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).SPA">
+          <common:Name xml:lang="it">monogenitore</common:Name>
+          <common:Name xml:lang="en">single parent</common:Name>
+          <structure:Parent>
+            <Ref id="PA" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TOT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).TOT">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+        <structure:Code id="SPO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).SPO">
+          <common:Name xml:lang="it">single, partner senza figli, altro ruolo</common:Name>
+          <common:Name xml:lang="en">single, partner without children, other rule</common:Name>
+        </structure:Code>
+        <structure:Code id="PWOC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).PWOC">
+          <common:Name xml:lang="it">coniuge/convivente senza figli</common:Name>
+          <common:Name xml:lang="en">partner without children</common:Name>
+          <structure:Parent>
+            <Ref id="SPO" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).S">
+          <common:Name xml:lang="it">single</common:Name>
+          <common:Name xml:lang="en">single</common:Name>
+          <structure:Parent>
+            <Ref id="SPO" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="OTH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_RUOLO_FAM(1.2).OTH">
+          <common:Name xml:lang="it">altro (diverso da figlio, genitore, single o coniuge/convivente senza figli)</common:Name>
+          <common:Name xml:lang="en">other</common:Name>
+          <structure:Parent>
+            <Ref id="SPO" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF70</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T09:55:50.8411569+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_CARATT_OCC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_CARATT_OCC(1.3)" agencyID="IT1" version="1.3" isFinal="true">
+        <common:Name xml:lang="it">Carattere occupazione</common:Name>
+        <common:Name xml:lang="en">Temporary employees</common:Name>
+        <structure:Code id="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CARATT_OCC(1.3).3">
+          <common:Name xml:lang="it">stagionale</common:Name>
+          <common:Name xml:lang="en">seasonal</common:Name>
+        </structure:Code>
+        <structure:Code id="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CARATT_OCC(1.3).1">
+          <common:Name xml:lang="it">tempo determinato</common:Name>
+          <common:Name xml:lang="en">temporary employees</common:Name>
+        </structure:Code>
+        <structure:Code id="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CARATT_OCC(1.3).2">
+          <common:Name xml:lang="it">tempo indeterminato</common:Name>
+          <common:Name xml:lang="en">permanent employees</common:Name>
+        </structure:Code>
+        <structure:Code id="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CARATT_OCC(1.3).9">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

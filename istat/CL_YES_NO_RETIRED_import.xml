@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF336</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-14T16:00:26.3638126+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_YES_NO_RETIRED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_YES_NO_RETIRED(1.0)" agencyID="IT1" version="1.0" isFinal="true">
+        <common:Name xml:lang="it">Presenza in famiglia di pensionati da lavoro</common:Name>
+        <common:Name xml:lang="en">Presence in the household of retired persons</common:Name>
+        <structure:Code id="HH_NORET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_YES_NO_RETIRED(1.0).HH_NORET">
+          <common:Name xml:lang="it">famiglie senza pensionati da lavoro</common:Name>
+          <common:Name xml:lang="en">households without retired</common:Name>
+        </structure:Code>
+        <structure:Code id="TOTAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_YES_NO_RETIRED(1.0).TOTAL">
+          <common:Name xml:lang="it">totale famiglie</common:Name>
+          <common:Name xml:lang="en">total households</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_YRET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_YES_NO_RETIRED(1.0).HH_YRET">
+          <common:Name xml:lang="it">famiglie con almeno un pensionato da lavoro</common:Name>
+          <common:Name xml:lang="en">households with at least one retired</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

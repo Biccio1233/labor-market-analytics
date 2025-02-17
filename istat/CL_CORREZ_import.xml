@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF65</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T09:54:39.8766322+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_CORREZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_CORREZ(1.2)" agencyID="IT1" version="1.2" isFinal="true">
+        <common:Name xml:lang="it">Correzione</common:Name>
+        <common:Name xml:lang="en">Adjustment</common:Name>
+        <structure:Code id="N" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CORREZ(1.2).N">
+          <common:Name xml:lang="en">raw data</common:Name>
+          <common:Name xml:lang="it">dati grezzi</common:Name>
+        </structure:Code>
+        <structure:Code id="Y" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CORREZ(1.2).Y">
+          <common:Name xml:lang="en">seasonally adjusted data</common:Name>
+          <common:Name xml:lang="it">dati destagionalizzati</common:Name>
+        </structure:Code>
+        <structure:Code id="W" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CORREZ(1.2).W">
+          <common:Name xml:lang="en">calendar adjusted data</common:Name>
+          <common:Name xml:lang="it">dati corretti per gli effetti di calendario</common:Name>
+        </structure:Code>
+        <structure:Code id="S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CORREZ(1.2).S">
+          <common:Name xml:lang="en">seasonally adjusted data, not adjusted for calendar effects</common:Name>
+          <common:Name xml:lang="it">dati destagionalizzati, non corretto per gli effetti di calendario</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

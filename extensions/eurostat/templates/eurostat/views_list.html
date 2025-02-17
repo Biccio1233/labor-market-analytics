@@ -1,0 +1,102 @@
+{% extends "appbuilder/base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <!-- Pannello di navigazione -->
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Browse Eurostat Categories</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        {% for category in categories %}
+                        <a href="{{ url_for('.browse', category_path=category.code) }}" class="list-group-item">
+                            <h4 class="list-group-item-heading">{{ category.title }}</h4>
+                            <p class="list-group-item-text">
+                                <i class="fa fa-folder-o"></i> Click to browse
+                            </p>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Lista delle viste -->
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Available Eurostat Views</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>View Name</th>
+                                    <th>Dataset Code</th>
+                                    <th>Title</th>
+                                    <th>Created At</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for view in views %}
+                                <tr>
+                                    <td>{{ view.view_name }}</td>
+                                    <td>{{ view.dataset_code }}</td>
+                                    <td>{{ view.dataset_title }}</td>
+                                    <td>{{ view.created_at|datetime }}</td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <a href="{{ url_for('Superset.explore_json', datasource_type='table', datasource_id=view.view_name) }}" 
+                                               class="btn btn-sm btn-info" 
+                                               title="Explore Data">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="{{ url_for('.refresh', dataset_code=view.dataset_code) }}" 
+                                               class="btn btn-sm btn-warning" 
+                                               title="Refresh Dataset">
+                                                <i class="fa fa-refresh"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.list-group-item {
+    border-left: 3px solid transparent;
+}
+.list-group-item:hover {
+    border-left-color: #337ab7;
+    background-color: #f5f5f5;
+}
+.panel-body {
+    padding: 0;
+}
+.list-group {
+    margin-bottom: 0;
+}
+.list-group-item:first-child {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+</style>
+{% endblock %}

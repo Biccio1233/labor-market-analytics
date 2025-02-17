@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF125</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T10:47:27.555796+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_INDICATORI_ISTFORM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_INDICATORI_ISTFORM(1.0)" agencyID="IT1" version="1.0" isFinal="true">
+        <common:Name xml:lang="it">Indicatori del tema Istruzione e formazione</common:Name>
+        <common:Name xml:lang="en">Indicators of the theme Education and training</common:Name>
+        <common:Description xml:lang="it">DS: dato statistico di diffusione</common:Description>
+        <common:Description xml:lang="en">DS: output statistical data</common:Description>
+        <structure:Code id="SCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).SCH">
+          <common:Name xml:lang="it">numero di scuole</common:Name>
+          <common:Name xml:lang="en">number of schools</common:Name>
+        </structure:Code>
+        <structure:Code id="CLSS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).CLSS">
+          <common:Name xml:lang="it">numero di classi</common:Name>
+          <common:Name xml:lang="en">number of classes</common:Name>
+        </structure:Code>
+        <structure:Code id="ENR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).ENR">
+          <common:Name xml:lang="it">iscritti - maschi e femmine</common:Name>
+          <common:Name xml:lang="en">enrolled - males and females</common:Name>
+        </structure:Code>
+        <structure:Code id="ENR_F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).ENR_F">
+          <common:Name xml:lang="it">iscritti - femmine</common:Name>
+          <common:Name xml:lang="en">enrolled - females</common:Name>
+        </structure:Code>
+        <structure:Code id="REP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).REP">
+          <common:Name xml:lang="it">ripetenti - maschi e femmine</common:Name>
+          <common:Name xml:lang="en">repeaters - males and females</common:Name>
+        </structure:Code>
+        <structure:Code id="REP_F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).REP_F">
+          <common:Name xml:lang="it">ripetenti - femmine</common:Name>
+          <common:Name xml:lang="en">repeaters - females</common:Name>
+        </structure:Code>
+        <structure:Code id="FOR_ST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).FOR_ST">
+          <common:Name xml:lang="it">stranieri - maschi e femmine</common:Name>
+          <common:Name xml:lang="en">foreign students - males and females</common:Name>
+        </structure:Code>
+        <structure:Code id="FOR_ST_F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).FOR_ST_F">
+          <common:Name xml:lang="it">stranieri - femmine</common:Name>
+          <common:Name xml:lang="en">foreign students - females</common:Name>
+        </structure:Code>
+        <structure:Code id="TCHR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).TCHR">
+          <common:Name xml:lang="it">insegnanti</common:Name>
+          <common:Name xml:lang="en">teachers</common:Name>
+        </structure:Code>
+        <structure:Code id="PRFS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).PRFS">
+          <common:Name xml:lang="it">numero docenti universitari</common:Name>
+          <common:Name xml:lang="en">number of university professor</common:Name>
+        </structure:Code>
+        <structure:Code id="ENT_RATE_TER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).ENT_RATE_TER">
+          <common:Name xml:lang="it">tasso di passaggio dalla scuola secondaria di secondo grado (per regione di residenza)</common:Name>
+          <common:Name xml:lang="en">entry rate to tertiary education (region of residence)</common:Name>
+        </structure:Code>
+        <structure:Code id="ENR_RATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).ENR_RATE">
+          <common:Name xml:lang="it">tasso di iscrizione (per regione di residenza)</common:Name>
+          <common:Name xml:lang="en">enrolment rate in tertiary education (region of residence)</common:Name>
+        </structure:Code>
+        <structure:Code id="GRAD_RATE_I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).GRAD_RATE_I">
+          <common:Name xml:lang="it">tasso di conseguimento delle lauree triennali e a ciclo unico (per regione di residenza)</common:Name>
+          <common:Name xml:lang="en">graduation rate for first level and long university courses (region of residence)</common:Name>
+        </structure:Code>
+        <structure:Code id="GRAD_RATE_II" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).GRAD_RATE_II">
+          <common:Name xml:lang="it">tasso di conseguimento delle lauree di durata 4-6 anni e specialistiche biennali (per regione di residenza)</common:Name>
+          <common:Name xml:lang="en">graduation rate for second level and long university courses (region of residence)</common:Name>
+        </structure:Code>
+        <structure:Code id="UNIV_ENT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).UNIV_ENT">
+          <common:Name xml:lang="it">immatricolati a corsi universitari</common:Name>
+          <common:Name xml:lang="en">university entrants</common:Name>
+        </structure:Code>
+        <structure:Code id="UNIV_ENR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).UNIV_ENR">
+          <common:Name xml:lang="it">iscritti a corsi universitari</common:Name>
+          <common:Name xml:lang="en">university enrolments</common:Name>
+        </structure:Code>
+        <structure:Code id="UNIV_ENR_OUT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).UNIV_ENR_OUT">
+          <common:Name xml:lang="it">iscritti fuori corso a corsi universitari</common:Name>
+          <common:Name xml:lang="en">university students who have not completed their exams within the legal time</common:Name>
+        </structure:Code>
+        <structure:Code id="GRAD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).GRAD">
+          <common:Name xml:lang="it">laureati</common:Name>
+          <common:Name xml:lang="en">graduates</common:Name>
+        </structure:Code>
+        <structure:Code id="GRAD_OUT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).GRAD_OUT">
+          <common:Name xml:lang="it">laureati fuori corso</common:Name>
+          <common:Name xml:lang="en">graduates who have not completed their exams within the legal time</common:Name>
+        </structure:Code>
+        <structure:Code id="SCH_DIS_ST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).SCH_DIS_ST">
+          <common:Name xml:lang="it">numero scuole con presenza di alunni con disabilità</common:Name>
+          <common:Name xml:lang="en">number of school with disabled students present</common:Name>
+        </structure:Code>
+        <structure:Code id="POP_15OVER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_INDICATORI_ISTFORM(1.0).POP_15OVER">
+          <common:Name xml:lang="it">popolazione 15 anni e oltre</common:Name>
+          <common:Name xml:lang="en">population 15 years and over</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

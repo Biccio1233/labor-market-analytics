@@ -1,0 +1,71 @@
+{% extends "appbuilder/base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Download Eurostat Dataset</h3>
+                </div>
+                <div class="panel-body">
+                    <form method="post" action="{{ url_for('.download') }}">
+                        <div class="form-group">
+                            <label for="dataset_code">Select Dataset</label>
+                            <select name="dataset_code" id="dataset_code" class="form-control" required>
+                                <option value="">Select a dataset...</option>
+                                {% for dataset in datasets %}
+                                <option value="{{ dataset.dataset_code }}">
+                                    {{ dataset.dataset_title }} [{{ dataset.dataset_code }}]
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fa fa-download"></i> Download Dataset
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Available Datasets</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Dataset Code</th>
+                                    <th>Title</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for dataset in datasets %}
+                                <tr>
+                                    <td>{{ dataset.dataset_code }}</td>
+                                    <td>{{ dataset.dataset_title }}</td>
+                                    <td>
+                                        <a href="{{ url_for('EurostatModelView.refresh', dataset_code=dataset.dataset_code) }}" 
+                                           class="btn btn-sm btn-info" 
+                                           title="Refresh Dataset">
+                                            <i class="fa fa-refresh"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

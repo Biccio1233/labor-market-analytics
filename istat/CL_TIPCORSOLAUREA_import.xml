@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF127</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T10:47:28.6633979+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_TIPCORSOLAUREA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_TIPCORSOLAUREA(1.2)" agencyID="IT1" version="1.2" isFinal="true">
+        <common:Name xml:lang="it">Tipologia di corso di laurea</common:Name>
+        <common:Name xml:lang="en">Type of degree course</common:Name>
+        <structure:Code id="LSCU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPCORSOLAUREA(1.2).LSCU">
+          <common:Name xml:lang="it">corsi di laurea magistrale a ciclo unico</common:Name>
+          <common:Name xml:lang="en">master programmes (long first degree)</common:Name>
+        </structure:Code>
+        <structure:Code id="LS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPCORSOLAUREA(1.2).LS">
+          <common:Name xml:lang="it">corsi di laurea magistrale biennale</common:Name>
+          <common:Name xml:lang="en">master programmes (second degree)</common:Name>
+        </structure:Code>
+        <structure:Code id="CDL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPCORSOLAUREA(1.2).CDL">
+          <common:Name xml:lang="it">corsi di laurea del vecchio ordinamento</common:Name>
+          <common:Name xml:lang="en">old degree programmes (4-6 years master long first degree)</common:Name>
+        </structure:Code>
+        <structure:Code id="CDU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPCORSOLAUREA(1.2).CDU">
+          <common:Name xml:lang="it">corsi di diploma universitario precedenti la legge di riforma n. 509 del 1999 (comprese scuole dirette a fini speciali)</common:Name>
+          <common:Name xml:lang="en">old short university degree programmes</common:Name>
+        </structure:Code>
+        <structure:Code id="9999" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPCORSOLAUREA(1.2).9999">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+        <structure:Code id="L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPCORSOLAUREA(1.2).L">
+          <common:Name xml:lang="it">corsi di laurea di I livello</common:Name>
+          <common:Name xml:lang="en">bachelor programmes</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF135</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T11:44:55.6922523+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_SI_NO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_SI_NO(2.0)" agencyID="IT1" version="2.0" isFinal="true">
+        <common:Name xml:lang="it">Si e no</common:Name>
+        <common:Name xml:lang="en">Yes and no</common:Name>
+        <structure:Code id="0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SI_NO(2.0).0">
+          <common:Name xml:lang="it">no</common:Name>
+          <common:Name xml:lang="en">no</common:Name>
+        </structure:Code>
+        <structure:Code id="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SI_NO(2.0).9">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+        <structure:Code id="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SI_NO(2.0).2">
+          <common:Name xml:lang="it">non indicato</common:Name>
+          <common:Name xml:lang="en">n.a.</common:Name>
+        </structure:Code>
+        <structure:Code id="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SI_NO(2.0).3">
+          <common:Name xml:lang="it">non disponibile</common:Name>
+          <common:Name xml:lang="en">unavailable</common:Name>
+        </structure:Code>
+        <structure:Code id="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_SI_NO(2.0).1">
+          <common:Name xml:lang="it">si</common:Name>
+          <common:Name xml:lang="en">yes</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

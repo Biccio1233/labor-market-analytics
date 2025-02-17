@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF358</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-14T16:58:17.276309+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_TIPO_DATO15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_TIPO_DATO15(4.1)" agencyID="IT1" version="4.1" isFinal="true">
+        <common:Name xml:lang="it">Tipo dato 15</common:Name>
+        <common:Name xml:lang="en">Data type 15</common:Name>
+        <structure:Code id="NDWMNE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDWMNE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con assegno al coniuge</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces with maintenance for spouses</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMACHPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMACHPE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con assegno ai figli (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces  with maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="ALJPD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALJPD">
+          <common:Name xml:lang="it">durata media del procedimento di divorzio giudiziale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of judicial proceeding of divorce (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGPOP_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGPOP_103">
+          <common:Name xml:lang="it">matrimoni % rispetto al totale dei matrimoni (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area 1992-2005 (% in respect of total marriages)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWOTMCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWOTMCP">
+          <common:Name xml:lang="it">divorzi con mantenimento dei figli diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">divorces with other maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="CORE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CORE">
+          <common:Name xml:lang="it">trasferimenti di residenza</common:Name>
+          <common:Name xml:lang="en">changes of residence</common:Name>
+        </structure:Code>
+        <structure:Code id="AVNUHM_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AVNUHM_CP">
+          <common:Name xml:lang="it">numero medio di componenti per famiglia al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">average number of members in private household on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMAMPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMAMPE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con figli minori e assegno (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces with minor children and maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="IHFWP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).IHFWP">
+          <common:Name xml:lang="it">divorzi con marito italiano per nascita e moglie straniera o italiana per acquisizione nei divorzi (%)</common:Name>
+          <common:Name xml:lang="en">divorces with Italian husband and foreign wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHONADT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHONADT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con abitazioni autonome e distinte (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courtswith family house not assigned (independent houses) (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHONAST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHONAST">
+          <common:Name xml:lang="it">abitazioni autonome e distinte nelle separazioni concesse dal tribunale (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with family house not assigned (independent houses) (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMOTCM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMOTCM">
+          <common:Name xml:lang="it">separazioni con mantenimento dei figli minori e diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">separations with minor children and other maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NDWMNT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDWMNT">
+          <common:Name xml:lang="it">divorzi  concessi dal tribunale con assegno al coniuge</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with maintenance for spouses</common:Name>
+        </structure:Code>
+        <structure:Code id="CMARRGP_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CMARRGP_107">
+          <common:Name xml:lang="it">matrimoni civili % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">civil marriages by geographical area 2006-2009 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTM_AGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTM_AGE">
+          <common:Name xml:lang="it">tasso di nuzialità totale sposi(tutte le età)-valori per mille</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate bridegrooms by geographical area (all ages)(per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMNPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMNPE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con assegno al coniuge (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces with maintenance for spouses (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEXP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEXP">
+          <common:Name xml:lang="it">speranza di vita - ex</common:Name>
+          <common:Name xml:lang="en">life expectancy - ex</common:Name>
+        </structure:Code>
+        <structure:Code id="IMMABRRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).IMMABRRATE">
+          <common:Name xml:lang="it">tasso immigratorio dall'estero (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">immigration rate from abroad (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="EFINTNMIG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).EFINTNMIG">
+          <common:Name xml:lang="it">saldo migratorio con l'estero stimato</common:Name>
+          <common:Name xml:lang="en">estimated foreign population international net migration</common:Name>
+        </structure:Code>
+        <structure:Code id="DGCCMOM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DGCCMOM">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con mantenimento dei figli minori diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with minor children and other maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="ASFR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ASFR">
+          <common:Name xml:lang="it">tasso di fecondità specifica per età della madre</common:Name>
+          <common:Name xml:lang="en">age-specific fertility rate</common:Name>
+        </structure:Code>
+        <structure:Code id="WOMENCIV18_49" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).WOMENCIV18_49">
+          <common:Name xml:lang="it">età media all'unione donne (18-49 anni)</common:Name>
+          <common:Name xml:lang="en">mean age at civil partnership women (age 18-49)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRG_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRG_107">
+          <common:Name xml:lang="it">matrimoni (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area 2006-2009</common:Name>
+        </structure:Code>
+        <structure:Code id="MENCIV18_49" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MENCIV18_49">
+          <common:Name xml:lang="it">età media all'unione uomini (18-49 anni)</common:Name>
+          <common:Name xml:lang="en">mean age at civil partnership men (age 18-49)</common:Name>
+        </structure:Code>
+        <structure:Code id="NMCHUCS_E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMCHUCS_E">
+          <common:Name xml:lang="it">figli minori affidati nelle separazioni consensuali extragiudiziali</common:Name>
+          <common:Name xml:lang="en">minor children under custody in extrajudicial consensual separations</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGP_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGP_110">
+          <common:Name xml:lang="it">matrimoni % secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area at 2011 census (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FPOPCOM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FPOPCOM">
+          <common:Name xml:lang="it">popolazione straniera residente in convivenza</common:Name>
+          <common:Name xml:lang="en">foreign resident population in institutional household</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHES_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHES_FROM2017">
+          <common:Name xml:lang="it">stima dei nati vivi</common:Name>
+          <common:Name xml:lang="en">live births estimate</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTM_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTM_FROM2017">
+          <common:Name xml:lang="it">tasso di nuzialità  totale sposi-valori per mille</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate bridegrooms (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMMCM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMMCM">
+          <common:Name xml:lang="it">separazioni con figli minori e assegno (%)</common:Name>
+          <common:Name xml:lang="en">separations with minor children and maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="JAN_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).JAN_C">
+          <common:Name xml:lang="it">popolazione al 1º gennaio ai confini dell'epoca</common:Name>
+          <common:Name xml:lang="en">population on 1st January within the borders of the time</common:Name>
+        </structure:Code>
+        <structure:Code id="BR_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BR_103">
+          <common:Name xml:lang="it">spose (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">brides by geographical area 1992-2005</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRG_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRG_103">
+          <common:Name xml:lang="it">matrimoni (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area 1992-2005</common:Name>
+        </structure:Code>
+        <structure:Code id="ALMAPST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALMAPST">
+          <common:Name xml:lang="it">durata media del procedimento di separazione consensuale in tribunale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of mutually agreed proceeding of separation in civil courts (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMPFT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMPFT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con assegno ai figli corrisposto dal padre (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with maintenance paid by father (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBRGRALL_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBRGRALL_FROM2017">
+          <common:Name xml:lang="it">indice di primo nuzialità  sposi (tutte le età) - valori per mille</common:Name>
+          <common:Name xml:lang="en">first marriage rate bridegrooms (all ages) (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVCOMPROP_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVCOMPROP_P">
+          <common:Name xml:lang="it">unioni civili con regime di comunione dei beni (% sul totale delle unioni civili)</common:Name>
+          <common:Name xml:lang="en">civil partnerships with joint ownership of property (% of total civil partnerships)</common:Name>
+        </structure:Code>
+        <structure:Code id="MPHUPDT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MPHUPDT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale  con assegno corrisposto dal marito (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with maintenance paid by husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMCOMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMCOMP">
+          <common:Name xml:lang="it">divorzi con mantenimento dei figli minori diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">divorces with minor children and other maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NGD_E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NGD_E">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMSPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMSPE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con assegno al coniuge (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with maintenance for spouses (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMLDYT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMLDYT">
+          <common:Name xml:lang="it">durata media della convivenza matrimoniale nelle separazioni concesse dal tribunale (anni)</common:Name>
+          <common:Name xml:lang="en">average married life duration in separations granted by civil court (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="DEC_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEC_CP">
+          <common:Name xml:lang="it">popolazione al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">population on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="BR_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BR_FROM2017">
+          <common:Name xml:lang="it">spose</common:Name>
+          <common:Name xml:lang="en">brides</common:Name>
+        </structure:Code>
+        <structure:Code id="SSC_JAN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SSC_JAN">
+          <common:Name xml:lang="it">semi-supercentenari al 1º gennaio</common:Name>
+          <common:Name xml:lang="en">semi-supercentenarians on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBR_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBR_FROM2017">
+          <common:Name xml:lang="it">età  media al matrimonio spose (tutte le età)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage brides (all ages)</common:Name>
+        </structure:Code>
+        <structure:Code id="BR_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BR_110">
+          <common:Name xml:lang="it">spose secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">brides by geographical area at 2011 census</common:Name>
+        </structure:Code>
+        <structure:Code id="PERCCIVMAR_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PERCCIVMAR_FROM2017">
+          <common:Name xml:lang="it">percentuale di matrimoni civili - numero indice base Italia=100</common:Name>
+          <common:Name xml:lang="en">civil marriages percentage index (base Italy=100)</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWOTCHE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWOTCHE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con mantenimento dei figli diverso da assegno</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with other maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="POPSTAT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POPSTAT">
+          <common:Name xml:lang="it">popolazione statistica al 1º gennaio</common:Name>
+          <common:Name xml:lang="en">statistical population on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="ECDMCOM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ECDMCOM">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con mantenimento dei figli minori diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces with minor children and other maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBRGR_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBRGR_FROM2017">
+          <common:Name xml:lang="it">indice di primo nuzialità  sposi (16-49 anni) - valori per mille</common:Name>
+          <common:Name xml:lang="en">first marriage rate bridegrooms (age 16-49) (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMTOMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMTOMP">
+          <common:Name xml:lang="it">divorzi con più di un figlio minore affidato (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">divorces with more than one minor under custody (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMPFHE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMPFHE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con assegno ai figli corrisposto dal padre (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations  with maintenance paid by father (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FREGSTAD_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FREGSTAD_CP">
+          <common:Name xml:lang="it">stranieri-aggiustamento statistico da nuova metodologia di calcolo</common:Name>
+          <common:Name xml:lang="en">foreign-statistical adjustment from new calculation methodology</common:Name>
+        </structure:Code>
+        <structure:Code id="STMRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).STMRATE">
+          <common:Name xml:lang="it">tasso standardizzato di mortalità (per 10.000 abitanti)</common:Name>
+          <common:Name xml:lang="en">standardized mortality rate (per ten thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGRASM_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGRASM_103">
+          <common:Name xml:lang="it">sposi al secondo matrimonio o successivi % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">bridegrooms at second or subsequent marriage by geographical area 1992-2005 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMAMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMAMP">
+          <common:Name xml:lang="it">divorzi con figli minori e assegno (%)</common:Name>
+          <common:Name xml:lang="en">divorces with minor children and maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="PMDEPCO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PMDEPCO">
+          <common:Name xml:lang="it">popolazione nei comuni con decremento di popolazione (composizioni percentuali)</common:Name>
+          <common:Name xml:lang="en">population in municipalities with decreasing population (percentage compositions)</common:Name>
+        </structure:Code>
+        <structure:Code id="MEANGAP_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MEANGAP_M">
+          <common:Name xml:lang="it">differenza media età uniti uomini</common:Name>
+          <common:Name xml:lang="en">mean age gap of couples of men</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVILPART_T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVILPART_T">
+          <common:Name xml:lang="it">unioni civili per centomila abitanti - valori per centomila</common:Name>
+          <common:Name xml:lang="en">civil partnerships per one hundred thousand people (per one hundred thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="MUCOMPS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MUCOMPS">
+          <common:Name xml:lang="it">figli minori affidati esclusivamente alla madre nelle separazioni (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">minors under custody only of mother in separations (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="RESPOPPC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESPOPPC">
+          <common:Name xml:lang="it">popolazione residente (composizione percentuale)</common:Name>
+          <common:Name xml:lang="en">resident population (percentage composition)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP0M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP0M">
+          <common:Name xml:lang="it">speranza di vita alla nascita - maschi</common:Name>
+          <common:Name xml:lang="en">life expectancy at birth - males</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBR_16_49" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBR_16_49">
+          <common:Name xml:lang="it">età media al matrimonio spose (16-49 anni) secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage brides (age 16-49) by geographical area at 2011 census (all ages)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPTRATE_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPTRATE_110">
+          <common:Name xml:lang="it">quozienti di nuzialità - valori per mille secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">nuptiality rate by geographical area at 2011 census (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGP_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGP_107">
+          <common:Name xml:lang="it">matrimoni % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area 2006-2009 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBRALL_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBRALL_110">
+          <common:Name xml:lang="it">indice di primo nuzialità spose(tutte le età)-valori per mille secondo il territorio al Censimento 2011(110 province)</common:Name>
+          <common:Name xml:lang="en">first marriage rate brides by geographical area at 2011 census(all ages)(per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBR_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBR_FROM2017">
+          <common:Name xml:lang="it">indice di primo nuzialità  spose (16-49 anni) - valori per mille</common:Name>
+          <common:Name xml:lang="en">first marriage rate brides (age 16-49) (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="ALMAPSE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALMAPSE">
+          <common:Name xml:lang="it">durata media del procedimento di separazione consensuale extragiudiziale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of mutually agreed proceeding of extrajudicial separations  (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRASM_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRASM_107">
+          <common:Name xml:lang="it">spose al secondo matrimonio o successivi  % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">brides at second or subsequent marriage by geographical area 2006-2009 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMAMCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMAMCP">
+          <common:Name xml:lang="it">divorzi esauriti con rito consensuale nelle coppie miste (%)</common:Name>
+          <common:Name xml:lang="en">divorces settled with mutually agreement in mixed couples (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MDECPPCO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MDECPPCO">
+          <common:Name xml:lang="it">comuni con decremento di popolazione (composizioni percentuali)</common:Name>
+          <common:Name xml:lang="en">municipalities with decreasing population (percentage compositions)</common:Name>
+        </structure:Code>
+        <structure:Code id="MUCOFPS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MUCOFPS">
+          <common:Name xml:lang="it">figli minori affidati esclusivamente al padre nelle separazioni (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">minors under custody only of father in separations (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTW_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTW_110">
+          <common:Name xml:lang="it">tasso di nuzialità totale spose (16-49 anni) - valori per mille secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate brides (age 16-49) by geographical area at 2011 census (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="JOWNPP_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).JOWNPP_110">
+          <common:Name xml:lang="it">regime di comunione dei beni % secondo il territorio al Censimento 2011(110 province)</common:Name>
+          <common:Name xml:lang="en">joint ownership of property according by geographical area at 2011 census(%)</common:Name>
+        </structure:Code>
+        <structure:Code id="JOWNPP_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).JOWNPP_FROM2017">
+          <common:Name xml:lang="it">regime di comunione dei beni (%)</common:Name>
+          <common:Name xml:lang="en">joint ownership of property according (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="AVNUMEMB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AVNUMEMB">
+          <common:Name xml:lang="it">numero medio di componenti familiari</common:Name>
+          <common:Name xml:lang="en">average household size</common:Name>
+        </structure:Code>
+        <structure:Code id="BRASM_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRASM_110">
+          <common:Name xml:lang="it">spose al secondo matrimonio o successivi  % secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">brides at second or subsequent marriage by geographical area at 2011 census (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="EINTERTNMIG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).EINTERTNMIG">
+          <common:Name xml:lang="it">saldo migratorio estero stimato</common:Name>
+          <common:Name xml:lang="en">estimated international net migration</common:Name>
+        </structure:Code>
+        <structure:Code id="AMDYMCD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMDYMCD">
+          <common:Name xml:lang="it">durata media del matrimonio (anni) nei divorzi di coppie miste</common:Name>
+          <common:Name xml:lang="en">average marriage duration (years) in mixed couples' divorces</common:Name>
+        </structure:Code>
+        <structure:Code id="NDWMCHE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDWMCHE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con assegno ai figli</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces  with maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="JOWNPP_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).JOWNPP_103">
+          <common:Name xml:lang="it">regime di comunione dei beni % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">joint ownership of property according by geographical area 1992-2005 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHONADE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHONADE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con abitazioni autonome e distinte (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces with family house not assigned (independent houses) (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBRGR16_49FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBRGR16_49FROM2017">
+          <common:Name xml:lang="it">età  media al matrimonio sposi (16-49 anni)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage bridegrooms (age 16-49)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOUSMEMB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOUSMEMB">
+          <common:Name xml:lang="it">popolazione straniera residente in famiglia</common:Name>
+          <common:Name xml:lang="en">foreign resident population in private household</common:Name>
+        </structure:Code>
+        <structure:Code id="MENCIVALAGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MENCIVALAGE">
+          <common:Name xml:lang="it">età media all'unione uomini (tutte le età)</common:Name>
+          <common:Name xml:lang="en">mean age at civil partnership men  (all ages)</common:Name>
+        </structure:Code>
+        <structure:Code id="NTGROW_REGOF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NTGROW_REGOF">
+          <common:Name xml:lang="it">saldo naturale anagrafico</common:Name>
+          <common:Name xml:lang="en">natural increase from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="ALMAPDE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALMAPDE">
+          <common:Name xml:lang="it">durata media del procedimento di divorzio consensuale extragiudiziale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of mutually agreed proceeding of extrajudicial divorce (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="MUJACPD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MUJACPD">
+          <common:Name xml:lang="it">figli minori con affidamento condiviso nei divorzi (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">minors under joined and/or alternate custody in divorces (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAHUST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAHUST">
+          <common:Name xml:lang="it">casa assegnata al marito nelle separazioni concesse dal tribunale (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with family house assigned to husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="INTERTNMIG_REGOF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INTERTNMIG_REGOF">
+          <common:Name xml:lang="it">saldo migratorio anagrafico estero</common:Name>
+          <common:Name xml:lang="en">international net migration from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="FHIWPV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHIWPV">
+          <common:Name xml:lang="it">divorzi con moglie italiana per nascita e marito straniero o italiano per acquisizione (%)</common:Name>
+          <common:Name xml:lang="en">divorces with foreign husband and Italian wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="PMINPCO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PMINPCO">
+          <common:Name xml:lang="it">popolazione nei comuni con incremento di popolazione (composizioni percentuali)</common:Name>
+          <common:Name xml:lang="en">population in municipalities with increasing population (percentage compositions)</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBR16_49FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBR16_49FROM2017">
+          <common:Name xml:lang="it">età  media al matrimonio spose (16-49 anni)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage brides (age 16-49)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAWIDT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAWIDT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con casa assegnata alla moglie (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with family house assigned to wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MEANGAP_W" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MEANGAP_W">
+          <common:Name xml:lang="it">differenza media età uniti donne</common:Name>
+          <common:Name xml:lang="en">mean age gap of couples of women</common:Name>
+        </structure:Code>
+        <structure:Code id="ECDOTMA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ECDOTMA">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con mantenimento  dei figli diverso da assegno</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces  with other maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGRASM_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGRASM_FROM2017">
+          <common:Name xml:lang="it">sposi al secondo matrimonio o successivi (%)</common:Name>
+          <common:Name xml:lang="en">bridegrooms at second or subsequent marriage (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMOMUCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMOMUCP">
+          <common:Name xml:lang="it">separazioni con più di un figlio minore affidato (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">separations with more than one minor under custody (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP0">
+          <common:Name xml:lang="it">speranza di vita alla nascita</common:Name>
+          <common:Name xml:lang="en">life expectancy at birth</common:Name>
+        </structure:Code>
+        <structure:Code id="NMCHUCS_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMCHUCS_C">
+          <common:Name xml:lang="it">figli minori affidati nelle separazioni concesse dal tribunale</common:Name>
+          <common:Name xml:lang="en">minor children under custody in separations granted by civil court</common:Name>
+        </structure:Code>
+        <structure:Code id="INTNETMIGR_REGOF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INTNETMIGR_REGOF">
+          <common:Name xml:lang="it">saldo migratorio anagrafico interno</common:Name>
+          <common:Name xml:lang="en">internal net migration from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="POPLIVHOU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POPLIVHOU">
+          <common:Name xml:lang="it">popolazione che vive in famiglia al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">population living in households on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="LEXISPOINT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LEXISPOINT">
+          <common:Name xml:lang="it">punto di Lexis</common:Name>
+          <common:Name xml:lang="en">lexis point</common:Name>
+        </structure:Code>
+        <structure:Code id="BRASM_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRASM_FROM2017">
+          <common:Name xml:lang="it">spose al secondo matrimonio o successivi (%)</common:Name>
+          <common:Name xml:lang="en">brides at second or subsequent marriage (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MUCOFPD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MUCOFPD">
+          <common:Name xml:lang="it">figli minori affidati esclusivamente al padre nei divorzi (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">minors under custody only of father in divorces (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVBYSTAT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVBYSTAT">
+          <common:Name xml:lang="it">unioni civili per lo stato civile degli uniti (%)</common:Name>
+          <common:Name xml:lang="en">civil partnerships by marital status of the partners(%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRG_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRG_FROM2017">
+          <common:Name xml:lang="it">matrimoni</common:Name>
+          <common:Name xml:lang="en">marriages</common:Name>
+        </structure:Code>
+        <structure:Code id="NGD_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NGD_C">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale</common:Name>
+          <common:Name xml:lang="en">granted divorces granted by civil court</common:Name>
+        </structure:Code>
+        <structure:Code id="SFHUIWFP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SFHUIWFP">
+          <common:Name xml:lang="it">separazioni con moglie italiana per nascita e marito straniero o italiano per acquisizione (%)</common:Name>
+          <common:Name xml:lang="en">separations with foreign husband and Italian wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBR_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBR_110">
+          <common:Name xml:lang="it">età media al matrimonio spose (tutte le età) secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage brides by geographical area at 2011 census (all ages)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBRGR_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBRGR_110">
+          <common:Name xml:lang="it">indice di primo nuzialità sposi (16-49 anni) - valori per mille secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">first marriage rate bridegrooms by geographical area at 2011 census (age 16-49) (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="TOTCESTAD_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TOTCESTAD_CP">
+          <common:Name xml:lang="it">saldo censuario totale</common:Name>
+          <common:Name xml:lang="en">total census balance</common:Name>
+        </structure:Code>
+        <structure:Code id="TFR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TFR">
+          <common:Name xml:lang="it">numero medio di figli per donna</common:Name>
+          <common:Name xml:lang="en">total fertility rate - TFR</common:Name>
+        </structure:Code>
+        <structure:Code id="ALMAPD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALMAPD">
+          <common:Name xml:lang="it">durata media del procedimento di divorzio consensuale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of mutually agreed proceeding of divorce (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP65T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP65T">
+          <common:Name xml:lang="it">speranza di vita a 65 anni - totale</common:Name>
+          <common:Name xml:lang="en">life expectancy at 65 - total</common:Name>
+        </structure:Code>
+        <structure:Code id="MPHUPSE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MPHUPSE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con assegno corrisposto dal marito (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with maintenance paid by husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWMCHT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWMCHT">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con assegno ai figli</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="MARALFSP_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARALFSP_FROM2017">
+          <common:Name xml:lang="it">matrimoni con almeno uno straniero (%)</common:Name>
+          <common:Name xml:lang="en">marriage with at least a foreign spouse (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="HOUSMEMB_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).HOUSMEMB_CP">
+          <common:Name xml:lang="it">popolazione residente in famiglia al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">resident population in private household on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTW_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTW_FROM2017">
+          <common:Name xml:lang="it">tasso di nuzialità totale spose-valori per mille</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate brides (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMCUCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMCUCP">
+          <common:Name xml:lang="it">separazioni con figli minori affidati (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">separations with minor children under custody (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVPARSEX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVPARSEX">
+          <common:Name xml:lang="it">unioni civili per sesso (composizione %)</common:Name>
+          <common:Name xml:lang="en">civil partnerships by gender (percentage composition)</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWMCHE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWMCHE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con assegno ai figli</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="MPHUPDE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MPHUPDE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con assegno corrisposto dal marito (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces with maintenance paid by husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NMCHUCD_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMCHUCD_C">
+          <common:Name xml:lang="it">figli minori affidati nei divorzi concessi dal tribunale</common:Name>
+          <common:Name xml:lang="en">minor children under custody in divorces granted by civil court</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMPFE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMPFE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con assegno ai figli corrisposto dal padre (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces with maintenance paid by father (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGRASM_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGRASM_107">
+          <common:Name xml:lang="it">sposi al secondo matrimonio o successivi  % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">bridegrooms at second or subsequent marriage by geographical area 2006-2009 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMCHPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMCHPE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con assegno ai figli (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTH_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTH_FROM2017">
+          <common:Name xml:lang="it">nati vivi</common:Name>
+          <common:Name xml:lang="en">live births</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAWIDE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAWIDE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con casa assegnata alla moglie (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces  with family house assigned to wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRG_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRG_110">
+          <common:Name xml:lang="it">matrimoni secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area at 2011 census</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMNPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMNPT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con assegno al coniuge (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with maintenance for spouses (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMLDYE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMLDYE">
+          <common:Name xml:lang="it">durata media della convivenza matrimoniale nelle separazioni consensuali extragiudiziali (anni)</common:Name>
+          <common:Name xml:lang="en">average married life duration in extrajudicial consensual separations (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWOTMAC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWOTMAC">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con mantenimento dei figli diverso da assegno</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with other maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAWIST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAWIST">
+          <common:Name xml:lang="it">casa assegnata alla moglie nelle separazioni concesse dal tribunale (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with family house assigned to wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="STADREG_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).STADREG_CP">
+          <common:Name xml:lang="it">aggiustamento statistico da nuova metodologia di calcolo</common:Name>
+          <common:Name xml:lang="en">statistical adjustment from new calculation methodology</common:Name>
+        </structure:Code>
+        <structure:Code id="IMMINTRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).IMMINTRATE">
+          <common:Name xml:lang="it">tasso immigratorio dall'interno (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">internal immigration rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="NDWMCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDWMCH">
+          <common:Name xml:lang="it">divorzi con assegno ai figli</common:Name>
+          <common:Name xml:lang="en">divorces with maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="DFCMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DFCMP">
+          <common:Name xml:lang="it">divorzi da matrimoni civili (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">divorces from civil marriages (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMDYT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMDYT">
+          <common:Name xml:lang="it">durata media del matrimonio nei divorzi concessi dal tribunale (anni)</common:Name>
+          <common:Name xml:lang="en">average marriage duration for divorces granted by civil courts (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="NCC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NCC">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTW_TAGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTW_TAGE">
+          <common:Name xml:lang="it">tasso di nuzialità totale spose (tutte le età) - valori per mille secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate brides (all ages) by geographical area at 2011 census (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMSPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMSPT">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con assegno al coniuge (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with maintenance for spouses (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMCHCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMCHCP">
+          <common:Name xml:lang="it">divorzi con figli minori affidati (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">divorces with minor children under custody (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMMCME" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMMCME">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con figli minori e assegno (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with minor children and maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="PERCFORPOP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PERCFORPOP">
+          <common:Name xml:lang="it">stranieri residenti (rispetto alla popolazione totale) - valori percentuali</common:Name>
+          <common:Name xml:lang="en">resident foreigners (in respect of total population) - percentage values</common:Name>
+        </structure:Code>
+        <structure:Code id="DMCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DMCP">
+          <common:Name xml:lang="it">divorzi di coppie miste (%)</common:Name>
+          <common:Name xml:lang="en">divorces of mixed couples (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="RESFORPER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESFORPER">
+          <common:Name xml:lang="it">stranieri residenti (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">foreign residents (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBRGR_16_49" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBRGR_16_49">
+          <common:Name xml:lang="it">età media al matrimonio sposi (16-49 anni) secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage bridegrooms (age 16-49) by geographical area at 2011 census</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGPOP_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGPOP_107">
+          <common:Name xml:lang="it">matrimoni % rispetto al totale dei matrimoni (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area 2006-2009 (% in respect of total marriages)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTM_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTM_110">
+          <common:Name xml:lang="it">tasso di nuzialità totale sposi (16-49 anni) - valori per mille secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate bridegrooms (age 16-49) by geographical area at 2011 census (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMDJDY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMDJDY">
+          <common:Name xml:lang="it">durata media del matrimonio nei divorzi giudiziali (anni)</common:Name>
+          <common:Name xml:lang="en">average marriage duration for judicial divorces (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP0T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP0T">
+          <common:Name xml:lang="it">speranza di vita alla nascita - totale</common:Name>
+          <common:Name xml:lang="en">life expectancy at birth - total</common:Name>
+        </structure:Code>
+        <structure:Code id="RESFORPTHO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESFORPTHO">
+          <common:Name xml:lang="it">stranieri residenti (rispetto alla popolazione totale) - valori per mille</common:Name>
+          <common:Name xml:lang="en">foreign residents (in respect of total population) - per thousand values</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVILPART" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVILPART">
+          <common:Name xml:lang="it">unioni civili</common:Name>
+          <common:Name xml:lang="en">civil partnerships</common:Name>
+        </structure:Code>
+        <structure:Code id="TOTBALID_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TOTBALID_CP">
+          <common:Name xml:lang="it">saldo totale (naturale, migratorio e per altri motivi)</common:Name>
+          <common:Name xml:lang="en">total balance (natural, net migration and for other reasons)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBR_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBR_110">
+          <common:Name xml:lang="it">indice di primo nuzialità spose (16-49 anni) - valori per mille secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">first marriage rate brides by geographical area at 2011 census (age 16-49) (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMMCMT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMMCMT">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con figli minori e assegno (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with minor children and maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="PERCCIVMAR_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PERCCIVMAR_110">
+          <common:Name xml:lang="it">percentuale di matrimoni civili - numero indice base Italia=100 (territorio 2010-2016)</common:Name>
+          <common:Name xml:lang="en">civil marriages percentage index by geographical area 2010-2016 (base Italy=100)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWOTMC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWOTMC">
+          <common:Name xml:lang="it">divorzi con mantenimento dei figli diverso da assegno</common:Name>
+          <common:Name xml:lang="en">divorces with other maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHESP_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHESP_FROM2017">
+          <common:Name xml:lang="it">stima dei nati vivi (%)</common:Name>
+          <common:Name xml:lang="en">live births estimate %</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVILCITIZEN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVILCITIZEN">
+          <common:Name xml:lang="it">unioni civili (% sul totale delle unioni civili di ciascuna tipologia di coppia)</common:Name>
+          <common:Name xml:lang="en">civil partnerships (% of total civil partnerships by partners citizenship)</common:Name>
+        </structure:Code>
+        <structure:Code id="WOMENPART" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).WOMENPART">
+          <common:Name xml:lang="it">uniti donne</common:Name>
+          <common:Name xml:lang="en">women partners</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPRATEIND_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPRATEIND_110">
+          <common:Name xml:lang="it">quoziente di nuzialità - numero indice base Italia=100 (territorio 2010-2016)</common:Name>
+          <common:Name xml:lang="en">nuptiality rate index by geographical area 2010-2016 (base Italy=100))</common:Name>
+        </structure:Code>
+        <structure:Code id="ARP_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ARP_C">
+          <common:Name xml:lang="it">popolazione residente media ai confini dell'epoca</common:Name>
+          <common:Name xml:lang="en">average resident population within the borders of the time</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP65M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP65M">
+          <common:Name xml:lang="it">speranza di vita a 65 anni - maschi</common:Name>
+          <common:Name xml:lang="en">life expectancy at 65 - males</common:Name>
+        </structure:Code>
+        <structure:Code id="CMARRGP_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CMARRGP_110">
+          <common:Name xml:lang="it">matrimoni civili % secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">civil marriages by geographical area at 2011 census (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUMCOM_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUMCOM_CP">
+          <common:Name xml:lang="it">numero di convivenze al 31 dicembre da trattamento statistico dell'informazione di fonte anagrafica</common:Name>
+          <common:Name xml:lang="en">number of institutional households on 31st December by statistical treatment of the register source</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWMSE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWMSE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con assegno al coniuge</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with maintenance for spouses</common:Name>
+        </structure:Code>
+        <structure:Code id="WOMENLEAST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).WOMENLEAST">
+          <common:Name xml:lang="it">donne con almeno un'unione civile/matrimonio (% sul totale degli uniti donne)</common:Name>
+          <common:Name xml:lang="en">women with at least one union/marriage (% of total women in civil partnership)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOUSMEMB_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOUSMEMB_CP">
+          <common:Name xml:lang="it">popolazione straniera residente in famiglia al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">foreign resident population in private household on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="FTOCESTAD_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FTOCESTAD_CP">
+          <common:Name xml:lang="it">stranieri-saldo censuario totale</common:Name>
+          <common:Name xml:lang="en">foreigners-total census balance</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTW_AGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTW_AGE">
+          <common:Name xml:lang="it">tasso di nuzialità totale spose (tutte le età)-valori per mille</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate brides by geographical area(all ages)(per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="ALMAPDT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALMAPDT">
+          <common:Name xml:lang="it">durata media del procedimento di divorzio consensuale in tribunale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of mutually agreed proceeding of divorce in civil courts (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="DEATHRATEAGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEATHRATEAGE">
+          <common:Name xml:lang="it">tasso specifico di mortalità per età (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">age-specific daeth rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPTRATE_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPTRATE_FROM2017">
+          <common:Name xml:lang="it">quozienti di nuzialità-valori per mille</common:Name>
+          <common:Name xml:lang="en">nuptiality rate(per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWMOTCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWMOTCH">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con mantenimento dei figli diverso da assegno</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with other maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="NCS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NCS">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMCHPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMCHPT">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con assegno ai figli (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DEC_C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEC_C">
+          <common:Name xml:lang="it">popolazione al 31 dicembre ai confini dell'epoca</common:Name>
+          <common:Name xml:lang="en">population on 31st December within the borders of the time</common:Name>
+        </structure:Code>
+        <structure:Code id="PROBDEATH0Y" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PROBDEATH0Y">
+          <common:Name xml:lang="it">probabilità di morte a 0 anni (per mille)</common:Name>
+          <common:Name xml:lang="en">probability of death at 0 year</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMOTCHI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMOTCHI">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con mantenimento dei figli diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with other maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMACHP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMACHP">
+          <common:Name xml:lang="it">divorzi con assegno ai figli (%)</common:Name>
+          <common:Name xml:lang="en">divorces with maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="JOWNPP_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).JOWNPP_107">
+          <common:Name xml:lang="it">regime di comunione dei beni  % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">joint ownership of property according by geographical area 2006-2009 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMCOMAI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMCOMAI">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con mantenimento dei figli minori diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with minor children and other maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAWISE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAWISE">
+          <common:Name xml:lang="it">casa assegnata alla moglie nelle separazioni consensuali extragiudiziali (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with family house assigned to wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DRIN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DRIN">
+          <common:Name xml:lang="it">tasso di divorzio rispetto agli abitanti (valori per mille)</common:Name>
+          <common:Name xml:lang="en">divorce rate in respect of inhabitants (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGPOP_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGPOP_110">
+          <common:Name xml:lang="it">matrimoni % rispetto al totale dei matrimoni secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area at 2011 census (% in respect of total marriages)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRASM_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRASM_103">
+          <common:Name xml:lang="it">spose al secondo matrimonio o successivi  % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">brides at second or subsequent marriage by geographical area 1992-2005 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMDMADY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMDMADY">
+          <common:Name xml:lang="it">durata media del matrimonio nei divorzi consensuali (anni)</common:Name>
+          <common:Name xml:lang="en">average marriage duration for mutually agreed divorces (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGR_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGR_103">
+          <common:Name xml:lang="it">sposi (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">bridegrooms by geographical area 1992-2005</common:Name>
+        </structure:Code>
+        <structure:Code id="POPCOM_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POPCOM_CP">
+          <common:Name xml:lang="it">popolazione residente in convivenza al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">resident population in institutional household on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="DFCMMCPV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DFCMMCPV">
+          <common:Name xml:lang="it">divorzi da matrimoni civili nelle coppie miste (%)</common:Name>
+          <common:Name xml:lang="en">divorces from civil marriages in mixed couples (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWCHP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWCHP">
+          <common:Name xml:lang="it">divorzi con figli nati dall'unione (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">divorces with children (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGP_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGP_FROM2017">
+          <common:Name xml:lang="it">matrimoni (%)</common:Name>
+          <common:Name xml:lang="en">marriages (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="EMIABRRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).EMIABRRATE">
+          <common:Name xml:lang="it">tasso emigratorio per l'estero (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">emigration rate to abroad (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="EMIINTRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).EMIINTRATE">
+          <common:Name xml:lang="it">tasso emigratorio per l'interno (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">internal emigration rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBRGR_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBRGR_110">
+          <common:Name xml:lang="it">età media al matrimonio sposi (tutte le età) secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage bridegrooms by geographical area at 2011 census (all ages)</common:Name>
+        </structure:Code>
+        <structure:Code id="FTOTBAL_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FTOTBAL_CP">
+          <common:Name xml:lang="it">saldo totale della popolazione straniera (naturale, migratorio e per altri motivi)</common:Name>
+          <common:Name xml:lang="en">foreign population total balance (natural, net migration and for other reasons)</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVILPART_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVILPART_P">
+          <common:Name xml:lang="it">unioni civili (% sul totale delle unioni civili)</common:Name>
+          <common:Name xml:lang="en">civil partnerships (% of total civil partnerships)</common:Name>
+        </structure:Code>
+        <structure:Code id="NGDMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NGDMP">
+          <common:Name xml:lang="it">divorzi concessi rispetto ai coniugati (valori per centomila)</common:Name>
+          <common:Name xml:lang="en">granted divorces in respect of married people (per hundred thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP65" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP65">
+          <common:Name xml:lang="it">speranza di vita a 65 anni</common:Name>
+          <common:Name xml:lang="en">life expectancy at 65</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBRGRALL_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBRGRALL_110">
+          <common:Name xml:lang="it">indice di primo nuzialità sposi(tutte le età)-valori per mille secondo il territorio al Censimento 2011(110 province)</common:Name>
+          <common:Name xml:lang="en">first marriage rate bridegrooms by geographical area at 2011 census (all ages)(per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMOTMAI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMOTMAI">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con mantenimento dei figli minori diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with minor children and other maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGP_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGP_103">
+          <common:Name xml:lang="it">matrimoni % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">marriages by geographical area 1992-2005 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="WOMENCIVALAGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).WOMENCIVALAGE">
+          <common:Name xml:lang="it">età media all'unione donne (tutte le età)</common:Name>
+          <common:Name xml:lang="en">mean age at civil partnership women (all ages)</common:Name>
+        </structure:Code>
+        <structure:Code id="NDMC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDMC">
+          <common:Name xml:lang="it">divorzi di coppie miste</common:Name>
+          <common:Name xml:lang="en">divorces of mixed couples</common:Name>
+        </structure:Code>
+        <structure:Code id="MENPART" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MENPART">
+          <common:Name xml:lang="it">uniti uomini</common:Name>
+          <common:Name xml:lang="en">men partners</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWOTH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWOTH">
+          <common:Name xml:lang="it">separazioni con mantenimento dei figli diverso da assegno</common:Name>
+          <common:Name xml:lang="en">separations with other maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMPFHT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMPFHT">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con assegno ai figli corrisposto dal padre (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with maintenance paid by father (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMOTHCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMOTHCH">
+          <common:Name xml:lang="it">separazioni con mantenimento dei figli diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">separations with other maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHONASE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHONASE">
+          <common:Name xml:lang="it">abitazioni autonome e distinte nelle separazioni consensuali extragiudiziali (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with family house not assigned (independent houses) (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGR_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGR_107">
+          <common:Name xml:lang="it">sposi (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">bridegrooms by geographical area 2006-2009</common:Name>
+        </structure:Code>
+        <structure:Code id="HOUSJAN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).HOUSJAN">
+          <common:Name xml:lang="it">famiglie al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">households on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMACHPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMACHPT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con assegno ai figli (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP85" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP85">
+          <common:Name xml:lang="it">speranza di vita a 85 anni</common:Name>
+          <common:Name xml:lang="en">life expectancy at 85</common:Name>
+        </structure:Code>
+        <structure:Code id="FPOPCOM_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FPOPCOM_CP">
+          <common:Name xml:lang="it">popolazione straniera residente in convivenza al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">foreign resident population in institutional household on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAHUDE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAHUDE">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con casa assegnata al marito (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces  with family house assigned to husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="CMARRGP_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CMARRGP_FROM2017">
+          <common:Name xml:lang="it">matrimoni civili (%)</common:Name>
+          <common:Name xml:lang="en">civil marriages (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMDY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMDY">
+          <common:Name xml:lang="it">durata media del matrimonio nei divorzi (anni)</common:Name>
+          <common:Name xml:lang="en">average marriage duration for divorces (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMDYE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMDYE">
+          <common:Name xml:lang="it">durata media del matrimonio nei divorzi consensuali extragiudiziali (anni)</common:Name>
+          <common:Name xml:lang="en">average marriage duration for extrajudicial consensual divorces (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGRASM_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGRASM_110">
+          <common:Name xml:lang="it">sposi al secondo matrimonio o successivi  % secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">bridegrooms at second or subsequent marriage by geographical area at 2011 census (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMPFH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMPFH">
+          <common:Name xml:lang="it">separazioni con assegno ai figli corrisposto dal padre (%)</common:Name>
+          <common:Name xml:lang="en">separations with maintenance paid by father (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHP_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHP_FROM2017">
+          <common:Name xml:lang="it">nati vivi (%)</common:Name>
+          <common:Name xml:lang="en">live births %</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAHUDT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAHUDT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con casa assegnata al marito (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courtswith family house assigned to husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP0F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP0F">
+          <common:Name xml:lang="it">speranza di vita alla nascita - femmine</common:Name>
+          <common:Name xml:lang="en">life expectancy at birth - females</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPRATEIND_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPRATEIND_FROM2017">
+          <common:Name xml:lang="it">quoziente di nuzialità  - numero indice base Italia=100</common:Name>
+          <common:Name xml:lang="en">nuptiality rate index (base Italy=100)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUMPRHO_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUMPRHO_CP">
+          <common:Name xml:lang="it">numero di famiglie al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">number of private households on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="MINPPCO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MINPPCO">
+          <common:Name xml:lang="it">comuni con incremento di popolazione (composizioni percentuali)</common:Name>
+          <common:Name xml:lang="en">municipalities with increasing population (percentage compositions)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGR_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGR_110">
+          <common:Name xml:lang="it">sposi secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">bridegrooms by geographical area at 2011 census</common:Name>
+        </structure:Code>
+        <structure:Code id="MPHUPST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MPHUPST">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con assegno corrisposto dal marito (%)</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with maintenance paid by husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NDWMCHT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDWMCHT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con assegno ai figli</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAHUSE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAHUSE">
+          <common:Name xml:lang="it">casa assegnata al marito nelle separazioni consensuali extragiudiziali (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with family house assigned to husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMRBRALL_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMRBRALL_FROM2017">
+          <common:Name xml:lang="it">indice di primo nuzialità spose(tutte le età)-valori per mille</common:Name>
+          <common:Name xml:lang="en">first marriage rate brides(all ages)(per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="DSWMAP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DSWMAP">
+          <common:Name xml:lang="it">divorzi esauriti con rito consensuale (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">divorces settled with mutually agreement (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHES_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHES_103">
+          <common:Name xml:lang="it">stima dei nati vivi (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">live births estimate (territory 1992-2005)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHESP_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHESP_110">
+          <common:Name xml:lang="it">stima dei nati vivi % (territorio 2010-2016)</common:Name>
+          <common:Name xml:lang="en">live births estimate % (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWMCH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWMCH">
+          <common:Name xml:lang="it">separazioni con assegno ai figli</common:Name>
+          <common:Name xml:lang="en">separations with maintenance for children</common:Name>
+        </structure:Code>
+        <structure:Code id="AGEINDEX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AGEINDEX">
+          <common:Name xml:lang="it">indice di vecchiaia (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">ageing index (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="OLDAGEDEPR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).OLDAGEDEPR">
+          <common:Name xml:lang="it">indice di dipendenza degli anziani (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">old age dependency ratio (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="NETRES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NETRES">
+          <common:Name xml:lang="it">saldo residuo</common:Name>
+          <common:Name xml:lang="en">net residual</common:Name>
+        </structure:Code>
+        <structure:Code id="RESFOR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESFOR">
+          <common:Name xml:lang="it">stranieri residenti</common:Name>
+          <common:Name xml:lang="en">foreign residents</common:Name>
+        </structure:Code>
+        <structure:Code id="ACQCITIZRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ACQCITIZRATE">
+          <common:Name xml:lang="it">tasso di acquisizione della cittadinanza italiana (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">rate of acquisition of Italian citizenship (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="POP014" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POP014">
+          <common:Name xml:lang="it">popolazione 0-14 anni al 1° gennaio (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">population aged 0-14 (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="POP1564" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POP1564">
+          <common:Name xml:lang="it">popolazione 15-64 anni (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">population aged 15-64 (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="POP65OVER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POP65OVER">
+          <common:Name xml:lang="it">popolazione 65 anni e più (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">population aged 65 and over (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="POP80OVER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POP80OVER">
+          <common:Name xml:lang="it">polazione 80 anni e più (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">population aged 80 and over (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="POP85OVER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POP85OVER">
+          <common:Name xml:lang="it">popolazione 85 anni e più (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">population aged 85 and over (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="MEANAGECH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MEANAGECH">
+          <common:Name xml:lang="it">età media della madre al parto</common:Name>
+          <common:Name xml:lang="en">mean age at childbearing</common:Name>
+        </structure:Code>
+        <structure:Code id="MRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MRATE">
+          <common:Name xml:lang="it">quoziente di mortalità (per 10.000 abitanti)</common:Name>
+          <common:Name xml:lang="en">mortality rate (per ten thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="TOTFERR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TOTFERR">
+          <common:Name xml:lang="it">tasso di fecondità totale</common:Name>
+          <common:Name xml:lang="en">total fertility rate</common:Name>
+        </structure:Code>
+        <structure:Code id="TOTBALID" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TOTBALID">
+          <common:Name xml:lang="it">saldo totale (incremento o decremento)</common:Name>
+          <common:Name xml:lang="en">total balance (increase or decrease)</common:Name>
+        </structure:Code>
+        <structure:Code id="NETMIGR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NETMIGR">
+          <common:Name xml:lang="it">saldo migratorio</common:Name>
+          <common:Name xml:lang="en">net migration</common:Name>
+        </structure:Code>
+        <structure:Code id="FIDECTR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FIDECTR">
+          <common:Name xml:lang="it">unità straniere in più/meno dovute a variazioni territoriali</common:Name>
+          <common:Name xml:lang="en">foreign increase or decrease due to territorial changes</common:Name>
+        </structure:Code>
+        <structure:Code id="IDECTR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).IDECTR">
+          <common:Name xml:lang="it">unità in più/meno dovute a variazioni territoriali</common:Name>
+          <common:Name xml:lang="en">increase or decrease due to territorial changes</common:Name>
+        </structure:Code>
+        <structure:Code id="MARALFSP_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARALFSP_110">
+          <common:Name xml:lang="it">matrimoni con almeno uno straniero % secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">marriage with at least a foreign spouse by geographical area at 2011 census  (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAHUD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAHUD">
+          <common:Name xml:lang="it">divorzi con casa assegnata al marito (%)</common:Name>
+          <common:Name xml:lang="en">divorces with family house assigned to husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MEANAGEP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MEANAGEP">
+          <common:Name xml:lang="it">età media della popolazione - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">mean age of the population - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMNP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMNP">
+          <common:Name xml:lang="it">divorzi con assegno al coniuge (%)</common:Name>
+          <common:Name xml:lang="en">divorces with maintenance for spouses (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="PROBDEATH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PROBDEATH">
+          <common:Name xml:lang="it">probabilità di morte (per 1.000) - qx</common:Name>
+          <common:Name xml:lang="en">probability of death (per thousand) - qx</common:Name>
+        </structure:Code>
+        <structure:Code id="NMUCTMS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMUCTMS">
+          <common:Name xml:lang="it">figli minori affidati nelle separazioni rispetto ai minori (valori per mille)</common:Name>
+          <common:Name xml:lang="en">minors under custody in separations in respect of minors (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="NDWMN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDWMN">
+          <common:Name xml:lang="it">divorzi con assegno al coniuge</common:Name>
+          <common:Name xml:lang="en">divorces with maintenance for spouses</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAHUS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAHUS">
+          <common:Name xml:lang="it">casa assegnata al marito (%)</common:Name>
+          <common:Name xml:lang="en">separations with family house assigned to husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAWIS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAWIS">
+          <common:Name xml:lang="it">casa assegnata alla moglie (%)</common:Name>
+          <common:Name xml:lang="en">separations with family house assigned to wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MUCOMPD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MUCOMPD">
+          <common:Name xml:lang="it">figli minori affidati esclusivamente alla madre nei divorzi (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">minors under custody only of mother in divorces (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="DEPENDRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEPENDRATE">
+          <common:Name xml:lang="it">indice di dipendenza strutturale (valori percentuali) - al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">dependency ratio (percentage values) - on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="PYLIVED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PYLIVED">
+          <common:Name xml:lang="it">anni vissuti - Lx</common:Name>
+          <common:Name xml:lang="en">years lived - Lx</common:Name>
+        </structure:Code>
+        <structure:Code id="MPHUPS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MPHUPS">
+          <common:Name xml:lang="it">separazioni con assegno corrisposto dal marito (%)</common:Name>
+          <common:Name xml:lang="en">separations with maintenance paid by husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHONAS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHONAS">
+          <common:Name xml:lang="it">abitazioni autonome e distinte (%)</common:Name>
+          <common:Name xml:lang="en">separations with family house not assigned (independent houses) (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NMCHUCD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMCHUCD">
+          <common:Name xml:lang="it">figli minori affidati nei divorzi</common:Name>
+          <common:Name xml:lang="en">minor children under custody in divorces</common:Name>
+        </structure:Code>
+        <structure:Code id="MARALFSP_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARALFSP_107">
+          <common:Name xml:lang="it">matrimoni con almeno uno straniero % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">marriage with at least a foreign spouse by geographical area 2006-2009 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MPHUPD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MPHUPD">
+          <common:Name xml:lang="it">divorzi con assegno corrisposto dal marito (%)</common:Name>
+          <common:Name xml:lang="en">divorces with maintenance paid by husband (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="PROJPROB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PROJPROB">
+          <common:Name xml:lang="it">probabilità prospettiva di sopravvivenza - Px</common:Name>
+          <common:Name xml:lang="en">projection probability - Px</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMSP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMSP">
+          <common:Name xml:lang="it">separazioni con assegno al coniuge (%)</common:Name>
+          <common:Name xml:lang="en">separations with maintenance for spouses (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWMS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWMS">
+          <common:Name xml:lang="it">separazioni con assegno al coniuge</common:Name>
+          <common:Name xml:lang="en">separations with maintenance for spouses</common:Name>
+        </structure:Code>
+        <structure:Code id="NMUCTMD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMUCTMD">
+          <common:Name xml:lang="it">figli minori affidati nei divorzi rispetto ai minori (valori per mille)</common:Name>
+          <common:Name xml:lang="en">number of minor children under custody in divorces in respect of minors (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHOAWID" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHOAWID">
+          <common:Name xml:lang="it">divorzi con casa assegnata alla moglie (%)</common:Name>
+          <common:Name xml:lang="en">divorces with family house assigned to wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMPF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMPF">
+          <common:Name xml:lang="it">divorzi con assegno ai figli corrisposto dal padre (%)</common:Name>
+          <common:Name xml:lang="en">divorces with maintenance paid by father (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FHONAD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FHONAD">
+          <common:Name xml:lang="it">divorzi con abitazioni autonome e distinte (%)</common:Name>
+          <common:Name xml:lang="en">divorces with family house not assigned (independent houses) (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="CMARRGP_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CMARRGP_103">
+          <common:Name xml:lang="it">matrimoni civili % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">civil marriages by geographical area 1992-2005 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SCMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SCMP">
+          <common:Name xml:lang="it">separazioni da matrimoni civili (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">separations from civil marriages (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="BRGR_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BRGR_FROM2017">
+          <common:Name xml:lang="it">sposi</common:Name>
+          <common:Name xml:lang="en">bridegrooms</common:Name>
+        </structure:Code>
+        <structure:Code id="MAGEMBRGR_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAGEMBRGR_FROM2017">
+          <common:Name xml:lang="it">età  media al matrimonio sposi (tutte le età)</common:Name>
+          <common:Name xml:lang="en">mean age at marriage bridegrooms (all ages)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARALFSP_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARALFSP_103">
+          <common:Name xml:lang="it">matrimoni con almeno uno straniero % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">marriage with at least a foreign spouse by geographical area 1992-2005 (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRGPOP_FROM2017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRGPOP_FROM2017">
+          <common:Name xml:lang="it">matrimoni (% rispetto al totale dei matrimoni)</common:Name>
+          <common:Name xml:lang="en">marriages (% in respect of total marriages)</common:Name>
+        </structure:Code>
+        <structure:Code id="CIVILFOREIGN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).CIVILFOREIGN">
+          <common:Name xml:lang="it">unioni civili con almeno uno straniero (% sul totale delle unioni civili)</common:Name>
+          <common:Name xml:lang="en">civil partnership with at least a foreign partner (% of total civil partnerships)</common:Name>
+        </structure:Code>
+        <structure:Code id="BR_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BR_107">
+          <common:Name xml:lang="it">spose (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">brides by geographical area 2006-2009</common:Name>
+        </structure:Code>
+        <structure:Code id="FDEC_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FDEC_CP">
+          <common:Name xml:lang="it">popolazione straniera al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">foreign population on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="LIFEEXP65F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LIFEEXP65F">
+          <common:Name xml:lang="it">speranza di vita a 65 anni - femmine</common:Name>
+          <common:Name xml:lang="en">life expectancy at 65 - females</common:Name>
+        </structure:Code>
+        <structure:Code id="MEANAGEDH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MEANAGEDH">
+          <common:Name xml:lang="it">età media al decesso</common:Name>
+          <common:Name xml:lang="en">mean age at death</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMOTPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMOTPE">
+          <common:Name xml:lang="it">separazioni consensuali extragiudiziali con mantenimento dei figli diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual separations with other maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="ECDWOTMC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ECDWOTMC">
+          <common:Name xml:lang="it">divorzi consensuali extragiudiziali con mantenimento dei figli diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">extrajudicial consensual divorces  with other maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NUPT_TOTM_TAGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUPT_TOTM_TAGE">
+          <common:Name xml:lang="it">tasso di nuzialità totale sposi (tutte le età) - valori per mille secondo il territorio al Censimento 2011 (110 province)</common:Name>
+          <common:Name xml:lang="en">total nuptiality rate bridegrooms (all ages) by geographical area at 2011 census (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="NMCHUCD_E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMCHUCD_E">
+          <common:Name xml:lang="it">figli minori affidati nei divorzi consensuali extragiudiziali</common:Name>
+          <common:Name xml:lang="en">minor children under custody in extrajudicial consensual divorces</common:Name>
+        </structure:Code>
+        <structure:Code id="DWMAMPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DWMAMPT">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con figli minori e assegno (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with minor children and maintenance (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="MENLEAST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MENLEAST">
+          <common:Name xml:lang="it">uomini con almeno un'unione civile/matrimonio (% sul totale degli uniti uomini)</common:Name>
+          <common:Name xml:lang="en">men with at least one civil partnership/marriage (% of total men in civil partnership)</common:Name>
+        </structure:Code>
+        <structure:Code id="DGOTMACP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DGOTMACP">
+          <common:Name xml:lang="it">divorzi concessi dal tribunale con con mantenimento dei figli diverso da assegno (%)</common:Name>
+          <common:Name xml:lang="en">divorces granted by civil courts with other maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NSWMST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSWMST">
+          <common:Name xml:lang="it">separazioni concesse dal tribunale con assegno al coniuge</common:Name>
+          <common:Name xml:lang="en">separations granted by civil court with maintenance for spouses</common:Name>
+        </structure:Code>
+        <structure:Code id="POPCOM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POPCOM">
+          <common:Name xml:lang="it">popolazione residente in convivenza</common:Name>
+          <common:Name xml:lang="en">resident population in institutional household</common:Name>
+        </structure:Code>
+        <structure:Code id="NUMCOM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUMCOM">
+          <common:Name xml:lang="it">numero di convivenze</common:Name>
+          <common:Name xml:lang="en">number of institutional households</common:Name>
+        </structure:Code>
+        <structure:Code id="TFREG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TFREG">
+          <common:Name xml:lang="it">stranieri iscritti in anagrafe</common:Name>
+          <common:Name xml:lang="en">foreign registrations</common:Name>
+        </structure:Code>
+        <structure:Code id="NGSSWMA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NGSSWMA">
+          <common:Name xml:lang="it">numero di separazioni esaurite con rito consensuale</common:Name>
+          <common:Name xml:lang="en">number of granted separations settled with mutually agreement</common:Name>
+        </structure:Code>
+        <structure:Code id="NMCHUCS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMCHUCS">
+          <common:Name xml:lang="it">figli minori affidati nelle separazioni</common:Name>
+          <common:Name xml:lang="en">minor children under custody in separations</common:Name>
+        </structure:Code>
+        <structure:Code id="NGD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NGD">
+          <common:Name xml:lang="it">divorzi concessi</common:Name>
+          <common:Name xml:lang="en">granted divorces</common:Name>
+        </structure:Code>
+        <structure:Code id="JAN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).JAN">
+          <common:Name xml:lang="it">popolazione al 1º gennaio</common:Name>
+          <common:Name xml:lang="en">population on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTH">
+          <common:Name xml:lang="it">nati vivi</common:Name>
+          <common:Name xml:lang="en">live births</common:Name>
+        </structure:Code>
+        <structure:Code id="REGPROV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).REGPROV">
+          <common:Name xml:lang="it">iscritti  in anagrafe da altre province della regione</common:Name>
+          <common:Name xml:lang="en">immigrated  from provinces of the region</common:Name>
+        </structure:Code>
+        <structure:Code id="FNETMIG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FNETMIG">
+          <common:Name xml:lang="it">saldo migratorio stranieri</common:Name>
+          <common:Name xml:lang="en">foreign population net migration</common:Name>
+        </structure:Code>
+        <structure:Code id="REGOTHREAS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).REGOTHREAS">
+          <common:Name xml:lang="it">iscritti  in anagrafe per altri motivi</common:Name>
+          <common:Name xml:lang="en">registrations for other reasons</common:Name>
+        </structure:Code>
+        <structure:Code id="DEC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEC">
+          <common:Name xml:lang="it">popolazione al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">population on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="NGS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NGS">
+          <common:Name xml:lang="it">separazioni concesse</common:Name>
+          <common:Name xml:lang="en">granted separations</common:Name>
+        </structure:Code>
+        <structure:Code id="NOCCDW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NOCCDW">
+          <common:Name xml:lang="it">numero di abitazioni occupate da residenti</common:Name>
+          <common:Name xml:lang="en">number of occupied conventional dwellings</common:Name>
+        </structure:Code>
+        <structure:Code id="NRBUILD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NRBUILD">
+          <common:Name xml:lang="it">numero di edifici residenziali</common:Name>
+          <common:Name xml:lang="en">number of residential buildings</common:Name>
+        </structure:Code>
+        <structure:Code id="PMIN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PMIN">
+          <common:Name xml:lang="it">popolazione nei comuni con incremento di popolazione</common:Name>
+          <common:Name xml:lang="en">population in municipalities with increasing population</common:Name>
+        </structure:Code>
+        <structure:Code id="SSWMAMCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SSWMAMCP">
+          <common:Name xml:lang="it">separazioni esaurite con rito consensuale nelle coppie miste (%)</common:Name>
+          <common:Name xml:lang="en">separations settled with mutually agreement in mixed couples (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMLDMASY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMLDMASY">
+          <common:Name xml:lang="it">durata media della convivenza matrimoniale nelle separazioni consensuali (anni)</common:Name>
+          <common:Name xml:lang="en">average married life duration in mutually agreed separations (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTH_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTH_110">
+          <common:Name xml:lang="it">nati vivi (territorio 2010-2016)</common:Name>
+          <common:Name xml:lang="en">live births (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHES_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHES_110">
+          <common:Name xml:lang="it">stima dei nati vivi (territorio 2010-2016)</common:Name>
+          <common:Name xml:lang="en">live births estimate (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="SFCMMCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SFCMMCP">
+          <common:Name xml:lang="it">separazioni da matrimoni civili nelle coppie miste (%)</common:Name>
+          <common:Name xml:lang="en">separations from civil marriages in mixed couples (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="SWCHP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWCHP">
+          <common:Name xml:lang="it">separazioni con figli nati dall'unione (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">separations with children (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="NCDWNO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NCDWNO">
+          <common:Name xml:lang="it">numero di abitazioni occupate esclusivamente da non residenti o non occupate</common:Name>
+          <common:Name xml:lang="en">number of conventional dwellings with no usual residents or vacant at time of census</common:Name>
+        </structure:Code>
+        <structure:Code id="NCDW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NCDW">
+          <common:Name xml:lang="it">numero di abitazioni</common:Name>
+          <common:Name xml:lang="en">number of conventional dwellings</common:Name>
+        </structure:Code>
+        <structure:Code id="ALJPS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALJPS">
+          <common:Name xml:lang="it">durata media del procedimento di separazione giudiziale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of judicial proceeding of separation (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="SINH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SINH">
+          <common:Name xml:lang="it">tasso di separazione rispetto agli abitanti (valori per mille)</common:Name>
+          <common:Name xml:lang="en">separation rate in respect of inhabitants (per thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMLDY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMLDY">
+          <common:Name xml:lang="it">durata media della convivenza matrimoniale nelle separazioni (anni)</common:Name>
+          <common:Name xml:lang="en">average married life duration in separations (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="AMLDJSY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMLDJSY">
+          <common:Name xml:lang="it">durata media della convivenza matrimoniale nelle separazioni giudiziali (anni)</common:Name>
+          <common:Name xml:lang="en">average married life duration in judicial separations (years)</common:Name>
+        </structure:Code>
+        <structure:Code id="SIHUFWFP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SIHUFWFP">
+          <common:Name xml:lang="it">separazioni con marito italiano per nascita e moglie straniera o italiana per acquisizione (%)</common:Name>
+          <common:Name xml:lang="en">separations with Italian husband and foreign wife (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="FMINORS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FMINORS">
+          <common:Name xml:lang="it">minorenni stranieri</common:Name>
+          <common:Name xml:lang="en">foreign minors (less than 18 years old)</common:Name>
+        </structure:Code>
+        <structure:Code id="NHOUSFRM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NHOUSFRM">
+          <common:Name xml:lang="it">famiglie con almeno uno straniero</common:Name>
+          <common:Name xml:lang="en">number of households with one or more foreign members</common:Name>
+        </structure:Code>
+        <structure:Code id="MDECP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MDECP">
+          <common:Name xml:lang="it">comuni con decremento di popolazione</common:Name>
+          <common:Name xml:lang="en">municipalities with decreasing population</common:Name>
+        </structure:Code>
+        <structure:Code id="RESPOPF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESPOPF">
+          <common:Name xml:lang="it">popolazione residente - femmine</common:Name>
+          <common:Name xml:lang="en">resident population - females</common:Name>
+        </structure:Code>
+        <structure:Code id="NUMPRHO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NUMPRHO">
+          <common:Name xml:lang="it">numero di famiglie</common:Name>
+          <common:Name xml:lang="en">number of private households</common:Name>
+        </structure:Code>
+        <structure:Code id="FBORN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FBORN">
+          <common:Name xml:lang="it">stranieri nati in italia</common:Name>
+          <common:Name xml:lang="en">foreigners born in Italy</common:Name>
+        </structure:Code>
+        <structure:Code id="NOUSFHEAD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NOUSFHEAD">
+          <common:Name xml:lang="it">famiglie con capofamiglia straniero</common:Name>
+          <common:Name xml:lang="en">number of households with foreign head of household</common:Name>
+        </structure:Code>
+        <structure:Code id="PMDE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).PMDE">
+          <common:Name xml:lang="it">popolazione nei comuni con decremento di popolazione</common:Name>
+          <common:Name xml:lang="en">population in municipalities with decreasing population</common:Name>
+        </structure:Code>
+        <structure:Code id="AMDYMCS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AMDYMCS">
+          <common:Name xml:lang="it">durata media della convivenza matrimoniale (anni) nelle separazioni di coppie miste</common:Name>
+          <common:Name xml:lang="en">average marriage duration (years) in mixed couples' separations</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHES_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHES_107">
+          <common:Name xml:lang="it">stima dei nati vivi (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">live births estimate (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHES">
+          <common:Name xml:lang="it">stima dei nati vivi</common:Name>
+          <common:Name xml:lang="en">live births estimate</common:Name>
+        </structure:Code>
+        <structure:Code id="SMCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SMCP">
+          <common:Name xml:lang="it">separazioni di coppie miste (%)</common:Name>
+          <common:Name xml:lang="en">separations of mixed couples (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="NGSMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NGSMP">
+          <common:Name xml:lang="it">separazioni concesse rispetto ai coniugati (valori per centomila)</common:Name>
+          <common:Name xml:lang="en">granted separations in respect of married people (per hundred thousand values)</common:Name>
+        </structure:Code>
+        <structure:Code id="GSSWMAP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).GSSWMAP">
+          <common:Name xml:lang="it">separazioni esaurite con rito consensuale (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">granted separations settled with mutually agreement (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="NMIGRAT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMIGRAT">
+          <common:Name xml:lang="it">saldo migratorio anagrafico e per altri motivi</common:Name>
+          <common:Name xml:lang="en">net migration and balance for other reasons from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="SURVIVORS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SURVIVORS">
+          <common:Name xml:lang="it">sopravviventi - lx</common:Name>
+          <common:Name xml:lang="en">survivors - lx</common:Name>
+        </structure:Code>
+        <structure:Code id="DEATHS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEATHS">
+          <common:Name xml:lang="it">decessi - dx</common:Name>
+          <common:Name xml:lang="en">deaths - dx</common:Name>
+        </structure:Code>
+        <structure:Code id="NDSWMA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NDSWMA">
+          <common:Name xml:lang="it">numero di divorzi esauriti con rito consensuale</common:Name>
+          <common:Name xml:lang="en">number of divorces settled with mutually agreement</common:Name>
+        </structure:Code>
+        <structure:Code id="SWMCHP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).SWMCHP">
+          <common:Name xml:lang="it">separazioni con assegno ai figli  (%)</common:Name>
+          <common:Name xml:lang="en">separations with maintenance for children (%)</common:Name>
+        </structure:Code>
+        <structure:Code id="HOUSMEMB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).HOUSMEMB">
+          <common:Name xml:lang="it">popolazione residente in famiglia</common:Name>
+          <common:Name xml:lang="en">resident population in private household</common:Name>
+        </structure:Code>
+        <structure:Code id="NOHUURE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NOHUURE">
+          <common:Name xml:lang="it">numero altri tipi di alloggio occupati da residenti</common:Name>
+          <common:Name xml:lang="en">number of other housing units with usual residents</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHESP_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHESP_103">
+          <common:Name xml:lang="it">stima dei nati vivi % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">live births estimate % (territory 1992-2005)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHESP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHESP">
+          <common:Name xml:lang="it">stima dei nati vivi (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">live births estimate (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTH_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTH_103">
+          <common:Name xml:lang="it">nati vivi (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">live births (territory 1992-2005)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTH_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTH_107">
+          <common:Name xml:lang="it">nati vivi (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">live births (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHP_110" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHP_110">
+          <common:Name xml:lang="it">nati vivi % (territorio 2010-2016)</common:Name>
+          <common:Name xml:lang="en">live births % (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHP_103" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHP_103">
+          <common:Name xml:lang="it">nati vivi % (territorio 1992-2005)</common:Name>
+          <common:Name xml:lang="en">live births % (territory 1992-2005)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHP_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHP_107">
+          <common:Name xml:lang="it">nati vivi % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">live births % (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="MUNIC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MUNIC">
+          <common:Name xml:lang="it">comuni</common:Name>
+          <common:Name xml:lang="en">municipalities</common:Name>
+        </structure:Code>
+        <structure:Code id="RESPOPM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESPOPM">
+          <common:Name xml:lang="it">popolazione residente - maschi</common:Name>
+          <common:Name xml:lang="en">resident population - males</common:Name>
+        </structure:Code>
+        <structure:Code id="NBUILD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NBUILD">
+          <common:Name xml:lang="it">numero di edifici</common:Name>
+          <common:Name xml:lang="en">number of buildings</common:Name>
+        </structure:Code>
+        <structure:Code id="MINP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MINP">
+          <common:Name xml:lang="it">comuni con incremento di popolazione</common:Name>
+          <common:Name xml:lang="en">municipalities with increasing population</common:Name>
+        </structure:Code>
+        <structure:Code id="ALMAPS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ALMAPS">
+          <common:Name xml:lang="it">durata media del procedimento di separazione consensuale (in giorni)</common:Name>
+          <common:Name xml:lang="en">average length of mutually agreed proceeding of separation (days)</common:Name>
+        </structure:Code>
+        <structure:Code id="LBIRTHESP_107" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).LBIRTHESP_107">
+          <common:Name xml:lang="it">stima dei nati vivi % (territorio 2006-2009)</common:Name>
+          <common:Name xml:lang="en">live births estimate % (territory 2010-2016)</common:Name>
+        </structure:Code>
+        <structure:Code id="FNMIGRAT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FNMIGRAT">
+          <common:Name xml:lang="it">saldo migratorio anagrafico e per altri motivi degli stranieri</common:Name>
+          <common:Name xml:lang="en">foreign population net migration and balance for other reasons from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="FDEATH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FDEATH">
+          <common:Name xml:lang="it">morti stranieri</common:Name>
+          <common:Name xml:lang="en">foreign deaths</common:Name>
+        </structure:Code>
+        <structure:Code id="FREGM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FREGM">
+          <common:Name xml:lang="it">stranieri iscritti  in anagrafe da altri comuni</common:Name>
+          <common:Name xml:lang="en">foreign registrations from other municipalities</common:Name>
+        </structure:Code>
+        <structure:Code id="FINTRNMIGR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FINTRNMIGR">
+          <common:Name xml:lang="it">saldo migratorio anagrafico interno degli stranieri</common:Name>
+          <common:Name xml:lang="en">foreign population internal net migration from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="FDERGOTHC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FDERGOTHC">
+          <common:Name xml:lang="it">stranieri cancellati in anagrafe per l'estero</common:Name>
+          <common:Name xml:lang="en">foreign deregistrations to other countries</common:Name>
+        </structure:Code>
+        <structure:Code id="TFDEREG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TFDEREG">
+          <common:Name xml:lang="it">stranieri cancellati in anagrafe</common:Name>
+          <common:Name xml:lang="en">foreign deregistrations</common:Name>
+        </structure:Code>
+        <structure:Code id="FTOTBAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FTOTBAL">
+          <common:Name xml:lang="it">saldo totale della popolazione straniera (incremento o decremento)</common:Name>
+          <common:Name xml:lang="en">foreign population total balance (increase or decrease)</common:Name>
+        </structure:Code>
+        <structure:Code id="TMIGRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TMIGRATE">
+          <common:Name xml:lang="it">saldo migratorio totale (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">total migration rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="TMIGRBL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TMIGRBL">
+          <common:Name xml:lang="it">saldo migratorio totale</common:Name>
+          <common:Name xml:lang="en">total migratory balance</common:Name>
+        </structure:Code>
+        <structure:Code id="NMIGRATEOR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMIGRATEOR">
+          <common:Name xml:lang="it">saldo migratorio per altro motivo (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">net migration rate due to other reasons (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="MUJACPS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MUJACPS">
+          <common:Name xml:lang="it">figli minori con affidamento condiviso nelle separazioni (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">minors under joined and/or alternate custody in separations (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="GROWTHRATET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).GROWTHRATET">
+          <common:Name xml:lang="it">tasso di crescita totale (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">growth rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="UN_MUL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).UN_MUL">
+          <common:Name xml:lang="it">Rapporto tra causa iniziale e causa multipla</common:Name>
+          <common:Name xml:lang="en">Ratio of underlying cause to multiple cause of death</common:Name>
+        </structure:Code>
+        <structure:Code id="UNDEA_INF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).UNDEA_INF">
+          <common:Name xml:lang="it">Numero di decessi entro il primo anno di vita</common:Name>
+          <common:Name xml:lang="en">Number of infant deaths (under age 1)</common:Name>
+        </structure:Code>
+        <structure:Code id="UNDEA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).UNDEA">
+          <common:Name xml:lang="it">Numero di decessi</common:Name>
+          <common:Name xml:lang="en">Number of deaths</common:Name>
+        </structure:Code>
+        <structure:Code id="DEATH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEATH">
+          <common:Name xml:lang="it">morti</common:Name>
+          <common:Name xml:lang="en">deaths</common:Name>
+        </structure:Code>
+        <structure:Code id="REGOTHC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).REGOTHC">
+          <common:Name xml:lang="it">iscritti  in anagrafe dall'estero</common:Name>
+          <common:Name xml:lang="en">immigrated from other countries</common:Name>
+        </structure:Code>
+        <structure:Code id="DEREGOTHC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEREGOTHC">
+          <common:Name xml:lang="it">cancellati  in anagrafe per l'estero</common:Name>
+          <common:Name xml:lang="en">emigrated to other countries</common:Name>
+        </structure:Code>
+        <structure:Code id="INTERTNMIG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INTERTNMIG">
+          <common:Name xml:lang="it">saldo migratorio estero</common:Name>
+          <common:Name xml:lang="en">international net migration</common:Name>
+        </structure:Code>
+        <structure:Code id="TREG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TREG">
+          <common:Name xml:lang="it">iscritti  in anagrafe</common:Name>
+          <common:Name xml:lang="en">registrations</common:Name>
+        </structure:Code>
+        <structure:Code id="TDEREG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).TDEREG">
+          <common:Name xml:lang="it">cancellati  in anagrafe</common:Name>
+          <common:Name xml:lang="en">deregistrations</common:Name>
+        </structure:Code>
+        <structure:Code id="POPHOUS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POPHOUS">
+          <common:Name xml:lang="it">popolazione residente in famiglia</common:Name>
+          <common:Name xml:lang="en">resident population in household</common:Name>
+        </structure:Code>
+        <structure:Code id="AVNUHM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AVNUHM">
+          <common:Name xml:lang="it">numero medio di componenti per famiglia</common:Name>
+          <common:Name xml:lang="en">average number of members in private household</common:Name>
+        </structure:Code>
+        <structure:Code id="FJAN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FJAN">
+          <common:Name xml:lang="it">popolazione straniera al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">foreign population on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="FNATGR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FNATGR">
+          <common:Name xml:lang="it">saldo naturale anagrafico degli stranieri</common:Name>
+          <common:Name xml:lang="en">foreign population natural increase from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="DEATHRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEATHRATE">
+          <common:Name xml:lang="it">tasso di mortalità (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">death rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="RESPER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESPER">
+          <common:Name xml:lang="it">permessi di soggiorno al 1° gennaio</common:Name>
+          <common:Name xml:lang="en">residence permits on 1st January</common:Name>
+        </structure:Code>
+        <structure:Code id="RESPOPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).RESPOPT">
+          <common:Name xml:lang="it">popolazione residente</common:Name>
+          <common:Name xml:lang="en">resident population</common:Name>
+        </structure:Code>
+        <structure:Code id="AVREP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).AVREP">
+          <common:Name xml:lang="it">Numero medio di patologie</common:Name>
+          <common:Name xml:lang="en">Average number of conditions</common:Name>
+        </structure:Code>
+        <structure:Code id="MULDEA_INF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MULDEA_INF">
+          <common:Name xml:lang="it">Numero di menzioni entro il primo anno di vita</common:Name>
+          <common:Name xml:lang="en">Occurrences of conditions in infants (under age 1)</common:Name>
+        </structure:Code>
+        <structure:Code id="BEG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BEG">
+          <common:Name xml:lang="it">popolazione inizio periodo</common:Name>
+          <common:Name xml:lang="en">population at the beginning of the period</common:Name>
+        </structure:Code>
+        <structure:Code id="DEROTHR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEROTHR">
+          <common:Name xml:lang="it">cancellati  in anagrafe per altre regioni</common:Name>
+          <common:Name xml:lang="en">emigrated to other regions</common:Name>
+        </structure:Code>
+        <structure:Code id="DEREGM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEREGM">
+          <common:Name xml:lang="it">cancellati  in anagrafe  per altri comuni</common:Name>
+          <common:Name xml:lang="en">deregistrations to other municipalities</common:Name>
+        </structure:Code>
+        <structure:Code id="POPEND" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).POPEND">
+          <common:Name xml:lang="it">popolazione fine periodo</common:Name>
+          <common:Name xml:lang="en">population at end of the period</common:Name>
+        </structure:Code>
+        <structure:Code id="FLBIRTH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FLBIRTH">
+          <common:Name xml:lang="it">nati vivi stranieri</common:Name>
+          <common:Name xml:lang="en">foreign live births</common:Name>
+        </structure:Code>
+        <structure:Code id="FDEC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FDEC">
+          <common:Name xml:lang="it">popolazione straniera al 31 dicembre</common:Name>
+          <common:Name xml:lang="en">foreign population on 31st December</common:Name>
+        </structure:Code>
+        <structure:Code id="FDEREGM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FDEREGM">
+          <common:Name xml:lang="it">stranieri cancellati  in anagrafe per altri comuni</common:Name>
+          <common:Name xml:lang="en">foreign deregistrations to other municipalities</common:Name>
+        </structure:Code>
+        <structure:Code id="FREGOTHR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FREGOTHR">
+          <common:Name xml:lang="it">stranieri iscritti  in anagrafe per altri motivi</common:Name>
+          <common:Name xml:lang="en">foreign registrations for other reasons</common:Name>
+        </structure:Code>
+        <structure:Code id="FDEROTHR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FDEROTHR">
+          <common:Name xml:lang="it">stranieri cancellati in anagrafe per altri motivi</common:Name>
+          <common:Name xml:lang="en">foreign deregistrations for other reasons</common:Name>
+        </structure:Code>
+        <structure:Code id="FBLOTHR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FBLOTHR">
+          <common:Name xml:lang="it">saldo anagrafico per altri motivi degli stranieri</common:Name>
+          <common:Name xml:lang="en">foreign population balance for other reasons from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="ACQCITIZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).ACQCITIZ">
+          <common:Name xml:lang="it">acquisizioni della cittadinanza italiana</common:Name>
+          <common:Name xml:lang="en">foreigners who acquired Italian citizenship</common:Name>
+        </structure:Code>
+        <structure:Code id="NMIGRATEIN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMIGRATEIN">
+          <common:Name xml:lang="it">saldo migratorio interno (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">net migration rate due to internal migration (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="NMIGRATEAB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NMIGRATEAB">
+          <common:Name xml:lang="it">saldo migratorio con l'estero (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">net migration rate from abroad (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="MAVACH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MAVACH">
+          <common:Name xml:lang="it">età media delle madri al parto</common:Name>
+          <common:Name xml:lang="en">mother's average age at childbirth</common:Name>
+        </structure:Code>
+        <structure:Code id="NSMC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NSMC">
+          <common:Name xml:lang="it">separazioni di coppie miste</common:Name>
+          <common:Name xml:lang="en">separations of mixed couples</common:Name>
+        </structure:Code>
+        <structure:Code id="MARRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MARRATE">
+          <common:Name xml:lang="it">tasso di nuzialità (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">marriage rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="REGOTHR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).REGOTHR">
+          <common:Name xml:lang="it">iscritti  in anagrafe da altre regioni</common:Name>
+          <common:Name xml:lang="en">immigrated from other regions</common:Name>
+        </structure:Code>
+        <structure:Code id="UN_MUL_INF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).UN_MUL_INF">
+          <common:Name xml:lang="it">Rapporto tra causa iniziale e causa multipla entro il primo anno di vita</common:Name>
+          <common:Name xml:lang="en">ratio of underlying cause to multiple cause of death in infant deaths</common:Name>
+        </structure:Code>
+        <structure:Code id="MULDEA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).MULDEA">
+          <common:Name xml:lang="it">Numero di menzioni</common:Name>
+          <common:Name xml:lang="en">Occurrences of conditions</common:Name>
+        </structure:Code>
+        <structure:Code id="DEROTHREAS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEROTHREAS">
+          <common:Name xml:lang="it">cancellati  in anagrafe per altri motivi</common:Name>
+          <common:Name xml:lang="en">deregistrations for other reasons</common:Name>
+        </structure:Code>
+        <structure:Code id="BLOTHREAS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BLOTHREAS">
+          <common:Name xml:lang="it">saldo anagrafico per altri motivi</common:Name>
+          <common:Name xml:lang="en">balance for other reasons from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="NTGROW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).NTGROW">
+          <common:Name xml:lang="it">saldo naturale</common:Name>
+          <common:Name xml:lang="en">natural increase</common:Name>
+        </structure:Code>
+        <structure:Code id="DEPROV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).DEPROV">
+          <common:Name xml:lang="it">cancellati  in anagrafe per altre province della regione</common:Name>
+          <common:Name xml:lang="en">emigrated to provinces of the region</common:Name>
+        </structure:Code>
+        <structure:Code id="FREGOTHC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FREGOTHC">
+          <common:Name xml:lang="it">stranieri iscritti  in anagrafe dall'estero</common:Name>
+          <common:Name xml:lang="en">foreign registrations from other countries</common:Name>
+        </structure:Code>
+        <structure:Code id="FINTNMIG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FINTNMIG">
+          <common:Name xml:lang="it">saldo migratorio anagrafico estero degli stranieri</common:Name>
+          <common:Name xml:lang="en">foreign population international net migration from registry office</common:Name>
+        </structure:Code>
+        <structure:Code id="INFLNONEU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INFLNONEU">
+          <common:Name xml:lang="it">ingressi nell'anno di cittadini non comunitari</common:Name>
+          <common:Name xml:lang="en">annual inflows of non-EU citizens</common:Name>
+        </structure:Code>
+        <structure:Code id="REGM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).REGM">
+          <common:Name xml:lang="it">iscritti  in anagrafe da altri comuni</common:Name>
+          <common:Name xml:lang="en">registrations from other municipalities</common:Name>
+        </structure:Code>
+        <structure:Code id="INTERMBL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INTERMBL">
+          <common:Name xml:lang="it">saldo migratorio interno interregionale</common:Name>
+          <common:Name xml:lang="en">interregional migratory balance</common:Name>
+        </structure:Code>
+        <structure:Code id="INTNETMIGR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INTNETMIGR">
+          <common:Name xml:lang="it">saldo migratorio interno</common:Name>
+          <common:Name xml:lang="en">internal net migration</common:Name>
+        </structure:Code>
+        <structure:Code id="FAVACH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).FAVACH">
+          <common:Name xml:lang="it">età media dei padri alla nascita del figlio</common:Name>
+          <common:Name xml:lang="en">father's average age at childbirth</common:Name>
+        </structure:Code>
+        <structure:Code id="INFMRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INFMRATE">
+          <common:Name xml:lang="it">tasso di mortalità infantile (per 1.000 nati vivi)</common:Name>
+          <common:Name xml:lang="en">infant mortality rate (per thousand live births values)</common:Name>
+        </structure:Code>
+        <structure:Code id="BIRTHRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).BIRTHRATE">
+          <common:Name xml:lang="it">tasso di natalità (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">birth rate (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="GROWTHRATEN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).GROWTHRATEN">
+          <common:Name xml:lang="it">crescita naturale (per mille abitanti)</common:Name>
+          <common:Name xml:lang="en">natural balance (per thousand inhabitant)</common:Name>
+        </structure:Code>
+        <structure:Code id="UNDEAP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).UNDEAP">
+          <common:Name xml:lang="it">Numero di decessi (valori percentuali)</common:Name>
+          <common:Name xml:lang="en">Number of deaths (percentage values)</common:Name>
+        </structure:Code>
+        <structure:Code id="INTPRBL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_TIPO_DATO15(4.1).INTPRBL">
+          <common:Name xml:lang="it">saldo migratorio interno interprovinciale</common:Name>
+          <common:Name xml:lang="en">interprovincial migratory balance</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

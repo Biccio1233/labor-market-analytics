@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF133</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T11:44:54.4442501+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_CONDIZIONE_PROF_EU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_CONDIZIONE_PROF_EU(1.1)" agencyID="IT1" version="1.1" isFinal="true">
+        <common:Name xml:lang="it">Condizione professionale europea</common:Name>
+        <common:Name xml:lang="en">European Labour status</common:Name>
+        <structure:Code id="TOT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).TOT">
+          <common:Name xml:lang="en">total</common:Name>
+          <common:Name xml:lang="it">totale</common:Name>
+        </structure:Code>
+        <structure:Code id="TOTIN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).TOTIN">
+          <common:Name xml:lang="en">total inactive persons</common:Name>
+          <common:Name xml:lang="it">totale inattivi</common:Name>
+        </structure:Code>
+        <structure:Code id="LF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).LF">
+          <common:Name xml:lang="en">labour force</common:Name>
+          <common:Name xml:lang="it">forze lavoro</common:Name>
+        </structure:Code>
+        <structure:Code id="IN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).IN">
+          <common:Name xml:lang="en">inactive persons (15-74 years)</common:Name>
+          <common:Name xml:lang="it">inattivi (15-74 anni)</common:Name>
+          <structure:Parent>
+            <Ref id="TOTIN" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NOT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).NOT">
+          <common:Name xml:lang="en">not seeking employment and not available to work  (15-74 years)</common:Name>
+          <common:Name xml:lang="it">non cercano e non disponibili</common:Name>
+          <structure:Parent>
+            <Ref id="IN" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LFP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).LFP">
+          <common:Name xml:lang="en">additional potential labour force</common:Name>
+          <common:Name xml:lang="it">forze lavoro potenziali</common:Name>
+          <structure:Parent>
+            <Ref id="IN" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NSEEK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).NSEEK">
+          <common:Name xml:lang="en">persons available to work but not seeking</common:Name>
+          <common:Name xml:lang="it">persone che non cercano ma disponibili a lavorare</common:Name>
+          <structure:Parent>
+            <Ref id="LFP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IN14Y" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).IN14Y">
+          <common:Name xml:lang="en">inactive until 14 years</common:Name>
+          <common:Name xml:lang="it">non forze di lavoro fino a 14 anni</common:Name>
+          <structure:Parent>
+            <Ref id="TOTIN" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IN75Y" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).IN75Y">
+          <common:Name xml:lang="en">inactive 75 years and over</common:Name>
+          <common:Name xml:lang="it">non forze di lavoro di 75 anni e più</common:Name>
+          <structure:Parent>
+            <Ref id="TOTIN" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="UNEM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).UNEM">
+          <common:Name xml:lang="en">unemployed persons</common:Name>
+          <common:Name xml:lang="it">disoccupati</common:Name>
+        </structure:Code>
+        <structure:Code id="UNEMEXE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).UNEMEXE">
+          <common:Name xml:lang="en">unemployed persons ex-employed</common:Name>
+          <common:Name xml:lang="it">disoccupati ex-occupati</common:Name>
+          <structure:Parent>
+            <Ref id="UNEM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="UNEMEXI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).UNEMEXI">
+          <common:Name xml:lang="en">unemployed persons ex-inactive</common:Name>
+          <common:Name xml:lang="it">disoccupati ex-inattivi</common:Name>
+          <structure:Parent>
+            <Ref id="UNEM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="UNEMWE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).UNEMWE">
+          <common:Name xml:lang="en">unemployed persons without work experience</common:Name>
+          <common:Name xml:lang="it">disoccupati senza esperienza di lavoro</common:Name>
+          <structure:Parent>
+            <Ref id="UNEM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="EMP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).EMP">
+          <common:Name xml:lang="en">employed persons</common:Name>
+          <common:Name xml:lang="it">occupati</common:Name>
+        </structure:Code>
+        <structure:Code id="SEEK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_CONDIZIONE_PROF_EU(1.1).SEEK">
+          <common:Name xml:lang="en">persons seeking work but not immediately available</common:Name>
+          <common:Name xml:lang="it">persone che cercano lavoro ma non immediatamente disponibili 15-74 anni (in migliaia)</common:Name>
+          <structure:Parent>
+            <Ref id="LFP" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

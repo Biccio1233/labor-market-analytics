@@ -1,0 +1,5 @@
+DB_NAME = 'postgres'
+DB_USER = 'postgres.djjawimszfspglkygynu'
+DB_PASSWORD = "1233PippoFra!?"
+DB_HOST = 'aws-0-eu-central-2.pooler.supabase.com'
+DB_PORT = '6543'

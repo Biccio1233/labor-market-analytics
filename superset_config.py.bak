@@ -1,0 +1,274 @@
+import os
+from dotenv import load_dotenv
+from flask_caching.backends import RedisCache
+# Redis stats logger rimosso perché non più supportato
+
+# Carica il file .env (opzionale, se preferisci)
+load_dotenv()
+
+# =============================================================================
+# TEMA E UI CUSTOMIZZATA
+# =============================================================================
+
+# Tema personalizzato per Labor Market Analytics
+THEME = {
+    'name': 'LaborMarketAnalytics',
+    'brandColor': '#0cc2aa',      # Colore primario
+    'secondaryColor': '#a88add',  # Colore secondario
+    'backgroundColor': '#f0f3f4', # Sfondo
+    'accentColor': '#7266ba'      # Accenti
+}
+
+# Customizzazione Dashboard
+DASHBOARD_TEMPLATE_PARAMS = {
+    'common': {
+        'navbar_color': THEME['brandColor'],
+        'accent_color': THEME['accentColor']
+    }
+}
+
+# Configurazione per il frontend
+FRONTEND_CONFIG = {
+    'custom_filters': True,
+    'enable_chart_search': True,
+    'enable_dashboard_search': True,
+    'search_all_dashboards': True
+}
+
+# Configurazioni per il layout
+DASHBOARD_POSITIONS = {
+    'GRID_DEFAULT_CARD_SIZE': 6,  # Default card size in grid
+    'GRID_MIN_CARD_SIZE': 4,      # Minimum card size
+    'GRID_MAX_CARD_SIZE': 12,     # Maximum card size
+    'GRID_GUTTER_SIZE': 16        # Spazio tra le cards
+}
+
+# Configurazione responsive
+RESPONSIVE_CONFIG = {
+    'breakpoints': {
+        'xs': 0,
+        'sm': 576,
+        'md': 768,
+        'lg': 992,
+        'xl': 1200
+    }
+}
+
+# Configurazione estensione Eurostat
+CUSTOM_TEMPLATE_PROCESSORS = {
+    'eurostat': 'superset.extensions.eurostat.processor.EurostatTemplateProcessor'
+}
+
+EUROSTAT_CONFIG = {
+    'api_base_url': 'https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/',
+    'cache_timeout': 3600,  # Cache per 1 ora
+    'max_results': 1000
+}
+    }
+}
+
+# Configurazione estensione Eurostat
+CUSTOM_TEMPLATE_PROCESSORS = {
+    'eurostat': 'superset.extensions.eurostat.processor.EurostatTemplateProcessor'
+}
+
+EUROSTAT_CONFIG = {
+    'api_base_url': 'https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/',
+    'cache_timeout': 3600,  # Cache per 1 ora
+    'max_results': 1000
+}
+        'lg': 992,
+        'xl': 1200
+    }
+}
+
+# =============================================================================
+# 1) SICUREZZA E IMPOSTAZIONI PRINCIPALI
+# =============================================================================
+
+# Chiave segreta per la sessione Flask
+SECRET_KEY = os.getenv('SUPERSET_SECRET_KEY', 'your_secret_key_here')
+
+# Porta del webserver di Superset
+SUPERSET_WEBSERVER_PORT = int(os.getenv('SUPERSET_WEBSERVER_PORT', 8088))
+
+# Limite di righe di default quando si fanno query
+ROW_LIMIT = 5000
+
+# Disabilita CSRF (per development)
+WTF_CSRF_ENABLED = False
+
+# Feature flags avanzate
+FEATURE_FLAGS = {
+    'DASHBOARD_NATIVE_FILTERS': True,     # Filtri nativi migliorati
+    'DASHBOARD_CROSS_FILTERS': True,      # Filtri incrociati
+    'DASHBOARD_NATIVE_FILTERS_SET': True, # Set di filtri
+    'ENABLE_TEMPLATE_PROCESSING': True,   # Template processing
+    'ENABLE_JAVASCRIPT_CONTROLS': True,   # Widget personalizzati
+    'DASHBOARD_CACHE': True,             # Cache delle dashboard
+    'DASHBOARD_VIRTUALIZATION': True,    # Virtualizzazione per performance
+    'DASHBOARD_RBAC': True,             # Role-based access control
+    'EMBEDDED_SUPERSET': True,          # Supporto per embedding
+    'ALERTS_ATTACH_REPORTS': True,      # Report allegati alle alert
+    'ALLOW_FULL_CSV_EXPORT': True,      # Export CSV completo
+    'GENERIC_CHART_AXES': True          # Assi dei grafici generici
+}
+
+# Security headers migliorati
+HTTP_HEADERS = {
+    'X-Frame-Options': 'SAMEORIGIN',
+    'X-XSS-Protection': '1; mode=block',
+    'X-Content-Type-Options': 'nosniff',
+    'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+    'Permissions-Policy': 'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()',
+    'Content-Security-Policy': (
+        "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https:; "
+        "script-src 'self' 'unsafe-inline' 'unsafe-eval' https: 'nonce-{nonce}'; "
+        "style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; "
+        "style-src-elem 'self' 'unsafe-inline' https: fonts.googleapis.com; "
+        "img-src 'self' data: blob: https:; "
+        "font-src 'self' data: fonts.googleapis.com fonts.gstatic.com; "
+        "frame-src 'self' data: https:; "
+        "connect-src 'self' ws: wss: https: http://localhost:* redis://localhost:*; "
+        "worker-src 'self' blob:;"
+    )
+}
+
+# Componenti personalizzati
+CUSTOM_TEMPLATE_PROCESSORS = {
+    'istat_processor': 'custom_processors.IstatTemplateProcessor',
+    'eurostat_processor': 'custom_processors.EurostatTemplateProcessor'
+}
+
+ADDITIONAL_MODULE_DS_MAP = {
+    'custom_viz': 'path.to.custom.visualizations'
+}
+
+# =============================================================================
+# 2) DATABASE INTERNO DI SUPERSET (METADATI, UTENTI, ECC.)
+# =============================================================================
+
+# Se vuoi usare un file SQLite locale per i metadati di Superset:
+INTERNAL_DB_PATH = os.getenv('SUPERSET_INTERNAL_DB_PATH', '/Users/bix/Desktop/AI/Codice LMA/superset.db')
+SQLALCHEMY_DATABASE_URI = f"sqlite:///{INTERNAL_DB_PATH}"
+
+# Se preferisci un DB Postgres per Superset stesso, puoi fare:
+# DB_USER = os.getenv('SUPERSET_USER', '...')
+# DB_PASS = os.getenv('SUPERSET_PASS', '...')
+# DB_HOST = os.getenv('SUPERSET_HOST', '...')
+# DB_PORT = os.getenv('SUPERSET_PORT', '5432')
+# DB_NAME = os.getenv('SUPERSET_DB_NAME', 'superset')
+# SQLALCHEMY_DATABASE_URI = f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+
+# =============================================================================
+# 3) CACHE CONFIG
+# =============================================================================
+
+# Configurazione cache Redis
+CACHE_CONFIG = {
+    'CACHE_TYPE': 'RedisCache',
+    'CACHE_REDIS_HOST': 'localhost',
+    'CACHE_REDIS_PORT': 6379,
+    'CACHE_KEY_PREFIX': 'lma_',  # Labor Market Analytics prefix
+    'CACHE_DEFAULT_TIMEOUT': 60 * 60 * 24,  # 24 ore
+    'CACHE_REDIS_DB': 1,
+    'CACHE_REDIS_URL': 'redis://localhost:6379/1'
+}
+
+# Backend per i risultati delle query
+RESULTS_BACKEND = RedisCache(
+    host='localhost',
+    port=6379,
+    key_prefix='superset_results',
+    db=2
+)
+
+# Timeout query in secondi
+QUERY_TIMEOUT = 60
+
+# Logger per le statistiche rimosso
+
+# =============================================================================
+# 4) CONFIGURAZIONE SUPABASE E EUROSTAT
+# =============================================================================
+
+# Configurazione Eurostat
+EUROSTAT_CONFIG = {
+    'schema': 'eurostat',
+    'catalog_table': 'view_catalog',
+    'download_logs': 'download_logs',
+    'xml_url': 'https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/xml',
+    'base_api_url': 'https://ec.europa.eu/eurostat/api/dissemination/v1/data',
+    'metadata_api_url': 'https://ec.europa.eu/eurostat/api/dissemination/v1/meta'
+}
+
+# Custom Jinja template context per Eurostat
+TEMPLATE_CONTEXT_PROCESSORS = [
+    'superset.extensions.eurostat.context_processor.eurostat',
+]
+
+# Registrazione custom views per Eurostat
+FAB_ADD_SECURITY_VIEWS = True
+CUSTOM_SECURITY_MANAGER = 'extensions.eurostat.security_manager.EurostatSecurityManager'
+
+# Custom template processors per Eurostat
+CUSTOM_TEMPLATE_PROCESSORS.update({
+    'eurostat': 'extensions.eurostat.template_processor.EurostatTemplateProcessor'
+})
+
+# Configurazione cache specifica per Eurostat
+EUROSTAT_CACHE_CONFIG = {
+    'CACHE_TYPE': 'RedisCache',
+    'CACHE_REDIS_URL': 'redis://localhost:6379/4',  # Database Redis dedicato
+    'CACHE_KEY_PREFIX': 'eurostat_',
+    'CACHE_DEFAULT_TIMEOUT': 60 * 60 * 24  # 24 ore
+}
+# Questo è un esempio di come potresti memorizzare i parametri Supabase,
+# da registrare poi in Superset come connessione dati.
+
+DB_USER = os.getenv('DB_USER', 'postgres.djjawimszfspglkygynu')
+DB_PASSWORD = os.getenv('DB_PASSWORD', '1233PippoFra!?')
+DB_HOST = os.getenv('DB_HOST', 'aws-0-eu-central-2.pooler.supabase.com')
+DB_PORT = os.getenv('DB_PORT', '6543')
+DB_NAME = os.getenv('DB_NAME', 'postgres')
+
+# DATABASES è un dict opzionale, non necessariamente usato direttamente da Superset
+# ma può servire in uno script custom di provisioning delle connessioni
+DATABASES = {
+    'Supabase_Labor_Market': {
+        'database_name': 'Supabase Labor Market',
+        'sqlalchemy_uri': (
+            f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+            "?sslmode=require"
+        ),
+        'expose_in_sqllab': True
+    }
+}
+
+# =============================================================================
+# 5) LOGHI, NOMI, ALTRE CUSTOMIZZAZIONI
+# =============================================================================
+
+# Nome dell'app
+APP_NAME = os.getenv('APP_NAME', 'Mercato del Lavoro Analytics')
+
+# Icona (facoltativo)
+APP_ICON = '/static/assets/images/superset-logo-horiz.png'
+
+# =============================================================================
+# 6) EVENTUALI ALTRE CONFIGURAZIONI
+# =============================================================================
+
+# Esempio: disabilita CSRF solo in dev
+# WTF_CSRF_ENABLED = os.getenv('ENABLE_CSRF','false').lower() == 'true'
+
+# Impostazioni per "fab manager" (Flask App Builder), ruoli, ecc.
+
+# =============================================================================
+# NOTE FINALI
+# =============================================================================
+
+# - Ricordati di settare SUPERSET_CONFIG_PATH a questo file.
+# - Avvia superset: superset run -p 8088
+# - Puoi cambiare la logica per passare dal DB interno (SQLite) a uno in Postgres.

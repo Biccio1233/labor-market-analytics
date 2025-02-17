@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF334</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-14T16:00:25.427811+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_FAM_TARGET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_FAM_TARGET(1.0)" agencyID="IT1" version="1.0" isFinal="true">
+        <common:Name xml:lang="it">Coppia target</common:Name>
+        <common:Name xml:lang="en">Target couple</common:Name>
+        <structure:Code id="COUPF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FAM_TARGET(1.0).COUPF">
+          <common:Name xml:lang="it">coppie</common:Name>
+          <common:Name xml:lang="en">couple families</common:Name>
+        </structure:Code>
+        <structure:Code id="TOTAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FAM_TARGET(1.0).TOTAL">
+          <common:Name xml:lang="it">totale famiglie</common:Name>
+          <common:Name xml:lang="en">total households</common:Name>
+        </structure:Code>
+        <structure:Code id="HH_ATLPY15-64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FAM_TARGET(1.0).HH_ATLPY15-64">
+          <common:Name xml:lang="it">famiglie con almeno un 15-64 enne</common:Name>
+          <common:Name xml:lang="en">households with at least one member aged 15-64</common:Name>
+        </structure:Code>
+        <structure:Code id="COUPF_W_Y25_64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FAM_TARGET(1.0).COUPF_W_Y25_64">
+          <common:Name xml:lang="it">coppie con la donna di 25-64 anni</common:Name>
+          <common:Name xml:lang="en">couple families with woman in the age group 25 to 64</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF122</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2025-02-10T10:47:25.0441915+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_AREADIDATTICA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_AREADIDATTICA(1.3)" agencyID="IT1" version="1.3" isFinal="true">
+        <common:Name xml:lang="it">Gruppi di corso di laurea</common:Name>
+        <common:Name xml:lang="en">Field of study</common:Name>
+        <structure:Code id="11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).11">
+          <common:Name xml:lang="it">gruppo letterario</common:Name>
+          <common:Name xml:lang="en">humanities</common:Name>
+        </structure:Code>
+        <structure:Code id="33" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).33">
+          <common:Name xml:lang="it">non definito</common:Name>
+          <common:Name xml:lang="en">undefined</common:Name>
+        </structure:Code>
+        <structure:Code id="30" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).30">
+          <common:Name xml:lang="it">scienze politiche e sociali</common:Name>
+          <common:Name xml:lang="en">political science and civics</common:Name>
+        </structure:Code>
+        <structure:Code id="2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).2">
+          <common:Name xml:lang="it">gruppo chimico-farmaceutico</common:Name>
+          <common:Name xml:lang="en">chemistry and Pharmacy</common:Name>
+        </structure:Code>
+        <structure:Code id="27" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).27">
+          <common:Name xml:lang="it">scienze storiche, filosofiche, pedagogiche e psicologiche</common:Name>
+          <common:Name xml:lang="en">humanities, psychology and development studies</common:Name>
+        </structure:Code>
+        <structure:Code id="22" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).22">
+          <common:Name xml:lang="it">scienze mediche</common:Name>
+          <common:Name xml:lang="en">medical sciences</common:Name>
+        </structure:Code>
+        <structure:Code id="20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).20">
+          <common:Name xml:lang="it">scienze della terra</common:Name>
+          <common:Name xml:lang="en">geography and geology</common:Name>
+        </structure:Code>
+        <structure:Code id="21" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).21">
+          <common:Name xml:lang="it">scienze biologiche</common:Name>
+          <common:Name xml:lang="en">biology</common:Name>
+        </structure:Code>
+        <structure:Code id="15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).15">
+          <common:Name xml:lang="it">gruppo educazione fisica</common:Name>
+          <common:Name xml:lang="en">personal services</common:Name>
+        </structure:Code>
+        <structure:Code id="8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).8">
+          <common:Name xml:lang="it">gruppo economico-statistico</common:Name>
+          <common:Name xml:lang="en">business and statistics</common:Name>
+        </structure:Code>
+        <structure:Code id="5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).5">
+          <common:Name xml:lang="it">gruppo ingegneria</common:Name>
+          <common:Name xml:lang="en">engineering</common:Name>
+        </structure:Code>
+        <structure:Code id="26" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).26">
+          <common:Name xml:lang="it">scienze dell'antichità, filologico-letterarie e storico-artistiche</common:Name>
+          <common:Name xml:lang="en">languages,philological sciences, art and archeology</common:Name>
+        </structure:Code>
+        <structure:Code id="29" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).29">
+          <common:Name xml:lang="it">scienze economiche e statistiche</common:Name>
+          <common:Name xml:lang="en">economics and statistics</common:Name>
+        </structure:Code>
+        <structure:Code id="9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).9">
+          <common:Name xml:lang="it">gruppo politico-sociale</common:Name>
+          <common:Name xml:lang="en">social and political sciences</common:Name>
+        </structure:Code>
+        <structure:Code id="7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).7">
+          <common:Name xml:lang="it">gruppo agrario</common:Name>
+          <common:Name xml:lang="en">agricolture</common:Name>
+        </structure:Code>
+        <structure:Code id="13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).13">
+          <common:Name xml:lang="it">gruppo insegnamento</common:Name>
+          <common:Name xml:lang="en">education</common:Name>
+        </structure:Code>
+        <structure:Code id="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).1">
+          <common:Name xml:lang="it">gruppo scientifico</common:Name>
+          <common:Name xml:lang="en">mathematics and physical science</common:Name>
+        </structure:Code>
+        <structure:Code id="17" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).17">
+          <common:Name xml:lang="it">scienze matematiche e informatiche</common:Name>
+          <common:Name xml:lang="en">mathematics and computing</common:Name>
+        </structure:Code>
+        <structure:Code id="16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).16">
+          <common:Name xml:lang="it">gruppo difesa e sicurezza</common:Name>
+          <common:Name xml:lang="en">security services</common:Name>
+        </structure:Code>
+        <structure:Code id="24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).24">
+          <common:Name xml:lang="it">ingegneria civile e architettura</common:Name>
+          <common:Name xml:lang="en">architecture and construction</common:Name>
+        </structure:Code>
+        <structure:Code id="10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).10">
+          <common:Name xml:lang="it">gruppo giuridico</common:Name>
+          <common:Name xml:lang="en">law</common:Name>
+        </structure:Code>
+        <structure:Code id="25" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).25">
+          <common:Name xml:lang="it">ingegneria industriale e dell'informazione</common:Name>
+          <common:Name xml:lang="en">engineering, technology</common:Name>
+        </structure:Code>
+        <structure:Code id="3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).3">
+          <common:Name xml:lang="it">gruppo geo-biologico</common:Name>
+          <common:Name xml:lang="en">life and natural sciences</common:Name>
+        </structure:Code>
+        <structure:Code id="23" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).23">
+          <common:Name xml:lang="it">scienze agrarie e veterinarie</common:Name>
+          <common:Name xml:lang="en">agriculture and veterinary</common:Name>
+        </structure:Code>
+        <structure:Code id="99" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).99">
+          <common:Name xml:lang="it">totale</common:Name>
+          <common:Name xml:lang="en">total</common:Name>
+        </structure:Code>
+        <structure:Code id="28" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).28">
+          <common:Name xml:lang="it">scienze giuridiche</common:Name>
+          <common:Name xml:lang="en">legal sciences</common:Name>
+        </structure:Code>
+        <structure:Code id="4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).4">
+          <common:Name xml:lang="it">gruppo medico</common:Name>
+          <common:Name xml:lang="en">health</common:Name>
+        </structure:Code>
+        <structure:Code id="14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).14">
+          <common:Name xml:lang="it">gruppo psicologico</common:Name>
+          <common:Name xml:lang="en">psychology</common:Name>
+        </structure:Code>
+        <structure:Code id="12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).12">
+          <common:Name xml:lang="it">gruppo linguistico</common:Name>
+          <common:Name xml:lang="en">languages</common:Name>
+        </structure:Code>
+        <structure:Code id="19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).19">
+          <common:Name xml:lang="it">scienze chimiche</common:Name>
+          <common:Name xml:lang="en">chemistry</common:Name>
+        </structure:Code>
+        <structure:Code id="6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).6">
+          <common:Name xml:lang="it">gruppo architettura</common:Name>
+          <common:Name xml:lang="en">architecture</common:Name>
+        </structure:Code>
+        <structure:Code id="18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_AREADIDATTICA(1.3).18">
+          <common:Name xml:lang="it">scienze fisiche</common:Name>
+          <common:Name xml:lang="en">physics</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>
