@@ -2,8 +2,7 @@ FROM apache/superset:4.1.1
 
 # Installa le dipendenze necessarie
 USER root
-RUN apt-get update && apt-get install -y netcat-traditional
-RUN pip install flask-cors psycopg2-binary redis gunicorn
+RUN pip install flask-cors psycopg2-binary redis
 
 # Copia l'estensione Eurostat
 COPY ./extensions/eurostat /app/superset/extensions/eurostat/
@@ -12,12 +11,8 @@ COPY ./extensions/eurostat /app/superset/extensions/eurostat/
 COPY ./superset_config.py /app/superset_config.py
 ENV SUPERSET_CONFIG_PATH /app/superset_config.py
 
-# Copia lo script di avvio
-COPY docker-entrypoint.sh /app/docker-entrypoint.sh
-RUN chmod +x /app/docker-entrypoint.sh
-
 USER superset
 
 EXPOSE 8088
 
-CMD ["/app/docker-entrypoint.sh"]
+CMD ["gunicorn", "-b", "0.0.0.0:8088", "--workers", "10", "--timeout", "120", "--limit-request-line", "0", "--limit-request-field_size", "0", "superset.app:create_app()"]
